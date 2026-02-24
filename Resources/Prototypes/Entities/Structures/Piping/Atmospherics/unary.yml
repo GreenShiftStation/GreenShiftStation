@@ -26,7 +26,7 @@
   name: air vent
   description: Has a valve and a pump attached to it.
   placement:
-    mode: SnapgridCenter
+    mode: AlignAtmosPipeLayers # Greenshift, fix mapping for atmos pipes.
   components:
     - type: ApcPowerReceiver
     - type: ExtensionCableReceiver
@@ -63,6 +63,13 @@
     - type: Construction
       graph: GasUnary
       node: ventpump
+    # Greenshift, fix mapping for atmos pipes.
+    - type: AtmosPipeLayers
+      alternativePrototypes:
+        Primary: GasVentPump
+        Secondary: GasVentPumpAlt1
+        Tertiary: GasVentPumpAlt2
+    # Greenshift end
     - type: VentCritterSpawnLocation
     - type: AmbientSound
       enabled: true
@@ -84,7 +91,7 @@
   name: passive vent
   description: It's an open vent.
   placement:
-    mode: SnapgridCenter
+    mode: AlignAtmosPipeLayers # Greenshift, fix mapping for atmos pipes.
   components:
     - type: SubFloorHide
       visibleLayers:
@@ -104,6 +111,13 @@
     - type: Construction
       graph: GasUnary
       node: passivevent
+    # Greenshift, fix mapping for atmos pipes.
+    - type: AtmosPipeLayers
+      alternativePrototypes:
+        Primary: GasPassiveVent
+        Secondary: GasPassiveVentAlt1
+        Tertiary: GasPassiveVentAlt2
+    # Greenshift end
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasVentOpening
     - type: GuideHelp
@@ -116,7 +130,7 @@
   name: air scrubber
   description: Has a valve and pump attached to it.
   placement:
-    mode: SnapgridCenter
+    mode: AlignAtmosPipeLayers # Greenshift, fix mapping for atmos pipes.
   components:
     - type: ApcPowerReceiver
     - type: ExtensionCableReceiver
@@ -154,6 +168,13 @@
     - type: Construction
       graph: GasUnary
       node: ventscrubber
+    # Greenshift, fix mapping for atmos pipes.
+    - type: AtmosPipeLayers
+      alternativePrototypes:
+        Primary: GasVentScrubber
+        Secondary: GasVentScrubberAlt1
+        Tertiary: GasVentScrubberAlt2
+    # Greenshift end
     - type: AmbientSound
       enabled: true
       volume: -12
@@ -174,7 +195,7 @@
   name: air injector
   description: Has a valve and pump attached to it.
   placement:
-    mode: SnapgridCenter
+    mode: AlignAtmosPipeLayers # Greenshift, fix mapping for atmos pipes.
   components:
     - type: Sprite
       drawdepth: FloorObjects
@@ -202,6 +223,13 @@
     - type: Construction
       graph: GasUnary
       node: outletinjector
+    # Greenshift, fix mapping for atmos pipes.
+    - type: AtmosPipeLayers
+      alternativePrototypes:
+        Primary: GasOutletInjector
+        Secondary: GasOutletInjectorAlt1
+        Tertiary: GasOutletInjectorAlt2
+    # Greenshift end
     - type: SubFloorHide
       visibleLayers:
       - enum.SubfloorLayers.FirstLayer

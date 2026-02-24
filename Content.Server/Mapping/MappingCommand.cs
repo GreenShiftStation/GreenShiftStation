@@ -161,7 +161,6 @@ namespace Content.Server.Mapping
                 _mappingSystem.ToggleAutosave(mapId, toLoad ?? "NEWMAP");
 
             shell.ExecuteCommand($"tp 0 0 {mapId}");
-            shell.RemoteExecuteCommand("mappingclientsidesetup");
             DebugTools.Assert(_mapSystem.IsPaused(mapId));
 
             if (args.Length != 2)
