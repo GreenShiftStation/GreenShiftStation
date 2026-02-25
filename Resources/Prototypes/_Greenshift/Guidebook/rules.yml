@@ -1,0 +1,6 @@
+- type: guideEntry
+  id: GSRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  priority: 0
+  text: "/ServerInfo/_Greenshift/Guidebook/Rules.xml"
