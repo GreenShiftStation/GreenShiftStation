@@ -1,5 +1,6 @@
-﻿defaultWindowTitle: Space Station 14
-windowIconSet: /Textures/Logo/icon
-splashLogo: /Textures/Logo/logo.png
-
+﻿# Greenshift
+defaultWindowTitle: GreenShift
+windowIconSet: /Textures/_Greenshift/Logo/icon
+splashLogo: /Textures/_Greenshift/Logo/logo.png
+# End Greenshift
 # PJB PLEASE

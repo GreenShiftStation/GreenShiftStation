@@ -1,6 +1,43 @@
+[hub]
+advertise = false
+tags = "lang:en,region:oce,rp:high" 
 
 [game]
-hostname = "[EN][HRP] GreenShift [US East][18+](alpha)"
+hostname = "[EN][HRP] GreenShift [US East](alpha)"
+lobbyenabled = true
+lobbyduration = 300
+role_timers = false
+admin_job_tracking = true
+role_loadout_timers = false
+soft_max_players = 40
+desc = "Nothing Ever Happens"
 
-[hub]
-tags = "lang:en,region:oce,rp:high"
+[events]
+enabled = true
+
+[infolinks]
+discord = "https://discord.gg/6XB5CSKzzT"
+appeal = "https://discord.gg/7uHSrHkCwb"
+
+[net]
+max_connections = 256
+
+[vote]
+restart_required_ratio = 0.8
+
+[admin]
+new_player_threshold = 600
+alert.min_players_sharing_connection = 2
+deadmin_on_join = true
+see_own_notes = true
+allow_multi_server_play = false
+
+[atmos]
+max_explosion_range = 36
+
+[build]
+fork_id = "GreenShift"
+
+[log]
+enabled = true
+
