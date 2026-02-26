@@ -73,6 +73,20 @@ if __name__ == "__main__":
         print(f"Uncommitted changes:\n{git_status.stdout}\n\nCannot build manifest. Exiting")
         exit()
 
+    commit_hash = subprocess.run(
+        ["git", "rev-parse", "HEAD"],
+        capture_output=True,
+        text=True,
+        cwd=project_dir
+    ).stdout.strip()
+
+    release_hash = commit_hash[:24] # first 24 characters of the current git hash
+    release_dir = os.path.join(project_dir, "release")
+    release_final_dir = os.path.join(release_dir, release_hash)
+    if os.path.exists(release_final_dir):
+        shutil.rmtree(release_final_dir)
+    os.makedirs(release_final_dir, exist_ok=False)
+
     # Build the packager project
     build_packager_process = subprocess.Popen(
         ["dotnet",
@@ -117,43 +131,15 @@ if __name__ == "__main__":
         cwd=project_dir
     )
 
-    for line in package_process.stdout:
+    for line in package_server_process.stdout:
         print(line, end="")
 
-    print(f"\n\n Server Packaging complete")
+    print(f"\n\nPackaging complete")
 
-    package_client_process = subprocess.Popen(
-        ["dotnet",
-         "run",
-         "--project",
-         "Content.Packaging",
-         "client",
-         "--no-wipe-release"],
-        stdout=subprocess.PIPE,
-        text=True,
-        cwd=project_dir
-    )
-
-    for line in package_process.stdout:
-        print(line, end="")
-
-    print(f"\n\n Client Packaging complete")
     print("="*80)
     print("Constructing manifest")
     
     tz = datetime.datetime.now().isoformat()
-
-    commit_hash = subprocess.run(
-        ["git", "rev-parse", "HEAD"],
-        capture_output=True,
-        text=True,
-        cwd=project_dir
-    ).stdout.strip()
-
-    release_hash = commit_hash[24:] # first 24 characters of the current git hash
-    release_dir = os.path.join(project_dir, "release")
-    release_final_dir = os.path.join(release_dir, release_sha)
-    os.makedirs(release_final_dir, exist_ok=True)
 
     new_client_file = os.path.join(release_final_dir, CLIENT_FILE_NAME)
     new_linux_64_file = os.path.join(release_final_dir, LINUX_X64_FILE_NAME)

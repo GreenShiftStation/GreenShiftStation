@@ -672,7 +672,7 @@
     node: passiveventAlt2
 
 
-# GasPassiveVent
+# OutletInjector
 
 - type: entity
   parent: [GasPipeLayerAlt1, GasOutletInjector]
@@ -681,7 +681,7 @@
   components:
   - type: Sprite
     drawdepth: FloorObjects
-    sprite: Structures/Piping/Atmospherics/vent.rsi
+    sprite: Structures/Piping/Atmospherics/outletinjector.rsi
     layers:
       - sprite: Structures/Piping/Atmospherics/pipe_alt1.rsi
         state: pipeUnaryConnectors
@@ -703,7 +703,7 @@
   components:
   - type: Sprite
     drawdepth: FloorObjects
-    sprite: Structures/Piping/Atmospherics/vent.rsi
+    sprite: Structures/Piping/Atmospherics/outletinjector.rsi
     layers:
       - sprite: Structures/Piping/Atmospherics/pipe_alt2.rsi
         state: pipeUnaryConnectors
