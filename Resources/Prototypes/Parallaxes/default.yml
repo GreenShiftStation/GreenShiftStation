@@ -6,7 +6,7 @@
   layers:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/layer1.png"
+        path: "/Textures/_Greenshift/Parallaxes/layer1.png" # GREENSHIFT CHANGE
       slowness: 0.998046875
       scale: "1, 1"
     - texture:
@@ -14,21 +14,25 @@
         id: "hq_wizard_stars"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars.toml"
       slowness: 0.996625
+      scale: "0.5, 0.5"
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars_dim"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars_dim.toml"
       slowness: 0.989375
+      scale: "0.5, 0.5"
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars_faster"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars-2.toml"
       slowness: 0.987265625
+      scale: "0.5, 0.5"
     - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars_dim_faster"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars_dim-2.toml"
       slowness: 0.984352
+      scale: "0.5, 0.5"
   layersLQ:
     - texture:
         !type:GeneratedParallaxTextureSource
