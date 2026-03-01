@@ -1,0 +1,57 @@
+# Jumpsuit
+- type: loadout
+  id: GSChiefMedicalOfficerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMO
+
+- type: loadout
+  id: GSChiefMedicalOfficerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMO
+
+- type: loadout
+  id: GSChiefMedicalOfficerTurtleneckJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+
+- type: loadout
+  id: GSChiefMedicalOfficerTurtleneckJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCMOTurtle
+
+# Head
+- type: loadout
+  id: GSChiefMedicalOfficerBeret
+  equipment:
+    head: ClothingHeadHatBeretCmo
+
+- type: loadout
+  id: GSCMOMedicalHeadMirror
+  equipment:
+    head: ClothingHeadMirror
+
+# Neck
+- type: loadout
+  id: GSChiefMedicalOfficerCloak
+  equipment:
+    neck: ClothingCloakCmo
+
+- type: loadout
+  id: GSChiefMedicalOfficerMantle
+  equipment:
+    neck: ClothingNeckMantleCMO
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSMasterCMO
+
+# Outer clothing
+- type: loadout
+  id: GSChiefMedicalOfficerLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabCmo
+
+- type: loadout
+  id: GSChiefMedicalOfficerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCMO
+

@@ -1,0 +1,43 @@
+# Jumpsuit
+- type: loadout
+  id: GSAtmosphericTechnicianJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmos
+
+- type: loadout
+  id: GSAtmosphericTechnicianJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtAtmos
+
+- type: loadout
+  id: GSAtmosphericTechnicianJumpsuitCasual
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAtmosCasual
+
+# Back
+- type: loadout
+  id: GSAtmosphericTechnicianBackpack
+  equipment:
+    back: ClothingBackpackAtmospherics
+
+- type: loadout
+  id: GSAtmosphericTechnicianSatchel
+  equipment:
+    back: ClothingBackpackSatchelAtmospherics
+
+- type: loadout
+  id: GSAtmosphericTechnicianDuffel
+  equipment:
+    back: ClothingBackpackDuffelAtmospherics
+
+# OuterClothing
+- type: loadout
+  id: GSAtmosphericTechnicianWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterAtmos
+
+# Shoes
+- type: loadout
+  id: GSWhiteShoes
+  equipment:
+    shoes: ClothingShoesColorWhite

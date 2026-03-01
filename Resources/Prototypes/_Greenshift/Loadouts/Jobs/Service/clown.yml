@@ -1,0 +1,69 @@
+# Head
+- type: loadout
+  id: GSJesterHat
+  equipment:
+    head: ClothingHeadHatJester
+
+- type: loadout
+  id: GSJesterAltHat
+  equipment:
+    head: ClothingHeadHatJesterAlt
+
+# Jumpsuit
+- type: loadout
+  id: GSClownSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitClown
+
+- type: loadout
+  id: GSClownSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtClown
+
+- type: loadout
+  id: GSJesterSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJester
+
+- type: loadout
+  id: GSJesterAltSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJesterAlt
+
+# Back
+- type: loadout
+  id: GSClownBackpack
+  equipment:
+    back: ClothingBackpackClown
+
+- type: loadout
+  id: GSClownSatchel
+  equipment:
+    back: ClothingBackpackSatchelClown
+
+- type: loadout
+  id: GSClownDuffel
+  equipment:
+    back: ClothingBackpackDuffelClown
+
+# Shoes
+- type: loadout
+  id: GSClownShoes
+  equipment:
+    shoes: ClothingShoesClown
+
+- type: loadout
+  id: GSJesterShoes
+  equipment:
+    shoes: ClothingShoesJester
+
+# Outer clothing
+- type: loadout
+  id: GSClownRobes
+  equipment:
+    outerClothing: ClothingOuterClownPriest
+
+- type: loadout
+  id: GSClownWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterClown

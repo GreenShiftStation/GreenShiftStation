@@ -1,0 +1,291 @@
+# Species
+- type: loadoutEffectGroup
+  id: GSNitrogenBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - SlimePerson
+    - Vox
+
+- type: loadoutEffectGroup
+  id: GSOxygenBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Arachnid
+    - Diona
+    - Dwarf
+    - Human
+    - Moth
+    - Reptilian
+    - Vulpkanin
+
+- type: loadoutEffectGroup
+  id: GSEffectSpeciesVox
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Vox
+
+# Basic
+- type: loadout
+  id: GSEmergencyOxygen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  storage:
+    back:
+    - BoxSurvival
+
+- type: loadout
+  id: GSEmergencyNitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalNitrogen
+
+# Clown
+- type: loadout
+  id: GSEmergencyOxygenClown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  storage:
+    back:
+    - BoxHug
+
+- type: loadout
+  id: GSEmergencyNitrogenClown
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  storage:
+    back:
+    - BoxHugNitrogen
+
+# Mime
+- type: loadoutEffectGroup
+  id: GSOxygenBreatherMime
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Arachnid
+    - Diona
+    - Dwarf
+    - Human
+    - Reptilian
+    - Vulpkanin
+
+- type: loadoutEffectGroup
+  id: GSOxygenBreatherMimeMoth
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Moth
+
+- type: loadout
+  id: GSEmergencyOxygenMime
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreatherMime
+  storage:
+    back:
+    - BoxMime
+
+- type: loadout
+  id: GSEmergencyNitrogenMime
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  storage:
+    back:
+    - BoxMimeNitrogen
+
+- type: loadout
+  id: GSEmergencySpeciesMothMime
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreatherMimeMoth
+  storage:
+    back:
+    - BoxMimeMoth
+
+# Engineering / Extended
+- type: loadout
+  id: GSEmergencyOxygenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  storage:
+    back:
+    - BoxSurvivalEngineering
+
+- type: loadout
+  id: GSEmergencyNitrogenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalEngineeringNitrogen
+
+# Medical
+- type: loadout
+  id: GSEmergencyOxygenMedical
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  storage:
+    back:
+    - BoxSurvivalMedical
+
+- type: loadout
+  id: GSEmergencyNitrogenMedical
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalMedicalNitrogen
+
+# Security
+- type: loadout
+  id: GSEmergencyOxygenSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  storage:
+    back:
+    - BoxSurvivalSecurity
+
+- type: loadout
+  id: GSEmergencyNitrogenSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalSecurityNitrogen
+
+# Syndicate
+- type: loadout
+  id: GSEmergencyOxygenSyndicate
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  storage:
+    back:
+    - BoxSurvivalSyndicate
+
+- type: loadout
+  id: GSEmergencyNitrogenSyndicate
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  storage:
+    back:
+    - BoxSurvivalSyndicateNitrogen
+
+# Military / Double Extended
+- type: loadout
+  id: GSEmergencyOxygenMilitaryDouble
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  equipment:
+    pocket1: DoubleEmergencyOxygenTankFilled
+  storage:
+    back:
+    - BoxSurvivalMilitaryDouble
+
+- type: loadout
+  id: GSEmergencyNitrogenMilitaryDouble
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  equipment:
+    pocket1: DoubleEmergencyNitrogenTankFilled
+  storage:
+    back:
+    - BoxSurvivalMilitaryDoubleNitrogen
+
+# Pre-equipped species gear
+
+# Full tank for vox as part of any Survival loadout
+- type: loadout
+  id: GSLoadoutSpeciesVoxNitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSEffectSpeciesVox
+  equipment:
+    suitstorage: NitrogenTankFilled
+
+# Full EVA Tank, Any Species
+- type: loadout
+  id: GSLoadoutSpeciesEVANitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  equipment:
+    suitstorage: NitrogenTankFilled
+
+- type: loadout
+  id: GSLoadoutSpeciesEVAOxygen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  equipment:
+    suitstorage: OxygenTankFilled
+
+# Species-appropriate Double Emergency Tank in Pocket 1
+- type: loadout
+  id: GSLoadoutSpeciesPocketDoubleNitrogen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSNitrogenBreather
+  equipment:
+    pocket1: DoubleEmergencyNitrogenTankFilled
+
+- type: loadout
+  id: GSLoadoutSpeciesPocketDoubleOxygen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSOxygenBreather
+  equipment:
+    pocket1: DoubleEmergencyOxygenTankFilled
+
+# Tank Harness
+- type: loadout
+  id: GSLoadoutTankHarness
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSEffectSpeciesVox
+  equipment:
+    outerClothing: ClothingOuterVestTank
+
+# Breath Tool On Face
+- type: loadout
+  id: GSLoadoutSpeciesBreathTool
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSEffectSpeciesVox
+  equipment:
+    mask: ClothingMaskBreath
+
+- type: loadout
+  id: GSLoadoutSpeciesBreathToolMedical
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSEffectSpeciesVox
+  equipment:
+    mask: ClothingMaskBreathMedical
+
+- type: loadout
+  id: GSLoadoutSpeciesBreathToolSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSEffectSpeciesVox
+  equipment:
+    mask: ClothingMaskGasSecurity

@@ -1,0 +1,215 @@
+# Generic
+
+- type: loadoutGroup
+  id: GSMedicalMask
+  name: loadout-group-medical-mask
+  minLimit: 0
+  loadouts:
+  - SterileMask
+
+- type: loadoutGroup
+  id: GSMedicalBackpack
+  name: loadout-group-medical-doctor-backpack
+  loadouts:
+  - MedicalDoctorBackpack
+  - MedicalDoctorSatchel
+  - MedicalDoctorDuffel
+
+- type: loadoutGroup
+  id: GSMedicalShoes
+  name: loadout-group-medical-doctor-shoes
+  loadouts:
+  - WhiteShoes
+  - MedicalWinterBoots
+
+- type: loadoutGroup
+  id: GSSurvivalMedical
+  name: loadout-group-survival-medical
+  minLimit: 2
+  hidden: true
+  loadouts:
+  - EmergencyNitrogenMedical
+  - EmergencyOxygenMedical
+  - LoadoutSpeciesVoxNitrogen
+
+# Chief Medical Officer
+
+- type: loadoutGroup
+  id: GSChiefMedicalOfficerHead
+  name: loadout-group-chief-medical-officer-head
+  minLimit: 0
+  loadouts:
+  - ChiefMedicalOfficerBeret
+  - CMOMedicalHeadMirror
+
+- type: loadoutGroup
+  id: GSChiefMedicalOfficerJumpsuit
+  name: loadout-group-chief-medical-officer-jumpsuit
+  loadouts:
+  - ChiefMedicalOfficerJumpsuit
+  - ChiefMedicalOfficerJumpskirt
+  - ChiefMedicalOfficerTurtleneckJumpsuit
+  - ChiefMedicalOfficerTurtleneckJumpskirt
+
+- type: loadoutGroup
+  id: GSChiefMedicalOfficerOuterClothing
+  name: loadout-group-chief-medical-officer-outerclothing
+  minLimit: 0
+  loadouts:
+  - ChiefMedicalOfficerLabCoat
+  - ChiefMedicalOfficerWintercoat
+
+- type: loadoutGroup
+  id: GSChiefMedicalOfficerNeck
+  name: loadout-group-chief-medical-officer-neck
+  minLimit: 0
+  loadouts:
+  - ChiefMedicalOfficerCloak
+  - ChiefMedicalOfficerMantle
+
+- type: loadoutGroup
+  id: GSChiefMedicalOfficerShoes
+  name: loadout-group-chief-medical-officer-shoes
+  loadouts:
+  - BrownShoes
+  - MedicalWinterBoots
+
+#- type: loadoutGroup
+#  id: GSChiefMedicalOfficerJobTrinkets
+#  name: loadout-group-jobtrinkets
+#  minLimit: 0
+#  loadouts:
+
+# Medical Doctor
+
+- type: loadoutGroup
+  id: GSMedicalDoctorHead
+  name: loadout-group-medical-doctor-head
+  minLimit: 0
+  loadouts:
+  - MedicalBeret
+  - SeniorPhysicianBeret
+  - MedicalHeadMirror
+  - BlueSurgeryCap
+  - GreenSurgeryCap
+  - PurpleSurgeryCap
+  - NurseHat
+
+- type: loadoutGroup
+  id: GSMedicalDoctorJumpsuit
+  name: loadout-group-medical-doctor-jumpsuit
+  loadouts:
+  - MedicalDoctorJumpsuit
+  - MedicalDoctorJumpskirt
+  - SeniorPhysicianJumpsuit
+  - SeniorPhysicianJumpskirt
+  - MedicalBlueScrubs
+  - MedicalGreenScrubs
+  - MedicalPurpleScrubs
+
+- type: loadoutGroup
+  id: GSMedicalDoctorOuterClothing
+  name: loadout-group-medical-doctor-outerclothing
+  minLimit: 0
+  loadouts:
+  - RegularLabCoat
+  - MedicalDoctorWintercoat
+  - SeniorPhysicianLabCoat
+
+- type: loadoutGroup
+  id: GSMedicalDoctorPDA
+  name: loadout-group-medical-doctor-id
+  loadouts:
+  - MedicalDoctorPDA
+  - SeniorPhysicianPDA
+
+#- type: loadoutGroup
+#  id: GSMedicalDoctorJobTrinkets
+#  name: loadout-group-jobtrinkets
+#  minLimit: 0
+#  loadouts:
+
+# Medical Intern
+
+- type: loadoutGroup
+  id: GSMedicalInternJumpsuit
+  name: loadout-group-medical-intern-jumpsuit
+  loadouts:
+  - WhiteJumpsuit
+  - WhiteJumpskirt
+
+#- type: loadoutGroup
+#  id: GSMedicalInternJobTrinkets
+#  name: loadout-group-jobtrinkets
+#  minLimit: 0
+#  loadouts:
+
+# Chemist
+
+- type: loadoutGroup
+  id: GSChemistJumpsuit
+  name: loadout-group-chemist-jumpsuit
+  loadouts:
+  - ChemistJumpsuit
+  - ChemistJumpskirt
+
+- type: loadoutGroup
+  id: GSChemistOuterClothing
+  name: loadout-group-chemist-outerclothing
+  minLimit: 0
+  loadouts:
+  - RegularLabCoat
+  - ChemistLabCoat
+  - ChemistWintercoat
+
+- type: loadoutGroup
+  id: GSChemistBackpack
+  name: loadout-group-chemist-backpack
+  loadouts:
+  - ChemistBackpack
+  - ChemistSatchel
+  - ChemistDuffel
+
+#- type: loadoutGroup
+#  id: GSChemistJobTrinkets
+#  name: loadout-group-jobtrinkets
+#  minLimit: 0
+#  loadouts:
+
+# Paramedic
+
+- type: loadoutGroup
+  id: GSParamedicHead
+  name: loadout-group-paramedic-head
+  minLimit: 0
+  loadouts:
+  - ParamedicHead
+
+- type: loadoutGroup
+  id: GSParamedicJumpsuit
+  name: loadout-group-paramedic-jumpsuit
+  loadouts:
+  - ParamedicJumpsuit
+  - ParamedicJumpskirt
+
+- type: loadoutGroup
+  id: GSParamedicOuterClothing
+  name: loadout-group-paramedic-outerclothing
+  minLimit: 0
+  loadouts:
+  - ParamedicWindbreaker
+  - ParamedicWintercoat
+
+- type: loadoutGroup
+  id: GSParamedicShoes
+  name: loadout-group-paramedic-shoes
+  loadouts:
+  - BlueShoes
+  - WhiteShoes
+  - MedicalWinterBoots
+
+#- type: loadoutGroup
+#  id: GSParamedicJobTrinkets
+#  name: loadout-group-jobtrinkets
+#  minLimit: 0
+#  loadouts:

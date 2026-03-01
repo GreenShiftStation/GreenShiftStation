@@ -1,0 +1,47 @@
+- type: loadoutEffectGroup
+  id: GSSeniorJanitorial
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobJanitor
+      time: 52h # 1 hour per week for 1 year
+
+# Head
+- type: loadout
+  id: GSJanitorHead
+  equipment:
+    head: ClothingHeadHatPurplesoft
+
+# Jumpsuit
+- type: loadout
+  id: GSJanitorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJanitor
+
+- type: loadout
+  id: GSJanitorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJanitor
+
+# Gloves
+- type: loadout
+  id: GSJanitorRubberGloves
+  equipment:
+    gloves: ClothingHandsGlovesJanitor
+
+- type: loadout
+  id: GSOrangeGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorOrange
+
+- type: loadout
+  id: GSPurpleGloves
+  equipment:
+    gloves: ClothingHandsGlovesColorPurple
+
+# Outer clothing
+- type: loadout
+  id: GSJanitorWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterJani

@@ -1,0 +1,55 @@
+## For mantles
+#- type: loadoutEffectGroup
+#  id: GSMasterRD
+#  effects:
+#  - !type:JobRequirementLoadoutEffect
+#    requirement:
+#      !type:RoleTimeRequirement
+#      role: GSJobResearchDirector
+#      time: 20h
+#
+## Head
+#- type: loadout
+#  id: GSResearchDirectorBeret
+#  startingGear: ScientificBeret
+#
+## Neck
+#- type: loadout
+#  id: GSResearchDirectorMantle
+#  equipment:
+#    neck: ClothingNeckMantleRD
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: GSMasterRD
+#
+#- type: startingGear
+#  id: GSResearchDirectorMantle
+#  equipment:
+#    neck: ClothingNeckMantleRD
+#
+#- type: loadout
+#  id: GSResearchDirectorCloak
+#  equipment:
+#    neck: ClothingNeckCloakRd
+#
+## Jumpsuit
+#- type: loadout
+#  id: GSResearchDirectorJumpsuit
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitResearchDirector
+#
+#- type: loadout
+#  id: GSResearchDirectorJumpskirt
+#  equipment:
+#    jumpsuit: ClothingUniformJumpskirtResearchDirector
+#
+## OuterClothing
+#- type: loadout
+#  id: GSResearchDirectorLabCoat
+#  equipment:
+#    outerClothing: ClothingOuterCoatRD
+#
+#- type: loadout
+#  id: GSResearchDirectorWintercoat
+#  equipment:
+#    outerClothing: ClothingOuterWinterRD

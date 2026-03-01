@@ -1,0 +1,335 @@
+# Timers
+- type: loadoutEffectGroup
+  id: GSCommand
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Command
+      time: 1h
+
+# Flowers
+- type: loadout
+  id: GSFlowerWreath
+  storage:
+    back:
+    - ClothingHeadHatFlowerWreath
+
+- type: loadout
+  id: GSHairflower
+  storage:
+    back:
+    - ClothingHeadHatHairflower
+
+# Headphones
+- type: loadout
+  id: GSHeadphones
+  storage:
+    back:
+    - ClothingMultipleHeadphones
+
+# Toys
+- type: loadout
+  id: GSPlushieLizard
+  storage:
+    back:
+    - PlushieLizard
+
+- type: loadout
+  id: GSPlushieSpaceLizard
+  storage:
+    back:
+    - PlushieSpaceLizard
+
+- type: loadout
+  id: GSThreeCandles
+  dummyEntity: LoadoutDummyCandles
+  storage:
+    back:
+    - CandleRed
+    - CandleBlue
+    - CandleGreenSmall
+
+# Smokeables
+- type: loadout
+  id: GSLighter
+  storage:
+    back:
+    - Lighter
+  groupBy: "smokeables"
+
+- type: loadout
+  id: GSCigPackGreen
+  storage:
+    back:
+    - CigPackGreen
+  groupBy: "smokeables"
+
+- type: loadout
+  id: GSCigPackRed
+  storage:
+    back:
+    - CigPackRed
+  groupBy: "smokeables"
+
+- type: loadout
+  id: GSCigPackBlue
+  storage:
+    back:
+    - CigPackBlue
+  groupBy: "smokeables"
+
+- type: loadout
+  id: GSCigPackBlack
+  storage:
+    back:
+    - CigPackBlack
+  groupBy: "smokeables"
+
+- type: loadout
+  id: GSCigarCase
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSCommand
+  storage:
+    back:
+    - CigarCase
+  groupBy: "smokeables"
+
+- type: loadout
+  id: GSCigarGold
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSCommand
+  storage:
+    back:
+    - CigarGold
+  groupBy: "smokeables"
+
+# Folders
+- type: loadout
+  id: GSBoxFolderBaseThreePapers
+  storage:
+    back:
+    - BoxFolderBaseThreePapers
+  groupBy: "folders"
+
+- type: loadout
+  id: GSBoxFolderPlasticClipboardThreePapers
+  storage:
+    back:
+    - BoxFolderPlasticClipboardThreePapers
+  groupBy: "folders"
+
+- type: loadout
+  id: GSBoxFolderClipboardThreePapers
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSCommand
+  storage:
+    back:
+    - BoxFolderClipboardThreePapers
+  groupBy: "folders"
+
+# Pins
+- type: loadout
+  id: GSClothingNeckLGBTPin
+  storage:
+    back:
+    - ClothingNeckLGBTPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckAllyPin
+  storage:
+    back:
+    - ClothingNeckAllyPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckAromanticPin
+  storage:
+    back:
+    - ClothingNeckAromanticPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckAsexualPin
+  storage:
+    back:
+    - ClothingNeckAsexualPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckBisexualPin
+  storage:
+    back:
+    - ClothingNeckBisexualPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckGayPin
+  storage:
+    back:
+    - ClothingNeckGayPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckIntersexPin
+  storage:
+    back:
+    - ClothingNeckIntersexPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckLesbianPin
+  storage:
+    back:
+    - ClothingNeckLesbianPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckNonBinaryPin
+  storage:
+    back:
+    - ClothingNeckNonBinaryPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckPansexualPin
+  storage:
+    back:
+    - ClothingNeckPansexualPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckOmnisexualPin
+  storage:
+    back:
+    - ClothingNeckOmnisexualPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckGenderqueerPin
+  storage:
+    back:
+    - ClothingNeckGenderqueerPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckTransPin
+  storage:
+    back:
+    - ClothingNeckTransPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckAutismPin
+  storage:
+    back:
+    - ClothingNeckAutismPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckGoldAutismPin
+  storage:
+    back:
+    - ClothingNeckGoldAutismPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckAroacePin
+  storage:
+    back:
+    - ClothingNeckAroacePin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckPluralPin
+  storage:
+    back:
+    - ClothingNeckPluralPin
+  groupBy: "pin"
+
+- type: loadout
+  id: GSClothingNeckGenderfluidPin
+  storage:
+    back:
+    - ClothingNeckGenderfluidPin
+  groupBy: "pin"
+
+# Canes
+# The white cane is intentionally not included here. Thats for the blind.
+- type: loadout
+  id: GSOffsetCane
+  storage:
+    back:
+    - OffsetCane
+  groupBy: "canes"
+
+- type: loadout
+  id: GSOffsetCaneWood
+  storage:
+    back:
+    - OffsetCaneWood
+  groupBy: "canes"
+
+- type: loadout
+  id: GSOffsetCaneClown
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobClown
+      time: 3600 # 1hr
+  storage:
+    back:
+    - OffsetCaneClown
+  groupBy: "canes"
+
+- type: loadout
+  id: GSOffsetCaneMime
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobMime
+      time: 3600 # 1hr
+  storage:
+    back:
+    - OffsetCaneMime
+  groupBy: "canes"
+
+- type: loadout
+  id: GSOffsetCaneNT
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: GSCommand
+      time: 18000 # 5hr
+  storage:
+    back:
+    - OffsetCaneNT
+  groupBy: "canes"
+
+- type: loadout
+  id: GSCane
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobLibrarian
+      time: 3600 # 1hr same as Jamjar.
+  storage:
+    back:
+    - Cane
+  groupBy: "canes"
+
+# Towels
+- type: loadout
+  id: GSTowelColorWhite
+  storage:
+    back:
+    - TowelColorWhite
+  groupBy: "towels"

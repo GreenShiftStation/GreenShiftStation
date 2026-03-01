@@ -1,0 +1,70 @@
+# For mantles
+- type: loadoutEffectGroup
+  id: GSMasterHoP
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobHeadOfPersonnel
+      time: 20h
+
+# Professional HoP Time
+- type: loadoutEffectGroup
+  id: GSProfessionalHoP
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobHeadOfPersonnel
+      time: 15h # special reward for HoP mains
+
+# Jumpsuit
+- type: loadout
+  id: GSHoPJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoP
+
+- type: loadout
+  id: GSHoPJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHoP
+
+# Head
+- type: loadout
+  id: GSHoPHead
+  equipment:
+    head: ClothingHeadHatHopcap
+
+# Neck
+- type: loadout
+  id: GSHoPCloak
+  equipment:
+    neck: ClothingNeckCloakHop
+
+- type: loadout
+  id: GSHoPMantle
+  equipment:
+    neck: ClothingNeckMantleHOP
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSMasterHoP
+
+- type: startingGear
+  id: GSHoPMantle
+  equipment:
+    neck: ClothingNeckMantleHOP
+
+# Back
+- type: loadout
+  id: GSHoPBackpackIan
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ProfessionalHoP
+  equipment:
+    back: ClothingBackpackIan
+
+# Outerclothing
+- type: loadout
+  id: GSHoPWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterHoP

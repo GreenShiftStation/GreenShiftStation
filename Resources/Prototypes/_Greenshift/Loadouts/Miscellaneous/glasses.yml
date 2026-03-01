@@ -1,0 +1,44 @@
+# Timers
+- type: loadoutEffectGroup
+  id: GSJamjarTimer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobLibrarian
+      time: 1h # for being the biggest nerd on the station
+
+- type: loadoutEffectGroup
+  id: GSJensenTimer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: GSCargo
+      time: 10h # 10 hours of being a space trucker
+
+# Basic options
+# Glasses
+- type: loadout
+  id: GSGlasses
+  equipment:
+    eyes: ClothingEyesGlasses
+
+# Special options
+# Jamjar
+- type: loadout
+  id: GSGlassesJamjar
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSJamjarTimer
+  equipment:
+    eyes: ClothingEyesGlassesJamjar
+
+# Jensen
+- type: loadout
+  id: GSGlassesJensen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSJensenTimer
+  equipment:
+    eyes: ClothingEyesGlassesJensen

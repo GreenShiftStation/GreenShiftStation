@@ -1,0 +1,16 @@
+# Jumpsuit
+- type: loadout
+  id: GSMusicianJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMusician
+
+- type: loadout
+  id: GSMusicianJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtMusician
+
+# Outerclothing
+- type: loadout
+  id: GSMusicianWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterMusician

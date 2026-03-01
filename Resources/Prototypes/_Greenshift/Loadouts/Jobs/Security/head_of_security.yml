@@ -1,0 +1,87 @@
+# For mantles
+- type: loadoutEffectGroup
+  id: GSMasterHoS
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobHeadOfSecurity
+      time: 20h
+
+# Jumpsuit
+- type: loadout
+  id: GSHeadofSecurityJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoS
+  groupBy: "jumpsuit"
+
+- type: loadout
+  id: GSHeadofSecurityJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHoS
+  groupBy: "jumpskirt"
+
+- type: loadout
+  id: GSHeadofSecurityTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoSAlt
+  groupBy: "jumpsuit"
+
+- type: loadout
+  id: GSHeadofSecurityTurtleneckSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHoSAlt
+  groupBy: "jumpskirt"
+
+- type: loadout
+  id: GSHeadofSecurityFormalSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHosFormal
+  groupBy: "jumpsuit"
+
+- type: loadout
+  id: GSHeadofSecurityFormalSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtHosFormal
+  groupBy: "jumpskirt"
+
+# Head
+- type: loadout
+  id: GSHeadofSecurityHead
+  equipment:
+    head: ClothingHeadHatHoshat
+
+- type: loadout
+  id: GSHeadofSecurityBeret
+  equipment:
+    head: ClothingHeadHatBeretHoS
+
+# Neck
+- type: loadout
+  id: GSHeadofSecurityCloak
+  equipment:
+    neck: ClothingNeckCloakHos
+
+- type: loadout
+  id: GSHeadofSecurityMantle
+  equipment:
+    neck: ClothingNeckMantleHOS
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS
+
+- type: startingGear
+  id: GSHeadofSecurityMantle
+  equipment:
+    neck: ClothingNeckMantleHOS
+
+# OuterClothing
+- type: loadout
+  id: GSHeadofSecurityCoat
+  equipment:
+    outerClothing: ClothingOuterCoatHoSTrench
+
+- type: loadout
+  id: GSHeadofSecurityWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterHoS

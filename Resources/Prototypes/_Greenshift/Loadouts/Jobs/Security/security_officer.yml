@@ -1,0 +1,150 @@
+# Senior Time
+- type: loadoutEffectGroup
+  id: GSSeniorOfficer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobWarden
+      time: 6h
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: GSSecurity
+      time: 60h
+
+# Head
+- type: loadout
+  id: GSSecurityHelmet
+  equipment:
+    head: ClothingHeadHelmetBasic
+
+- type: loadout
+  id: GSSecurityHat
+  equipment:
+    head: ClothingHeadHatSecsoft
+
+- type: loadout
+  id: GSSecurityBeret
+  equipment:
+    head: ClothingHeadHatBeretSecurity
+
+- type: loadout
+  id: GSTrooperHat
+  equipment:
+    head: ClothingHeadHatSecurityTrooper
+
+# Jumpsuit
+- type: loadout
+  id: GSSecurityJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSec
+
+- type: loadout
+  id: GSSecurityJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSec
+
+- type: loadout
+  id: GSSecurityJumpsuitGrey
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSecGrey
+
+- type: loadout
+  id: GSSecurityJumpskirtGrey
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSecGrey
+
+- type: loadout
+  id: GSTrooperUniform
+  equipment:
+    jumpsuit: ClothingUniformSecurityTrooper
+
+- type: loadout
+  id: GSSeniorOfficerJumpsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorOfficer
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorOfficer
+
+- type: loadout
+  id: GSSeniorOfficerJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorOfficer
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorOfficer
+
+# Back
+- type: loadout
+  id: GSSecurityBackpack
+  equipment:
+    back: ClothingBackpackSecurity
+
+- type: loadout
+  id: GSSecuritySatchel
+  equipment:
+    back: ClothingBackpackSatchelSecurity
+
+- type: loadout
+  id: GSSecurityDuffel
+  equipment:
+    back: ClothingBackpackDuffelSecurity
+
+# Belt
+- type: loadout
+  id: GSSecurityBelt
+  equipment:
+    belt: ClothingBeltSecurityFilled
+
+- type: loadout
+  id: GSSecurityWebbing
+  equipment:
+    belt: ClothingBeltSecurityWebbingFilled
+
+# Outerclothing
+- type: loadout
+  id: GSArmorVest
+  equipment:
+    outerClothing: ClothingOuterArmorBasic
+
+- type: loadout
+  id: GSArmorVestSlim
+  equipment:
+    outerClothing: ClothingOuterArmorBasicSlim
+
+- type: loadout
+  id: GSSecurityOfficerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterSec
+
+# Shoes
+- type: loadout
+  id: GSCombatBoots
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: GSJackBoots
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+- type: loadout
+  id: GSSecurityWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterSecFilled
+
+# PDA
+- type: loadout
+  id: GSSecurityPDA
+  equipment:
+    id: SecurityPDA
+
+- type: loadout
+  id: GSSeniorOfficerPDA
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+  equipment:
+    id: SeniorOfficerPDA

@@ -1,0 +1,540 @@
+# Command
+- type: roleLoadout
+  id: GSJobCaptain
+  groups:
+  - GSCaptainHead
+  - GSCaptainNeck
+  - GSCaptainJumpsuit
+  - GSCaptainBackpack
+  - GSCaptainOuterClothing
+  - GSSurvival
+  - GSTrinkets
+  #- GSCaptainJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobHeadOfPersonnel
+  groups:
+  - GSGroupTankHarness
+  - GSHoPHead
+  - GSHoPNeck
+  - GSHoPJumpsuit
+  - GSHoPBackpack
+  - GSHoPOuterClothing
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSHoPJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+# Silicons
+- type: roleLoadout
+  id: GSJobBorg
+  nameDataset: NamesBorg
+  canCustomizeName: true
+
+- type: roleLoadout
+  id: GSJobStationAi
+  nameDataset: NamesAI
+  canCustomizeName: true
+
+# Civilian
+- type: roleLoadout
+  id: GSJobPassenger
+  groups:
+  - GSGroupTankHarness
+  - GSPassengerJumpsuit
+  - GSCommonBackpack
+  - GSPassengerNeck
+  - GSPassengerFace
+  - GSPassengerGloves
+  - GSPassengerOuterClothing
+  - GSPassengerShoes
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSPassengerJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobBartender
+  groups:
+  - GSGroupTankHarness
+  - GSBartenderHead
+  - GSBartenderJumpsuit
+  - GSCommonBackpack
+  - GSBartenderOuterClothing
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  - GSBartenderJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobServiceWorker
+  groups:
+  - GSGroupTankHarness
+  - GSBartenderJumpsuit
+  - GSCommonBackpack
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSServiceWorkerJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobChef
+  groups:
+  - GSGroupTankHarness
+  - GSChefHead
+  - GSChefMask
+  - GSChefJumpsuit
+  - GSCommonBackpack
+  - GSChefOuterClothing
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSChefJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobLibrarian
+  groups:
+  - GSGroupTankHarness
+  - GSLibrarianJumpsuit
+  - GSCommonBackpack
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSLibrarianJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobLawyer
+  groups:
+  - GSGroupTankHarness
+  - GSLawyerNeck
+  - GSLawyerJumpsuit
+  - GSCommonBackpack
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSLawyerJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobChaplain
+  groups:
+  - GSGroupTankHarness
+  - GSChaplainHead
+  - GSChaplainMask
+  - GSChaplainNeck
+  - GSChaplainJumpsuit
+  - GSCommonBackpack
+  - GSChaplainOuterClothing
+  - GSChaplainBible
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSChaplainJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobJanitor
+  groups:
+  - GSGroupTankHarness
+  - GSJanitorHead
+  - GSJanitorJumpsuit
+  - GSJanitorGloves
+  - GSCommonBackpack
+  - GSJanitorOuterClothing
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  - GSJanitorJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobBotanist
+  groups:
+  - GSGroupTankHarness
+  - GSBotanistHead
+  - GSBotanistJumpsuit
+  - GSBotanistBackpack
+  - GSBotanistOuterClothing
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSBotanistJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobClown
+  canCustomizeName: true
+  groups:
+  - GSGroupTankHarness
+  - GSClownHead
+  - GSClownJumpsuit
+  - GSClownBackpack
+  - GSClownOuterClothing
+  - GSClownShoes
+  - GSGlasses
+  - GSSurvivalClown
+  - GSTrinkets
+  - GSClownJobTrinkets
+
+- type: roleLoadout
+  id: GSJobMime
+  canCustomizeName: true
+  groups:
+  - GSGroupTankHarness
+  - GSMimeHead
+  - GSMimeMask
+  - GSMimeJumpsuit
+  - GSMimeBackpack
+  - GSMimeOuterClothing
+  - GSMimeBelt
+  - GSGlasses
+  - GSSurvivalMime
+  - GSTrinkets
+  #- GSMimeJobTrinkets
+
+- type: roleLoadout
+  id: GSJobMusician
+  canCustomizeName: true
+  groups:
+  - GSGroupTankHarness
+  - GSMusicianJumpsuit
+  - GSCommonBackpack
+  - GSMusicianOuterClothing
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSMusicianJobTrinkets
+  - GSInstruments
+  - GSGroupSpeciesBreathTool
+
+# Cargo
+- type: roleLoadout
+  id: GSJobQuartermaster
+  groups:
+  - GSGroupTankHarness
+  - GSQuartermasterHead
+  - GSQuartermasterNeck
+  - GSQuartermasterJumpsuit
+  - GSCargoTechnicianBackpack
+  - GSQuartermasterOuterClothing
+  - GSQuartermasterShoes
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSQuartermasterJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobCargoTechnician
+  groups:
+  - GSGroupTankHarness
+  - GSCargoTechnicianHead
+  - GSCargoTechnicianJumpsuit
+  - GSCargoTechnicianBackpack
+  - GSCargoTechnicianOuterClothing
+  - GSCargoTechnicianShoes
+  - GSCargoTechnicianID
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSCargoTechnicianJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobSalvageSpecialist
+  groups:
+  - GSGroupTankHarness
+  - GSSalvageSpecialistBackpack
+  - GSSalvageSpecialistOuterClothing
+  - GSSalvageSpecialistShoes
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSSalvageSpecialistJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+# Engineering
+- type: roleLoadout
+  id: GSJobChiefEngineer
+  groups:
+  - GSGroupTankHarness
+  - GSChiefEngineerHead
+  - GSChiefEngineerJumpsuit
+  - GSStationEngineerBackpack
+  - GSChiefEngineerNeck
+  - GSChiefEngineerOuterClothing
+  - GSChiefEngineerShoes
+  - GSSurvivalExtended
+  - GSTrinkets
+  #- GSChiefEngineerJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobTechnicalAssistant
+  groups:
+  - GSGroupTankHarness
+  - GSTechnicalAssistantJumpsuit
+  - GSStationEngineerBackpack
+  - GSSurvivalExtended
+  - GSTrinkets
+  #- GSTechnicalAssistantJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobStationEngineer
+  groups:
+  - GSGroupTankHarness
+  - GSStationEngineerHead
+  - GSStationEngineerJumpsuit
+  - GSStationEngineerBackpack
+  - GSStationEngineerOuterClothing
+  - GSStationEngineerShoes
+  - GSStationEngineerID
+  - GSSurvivalExtended
+  - GSTrinkets
+  #- GSStationEngineerJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobAtmosphericTechnician
+  groups:
+  - GSGroupTankHarness
+  - GSAtmosphericTechnicianJumpsuit
+  - GSAtmosphericTechnicianBackpack
+  - GSAtmosphericTechnicianOuterClothing
+  - GSAtmosphericTechnicianShoes
+  - GSSurvivalExtended
+  - GSTrinkets
+  #- GSAtmosphericTechnicianJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+# Science
+#- type: roleLoadout
+#  id: GSJobResearchDirector
+#  groups:
+#  - GSGroupTankHarness
+#  - GSResearchDirectorHead
+#  - GSResearchDirectorNeck
+#  - GSResearchDirectorJumpsuit
+#  - GSScientistBackpack
+#  - GSResearchDirectorOuterClothing
+#  - GSScientistGloves
+#  - GSResearchDirectorShoes
+#  - GSGlasses
+#  - GSSurvival
+#  - GSTrinkets
+#  #- GSResearchDirectorJobTrinkets
+#  - GSGroupSpeciesBreathTool
+#
+#- type: roleLoadout
+#  id: GSJobScientist
+#  groups:
+#  - GSGroupTankHarness
+#  - GSScientistHead
+#  - GSScientistNeck
+#  - GSScientistJumpsuit
+#  - GSScientistBackpack
+#  - GSScientistOuterClothing
+#  - GSScientistGloves
+#  - GSScientistShoes
+#  - GSScientistPDA
+#  - GSGlasses
+#  - GSSurvival
+#  - GSTrinkets
+#  #- GSScientistJobTrinkets
+#  - GSGroupSpeciesBreathTool
+#
+#- type: roleLoadout
+#  id: GSJobResearchAssistant
+#  groups:
+#  - GSGroupTankHarness
+#  - GSResearchAssistantJumpsuit
+#  - GSScientistBackpack
+#  - GSGlasses
+#  - GSSurvival
+#  - GSTrinkets
+#  #- GSResearchAssistantJobTrinkets
+#  - GSGroupSpeciesBreathTool
+
+# Security
+- type: roleLoadout
+  id: GSJobHeadOfSecurity
+  groups:
+  - GSHeadofSecurityHead
+  - GSHeadofSecurityNeck
+  - GSHeadofSecurityJumpsuit
+  - GSSecurityBackpack
+  - GSSecurityBelt
+  - GSHeadofSecurityOuterClothing
+  - GSSecurityShoes
+  - GSSurvivalSecurity
+  - GSTrinkets
+  - GSHeadofSecurityJobTrinkets
+  - GSGroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: GSJobWarden
+  groups:
+  - GSWardenHead
+  - GSWardenJumpsuit
+  - GSSecurityBackpack
+  - GSSecurityBelt
+  - GSWardenOuterClothing
+  - GSSecurityShoes
+  - GSSurvivalSecurity
+  - GSTrinkets
+  - GSWardenJobTrinkets
+  - GSGroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: GSJobSecurityOfficer
+  groups:
+  - GSSecurityHead
+  - GSSecurityJumpsuit
+  - GSSecurityBackpack
+  - GSSecurityOuterClothing
+  - GSSecurityShoes
+  - GSSecurityPDA
+  - GSSecurityBelt
+  - GSSurvivalSecurity
+  - GSTrinkets
+  - GSSecurityJobTrinkets
+  - GSGroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: GSJobDetective
+  groups:
+  - GSDetectiveHead
+  - GSDetectiveNeck
+  - GSDetectiveJumpsuit
+  - GSSecurityBackpack
+  - GSDetectiveOuterClothing
+  - GSSecurityShoes
+  - GSSurvivalSecurity
+  - GSTrinkets
+  - GSDetectiveJobTrinkets
+  - GSGroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: GSJobSecurityCadet
+  groups:
+  - GSSecurityCadetJumpsuit
+  - GSSecurityBackpack
+  - GSSurvivalSecurity
+  - GSTrinkets
+  #- GSSecurityCadetJobTrinkets
+  - GSGroupSpeciesBreathToolSecurity
+
+# Wildcards
+- type: roleLoadout
+  id: GSJobReporter
+  groups:
+  - GSGroupTankHarness
+  - GSReporterJumpsuit
+  - GSCommonBackpack
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSReporterJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: GSJobPsychologist
+  groups:
+  - GSGroupTankHarness
+  - GSPsychologistJumpsuit
+  - GSMedicalBackpack
+  - GSGlasses
+  - GSSurvival
+  - GSTrinkets
+  #- GSPsychologistJobTrinkets
+  - GSGroupSpeciesBreathTool
+
+# These loadouts are used for non-crew spawns, like off-station antags and event mobs
+# They will be used without player configuration, thus they will only ever apply what is forced by MinLimit
+
+# gives vox a harness and breathing mask
+# nitrogen tank not included
+- type: roleLoadout
+  id: GSRoleSurvivalVoxSupport
+  groups:
+  - GSGroupSpeciesBreathTool
+  - GSGroupTankHarness
+
+# gives vox a nitrogen breathing tank
+# other species get nothing
+- type: roleLoadout
+  id: GSRoleSurvivalVoxTank
+  groups:
+  - GSGroupEVATankVox
+
+- type: roleLoadout
+  id: GSRoleSurvivalStandard
+  groups:
+  - GSSurvival
+  - GSGroupSpeciesBreathTool
+  - GSGroupTankHarness
+
+- type: roleLoadout
+  id: GSRoleSurvivalClown
+  groups:
+  - GSSurvivalClown
+  - GSGroupTankHarness
+
+- type: roleLoadout
+  id: GSRoleSurvivalExtended
+  groups:
+  - GSSurvivalExtended
+  - GSGroupSpeciesBreathTool
+  - GSGroupTankHarness
+
+- type: roleLoadout
+  id: GSRoleSurvivalMedical
+  groups:
+  - GSSurvivalMedical
+  - GSGroupSpeciesBreathToolMedical
+  - GSGroupTankHarness
+
+- type: roleLoadout
+  id: GSRoleSurvivalSecurity
+  groups:
+  - GSSurvivalSecurity
+  - GSGroupSpeciesBreathToolSecurity
+  - GSGroupTankHarness
+
+- type: roleLoadout
+  id: GSRoleSurvivalSyndicate
+  groups:
+  - GSSurvivalSyndicate
+  - GSGroupSpeciesBreathTool
+  - GSGroupTankHarness
+
+- type: roleLoadout
+  id: GSRoleSurvivalMilitaryDouble
+  groups:
+  - GSSurvivalMilitaryDouble
+
+- type: roleLoadout
+  id: GSRoleSurvivalNukie
+  groups:
+  - GSSurvivalSyndicate
+  - GSGroupSpeciesBreathTool
+  - GSGroupPocketTankDouble
+
+- type: roleLoadout
+  id: GSRoleSurvivalEVA
+  groups:
+  - GSGroupEVATank
+  - GSSurvivalExtended
+
+- type: roleLoadout
+  id: GSRoleSurvivalSpaceNinja
+  groups:
+  - GSGroupEVATank

@@ -1,0 +1,39 @@
+# Top level timer for master medical players
+- type: loadoutEffectGroup
+  id: GSSeniorPhysician
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobChemist
+      time: 6h
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobMedicalDoctor
+      time: 6h
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: GSMedical
+      time: 60h
+
+# Mid-level timer for players who have a solid amount of experience
+- type: loadoutEffectGroup
+  id: GSMedicalJourneymanTimer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobMedicalDoctor
+      time: 20h
+
+# Mid-level timer for CMO
+- type: loadoutEffectGroup
+  id: GSMasterCMO
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobChiefMedicalOfficer
+      time: 20h

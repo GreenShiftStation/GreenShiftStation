@@ -1,0 +1,131 @@
+# Senior times
+- type: loadoutEffectGroup
+  id: GSSeniorEngineering
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobAtmosphericTechnician
+      time: 6h
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobStationEngineer
+      time: 6h
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: GSEngineering
+      time: 60h
+
+# Head
+- type: startingGear
+  id: GSEngineeringBeret
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: GSStationEngineerHardhatYellow
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: GSStationEngineerHardhatOrange
+  equipment:
+    head: ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: GSStationEngineerHardhatRed
+  equipment:
+    head: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: GSSeniorEngineerBeret
+  startingGear: EngineeringBeret
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorEngineering
+
+# Jumpsuit
+- type: loadout
+  id: GSStationEngineerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineering
+
+- type: loadout
+  id: GSStationEngineerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtEngineering
+
+- type: loadout
+  id: GSStationEngineerHazardsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+
+- type: loadout
+  id: GSSeniorEngineerJumpsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorEngineering
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorEngineer
+
+- type: loadout
+  id: GSSeniorEngineerJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorEngineering
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorEngineer
+
+# Back
+- type: loadout
+  id: GSStationEngineerBackpack
+  equipment:
+    back: ClothingBackpackEngineering
+
+- type: loadout
+  id: GSStationEngineerSatchel
+  equipment:
+    back: ClothingBackpackSatchelEngineering
+
+- type: loadout
+  id: GSStationEngineerDuffel
+  equipment:
+    back: ClothingBackpackDuffelEngineering
+
+# OuterClothing
+- type: loadout
+  id: GSStationEngineerOuterVest
+  equipment:
+    outerClothing: ClothingOuterVestHazard
+
+- type: loadout
+  id: GSStationEngineerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterEngi
+
+# Shoes
+- type: loadout
+  id: GSWorkBoots
+  equipment:
+    shoes: ClothingShoesBootsWork
+
+- type: loadout
+  id: GSEngineeringWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterEngi
+
+# ID
+- type: loadout
+  id: GSStationEngineerPDA
+  equipment:
+    id: EngineerPDA
+
+- type: loadout
+  id: GSSeniorEngineerPDA
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorEngineering
+  equipment:
+    id: SeniorEngineerPDA

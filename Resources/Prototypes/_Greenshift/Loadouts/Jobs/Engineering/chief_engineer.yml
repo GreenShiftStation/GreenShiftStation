@@ -1,0 +1,71 @@
+# For mantles
+- type: loadoutEffectGroup
+  id: GSMasterCE
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobChiefEngineer
+      time: 20h
+
+# Jumpsuit
+- type: loadout
+  id: GSChiefEngineerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineer
+
+- type: loadout
+  id: GSChiefEngineerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineer
+
+- type: loadout
+  id: GSChiefEngineerTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
+
+- type: loadout
+  id: GSChiefEngineerTurtleneckSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
+
+# Head
+- type: loadout
+  id: GSChiefEngineerHead
+  equipment:
+    head: ClothingHeadHatHardhatWhite
+
+- type: loadout
+  id: GSChiefEngineerBeret
+  startingGear: EngineeringBeret
+
+# Neck
+- type: loadout
+  id: GSChiefEngineerCloak
+  equipment:
+    neck: ClothingNeckCloakCe
+
+- type: loadout
+  id: GSChiefEngineerMantle
+  equipment:
+    neck: ClothingNeckMantleCE
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSMasterCE
+
+- type: startingGear
+  id: GSChiefEngineerMantle
+  equipment:
+    neck: ClothingNeckMantleCE
+
+# OuterClothing
+- type: loadout
+  id: GSChiefEngineerWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCE
+
+# Shoes
+- type: loadout
+  id: GSBrownShoes
+  equipment:
+    shoes: ClothingShoesColorBrown

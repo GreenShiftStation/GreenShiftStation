@@ -1,0 +1,27 @@
+# Back
+- type: loadout
+  id: GSSalvageSpecialistBackpack
+  equipment:
+    back: ClothingBackpackSalvage
+
+- type: loadout
+  id: GSSalvageSpecialistSatchel
+  equipment:
+    back: ClothingBackpackSatchelSalvage
+
+- type: loadout
+  id: GSSalvageSpecialistDuffel
+  equipment:
+    back: ClothingBackpackDuffelSalvage
+
+# OuterClothing
+- type: loadout
+  id: GSSalvageSpecialistWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterMiner
+
+# Shoes
+- type: loadout
+  id: GSSalvageBoots
+  equipment:
+    shoes: ClothingShoesBootsSalvage

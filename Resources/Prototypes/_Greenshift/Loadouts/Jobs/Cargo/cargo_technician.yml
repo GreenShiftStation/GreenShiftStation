@@ -1,0 +1,78 @@
+# Senior times
+- type: loadoutEffectGroup
+  id: GSSeniorCargo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobCargoTechnician
+      time: 21600 #6 hrs
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobSalvageSpecialist
+      time: 21600 #6 hrs
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: GSCargo
+      time: 216000 # 60 hrs
+
+# Head
+- type: loadout
+  id: GSCargoTechnicianHead
+  equipment:
+    head: ClothingHeadHatCargosoft
+
+# Jumpsuit
+- type: loadout
+  id: GSCargoTechnicianJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCargo
+
+- type: loadout
+  id: GSCargoTechnicianJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCargo
+
+# Back
+- type: loadout
+  id: GSCargoTechnicianBackpack
+  equipment:
+    back: ClothingBackpackCargo
+
+- type: loadout
+  id: GSCargoTechnicianSatchel
+  equipment:
+    back: ClothingBackpackSatchelCargo
+
+- type: loadout
+  id: GSCargoTechnicianDuffel
+  equipment:
+    back: ClothingBackpackDuffelCargo
+
+# OuterClothing
+- type: loadout
+  id: GSCargoTechnicianWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCargo
+
+# Shoes
+- type: loadout
+  id: GSCargoWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterCargo
+
+# ID
+- type: loadout
+  id: GSCargoTechnicianPDA
+  equipment:
+    id: CargoPDA
+
+- type: loadout
+  id: GSSeniorCourierPDA
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorCargo
+  equipment:
+    id: SeniorCourierPDA

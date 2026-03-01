@@ -1,0 +1,75 @@
+# Head
+- type: loadout
+  id: GSMimeHead
+  equipment:
+    head: ClothingHeadHatBeret
+
+- type: loadout
+  id: GSMimeFrenchBeret
+  equipment:
+    head: ClothingHeadHatBeretFrench
+
+- type: loadout
+  id: GSMimeCap
+  equipment:
+    head: ClothingHeadHatMimesoft
+
+# Mask
+- type: loadout
+  id: GSMimeMask
+  equipment:
+    mask: ClothingMaskMime
+
+- type: loadout
+  id: GSMimeMaskSad
+  equipment:
+    mask: ClothingMaskSadMime
+
+- type: loadout
+  id: GSMimeMaskScared
+  equipment:
+    mask: ClothingMaskScaredMime
+
+# Jumpsuit
+- type: loadout
+  id: GSMimeJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMime
+
+- type: loadout
+  id: GSMimeJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtMime
+
+# Back
+- type: loadout
+  id: GSMimeBackpack
+  equipment:
+    back: ClothingBackpackMime
+
+- type: loadout
+  id: GSMimeSatchel
+  equipment:
+    back: ClothingBackpackSatchelMime
+
+- type: loadout
+  id: GSMimeDuffel
+  equipment:
+    back: ClothingBackpackDuffelMime
+
+# Outerclothing
+- type: loadout
+  id: GSMimeWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterMime
+
+# Belt
+- type: loadout
+  id: GSMimeSuspendersRed
+  equipment:
+    belt: ClothingBeltSuspendersRed
+
+- type: loadout
+  id: GSMimeSuspendersBlack
+  equipment:
+    belt: ClothingBeltSuspendersBlack

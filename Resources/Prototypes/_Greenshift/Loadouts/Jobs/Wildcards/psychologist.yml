@@ -1,0 +1,10 @@
+# Jumpsuit
+- type: loadout
+  id: GSPsychologistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPsychologist
+
+- type: loadout
+  id: GSPsychologistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtPsychologist

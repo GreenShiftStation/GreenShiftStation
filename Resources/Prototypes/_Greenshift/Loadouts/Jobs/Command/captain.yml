@@ -1,0 +1,92 @@
+# For mantles
+- type: loadoutEffectGroup
+  id: GSMasterCap
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobCaptain
+      time: 20h
+
+# Jumpsuit
+- type: loadout
+  id: GSCaptainJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCaptain
+
+- type: loadout
+  id: GSCaptainJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCaptain
+
+- type: loadout
+  id: GSCaptainFormalSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCapFormal
+
+- type: loadout
+  id: GSCaptainFormalSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCapFormalDress
+
+# Head
+- type: loadout
+  id: GSCaptainHead
+  equipment:
+    head: ClothingHeadHatCaptain
+
+- type: loadout
+  id: GSCaptainCap
+  equipment:
+    head: ClothingHeadHatCapcap
+
+# Neck
+- type: loadout
+  id: GSCaptainCloak
+  equipment:
+    neck: ClothingNeckCloakCap
+
+- type: loadout
+  id: GSCaptainCloakFormal
+  equipment:
+    neck: ClothingNeckCloakCapFormal
+
+- type: loadout
+  id: GSCaptainMantle
+  equipment:
+    neck: ClothingNeckMantleCap
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCap
+
+- type: startingGear
+  id: GSCaptainMantle
+  equipment:
+    neck: ClothingNeckMantleCap
+
+# Back
+- type: loadout
+  id: GSCaptainBackpack
+  equipment:
+    back: ClothingBackpackCaptain
+
+- type: loadout
+  id: GSCaptainSatchel
+  equipment:
+    back: ClothingBackpackSatchelCaptain
+
+- type: loadout
+  id: GSCaptainDuffel
+  equipment:
+    back: ClothingBackpackDuffelCaptain
+
+# Outer clothing
+- type: loadout
+  id: GSCaptainOuterClothing
+  equipment:
+    outerClothing: ClothingOuterArmorCaptainCarapace
+
+- type: loadout
+  id: GSCaptainWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCap

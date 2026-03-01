@@ -1,0 +1,139 @@
+# Head
+- type: loadout
+  id: GSSeniorPhysicianBeret
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorPhysician
+  equipment:
+    head: ClothingHeadHatBeretSeniorPhysician
+
+- type: loadout
+  id: GSMedicalHeadMirror
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSMedicalJourneymanTimer
+  equipment:
+    head: ClothingHeadMirror
+
+- type: loadout
+  id: GSMedicalBeret
+  equipment:
+    head: ClothingHeadHatBeretMedic
+
+- type: loadout
+  id: GSBlueSurgeryCap
+  equipment:
+    head: ClothingHeadHatSurgcapBlue
+
+- type: loadout
+  id: GSGreenSurgeryCap
+  equipment:
+    head: ClothingHeadHatSurgcapGreen
+
+- type: loadout
+  id: GSPurpleSurgeryCap
+  equipment:
+    head: ClothingHeadHatSurgcapPurple
+
+- type: loadout
+  id: GSNurseHat
+  equipment:
+    head: ClothingHeadNurseHat
+
+# Jumpsuit
+- type: loadout
+  id: GSMedicalDoctorJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+
+- type: loadout
+  id: GSMedicalDoctorJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtMedicalDoctor
+
+- type: loadout
+  id: GSSeniorPhysicianJumpsuit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysician
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
+
+- type: loadout
+  id: GSSeniorPhysicianJumpskirt
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorPhysician
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSeniorPhysician
+
+- type: loadout
+  id: GSMedicalBlueScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorBlue
+
+- type: loadout
+  id: GSMedicalGreenScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorGreen
+
+- type: loadout
+  id: GSMedicalPurpleScrubs
+  equipment:
+    jumpsuit: UniformScrubsColorPurple
+
+# Back
+- type: loadout
+  id: GSMedicalDoctorBackpack
+  equipment:
+    back: ClothingBackpackMedical
+
+- type: loadout
+  id: GSMedicalDoctorSatchel
+  equipment:
+    back: ClothingBackpackSatchelMedical
+
+- type: loadout
+  id: GSMedicalDoctorDuffel
+  equipment:
+    back: ClothingBackpackDuffelMedical
+
+# OuterClothing
+- type: loadout
+  id: GSMedicalDoctorWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterMed
+
+- type: loadout
+  id: GSSeniorPhysicianLabCoat
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorPhysician
+  equipment:
+    outerClothing: ClothingOuterCoatLabSeniorPhysician
+
+# Shoes
+- type: loadout
+  id: GSMedicalWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterMed
+
+# ID
+- type: loadout
+  id: GSMedicalDoctorPDA
+  equipment:
+    id: MedicalPDA
+
+- type: loadout
+  id: GSSeniorPhysicianPDA
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorPhysician
+  equipment:
+    id: SeniorPhysicianPDA
+
+#Masks
+- type: loadout
+  id: GSSterileMask
+  equipment:
+    mask: ClothingMaskSterile

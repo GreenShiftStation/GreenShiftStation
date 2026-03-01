@@ -1,0 +1,61 @@
+- type: loadoutEffectGroup
+  id: GSSeniorBar
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobBartender
+      time: 52h # 1 hour per week for 1 year
+
+# Head
+- type: loadout
+  id: GSBartenderHead
+  equipment:
+    head: ClothingHeadHatTophat
+
+- type: loadout
+  id: GSBartenderBowler
+  equipment:
+    head: ClothingHeadHatBowlerHat
+
+# Jumpsuit
+- type: loadout
+  id: GSBartenderJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBartender
+
+- type: loadout
+  id: GSBartenderJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBartender
+
+- type: loadout
+  id: GSBartenderJumpsuitPurple
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBartenderPurple
+
+# Outer clothing
+- type: loadout
+  id: GSBartenderApron
+  equipment:
+    outerClothing: ClothingOuterApronBar
+
+- type: loadout
+  id: GSBartenderVest
+  equipment:
+    outerClothing: ClothingOuterVest
+
+- type: loadout
+  id: GSBartenderWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterBar
+
+# Misc
+- type: loadout
+  id: GSBartenderGoldenShaker
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GSSeniorBar
+  storage:
+    back:
+    - DrinkShakerGold

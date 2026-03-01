@@ -1,0 +1,168 @@
+# Instruments
+- type: loadout
+  id: GSGlockenspiel
+  storage:
+    back:
+    - GlockenspielInstrument
+
+- type: loadout
+  id: GSMusicBox
+  storage:
+    back:
+    - MusicBoxInstrument
+
+- type: loadout
+  id: GSXylophone
+  storage:
+    back:
+    - XylophoneInstrument
+
+- type: loadout
+  id: GSMicrophone
+  storage:
+    back:
+    - MicrophoneInstrument
+
+- type: loadout
+  id: GSSynthesizer
+  storage:
+    back:
+    - SynthesizerInstrument
+
+- type: loadout
+  id: GSKalimba
+  storage:
+    back:
+    - KalimbaInstrument
+
+- type: loadout
+  id: GSWoodblock
+  storage:
+    back:
+    - WoodblockInstrument
+
+- type: loadout
+  id: GSElectricGuitar
+  storage:
+    back:
+    - ElectricGuitarInstrument
+
+- type: loadout
+  id: GSBassGuitar
+  storage:
+    back:
+    - BassGuitarInstrument
+
+- type: loadout
+  id: GSRockGuitar
+  storage:
+    back:
+    - RockGuitarInstrument
+
+- type: loadout
+  id: GSAcousticGuitar
+  storage:
+    back:
+    - AcousticGuitarInstrument
+
+- type: loadout
+  id: GSBanjo
+  storage:
+    back:
+    - BanjoInstrument
+
+- type: loadout
+  id: GSViolin
+  storage:
+    back:
+    - ViolinInstrument
+
+- type: loadout
+  id: GSViola
+  storage:
+    back:
+    - ViolaInstrument
+
+- type: loadout
+  id: GSCello
+  storage:
+    back:
+    - CelloInstrument
+
+- type: loadout
+  id: GSTrumpet
+  storage:
+    back:
+    - TrumpetInstrument
+
+- type: loadout
+  id: GSTrombone
+  storage:
+    back:
+    - TromboneInstrument
+
+- type: loadout
+  id: GSFrenchHorn
+  storage:
+    back:
+    - FrenchHornInstrument
+
+- type: loadout
+  id: GSEuphonium
+  storage:
+    back:
+    - EuphoniumInstrument
+
+- type: loadout
+  id: GSSaxophone
+  storage:
+    back:
+    - SaxophoneInstrument
+
+- type: loadout
+  id: GSAccordion
+  storage:
+    back:
+    - AccordionInstrument
+
+- type: loadout
+  id: GSHarmonica
+  storage:
+    back:
+    - HarmonicaInstrument
+
+- type: loadout
+  id: GSClarinet
+  storage:
+    back:
+    - ClarinetInstrument
+
+- type: loadout
+  id: GSFlute
+  storage:
+    back:
+    - FluteInstrument
+
+- type: loadout
+  id: GSRecorder
+  storage:
+    back:
+    - RecorderInstrument
+
+- type: loadout
+  id: GSPanFlute
+  storage:
+    back:
+    - PanFluteInstrument
+
+- type: loadout
+  id: GSOcarina
+  storage:
+    back:
+    - OcarinaInstrument
+
+- type: loadout
+  id: GSBagpipe
+  storage:
+    back:
+    - BagpipeInstrument

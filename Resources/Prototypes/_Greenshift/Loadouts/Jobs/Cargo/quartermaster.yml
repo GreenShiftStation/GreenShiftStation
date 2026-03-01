@@ -1,0 +1,71 @@
+# For mantles
+- type: loadoutEffectGroup
+  id: GSMasterQM
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobQuartermaster
+      time: 20h
+
+# Jumpsuit
+- type: loadout
+  id: GSQuartermasterJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQM
+
+- type: loadout
+  id: GSQuartermasterJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtQM
+
+- type: loadout
+  id: GSQuartermasterTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMTurtleneck
+
+- type: loadout
+  id: GSQuartermasterTurtleneckSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtQMTurtleneck
+
+- type: loadout
+  id: GSQuartermasterFormalSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitQMFormal
+
+# Head
+- type: loadout
+  id: GSQuartermasterHead
+  equipment:
+    head: ClothingHeadHatQMsoft
+
+- type: loadout
+  id: GSQuartermasterBeret
+  equipment:
+    head: ClothingHeadHatBeretQM
+
+# Neck
+- type: loadout
+  id: GSQuartermasterCloak
+  equipment:
+    neck: ClothingNeckCloakQm
+
+- type: loadout
+  id: GSQuartermasterMantle
+  equipment:
+    neck: ClothingNeckMantleQM
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterQM
+
+- type: startingGear
+  id: GSQuartermasterMantle
+  equipment:
+    neck: ClothingNeckMantleQM
+
+# OuterClothing
+- type: loadout
+  id: GSQuartermasterWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterQM

@@ -1,0 +1,10 @@
+# Jumpsuit
+- type: loadout
+  id: GSReporterJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitReporter
+
+- type: loadout
+  id: GSJournalistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJournalist

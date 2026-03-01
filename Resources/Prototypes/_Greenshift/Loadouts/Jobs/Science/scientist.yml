@@ -1,0 +1,157 @@
+## Senior Time
+#- type: loadoutEffectGroup
+#  id: GSSeniorResearcher
+#  effects:
+#  - !type:JobRequirementLoadoutEffect
+#    requirement:
+#      !type:DepartmentTimeRequirement
+#      department: GSScience
+#      time: 60h
+#
+## Head
+#- type: startingGear
+#  id: GSScientificBeret
+#  equipment:
+#    head: ClothingHeadHatBeretRND
+#
+#- type: loadout
+#  id: GSScientificBeret
+#  startingGear: ScientificBeret
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: GSSeniorResearcher
+#
+#- type: loadout
+#  id: GSRoboticistCap
+#  equipment:
+#    head: ClothingHeadHatCorpsoft
+#
+#- type: loadout
+#  id: GSSkullBandana
+#  equipment:
+#    head: ClothingHeadBandSkull
+#
+## Neck
+#
+#- type: loadout
+#  id: GSScientistTie
+#  equipment:
+#    neck: ClothingNeckTieSci
+#
+## Jumpsuit
+#- type: loadout
+#  id: GSScientistJumpsuit
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitScientist
+#
+#- type: loadout
+#  id: GSScientistJumpskirt
+#  equipment:
+#    jumpsuit: ClothingUniformJumpskirtScientist
+#
+#- type: loadout
+#  id: GSRoboticistJumpsuit
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitRoboticist
+#
+#- type: loadout
+#  id: GSRoboticistJumpskirt
+#  equipment:
+#    jumpsuit: ClothingUniformJumpskirtRoboticist
+#
+#- type: loadout
+#  id: GSSeniorResearcherJumpsuit
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: GSSeniorResearcher
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitSeniorResearcher
+#
+#- type: loadout
+#  id: GSSeniorResearcherJumpskirt
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: GSSeniorResearcher
+#  equipment:
+#    jumpsuit: ClothingUniformJumpskirtSeniorResearcher
+#
+## Back
+#- type: loadout
+#  id: GSScientistBackpack
+#  equipment:
+#    back: ClothingBackpackScience
+#
+#- type: loadout
+#  id: GSScientistSatchel
+#  equipment:
+#    back: ClothingBackpackSatchelScience
+#
+#- type: loadout
+#  id: GSScientistDuffel
+#  equipment:
+#    back: ClothingBackpackDuffelScience
+#
+## OuterClothing
+#- type: loadout
+#  id: GSRegularLabCoat
+#  equipment:
+#    outerClothing: ClothingOuterCoatLab
+#
+#- type: loadout
+#  id: GSScienceLabCoat
+#  equipment:
+#    outerClothing: ClothingOuterCoatRnd
+#
+#- type: loadout
+#  id: GSScienceWintercoat
+#  equipment:
+#    outerClothing: ClothingOuterWinterSci
+#
+#- type: loadout
+#  id: GSRoboticistLabCoat
+#  equipment:
+#    outerClothing: ClothingOuterCoatRobo
+#
+#- type: loadout
+#  id: GSRoboticistWintercoat
+#  equipment:
+#    outerClothing: ClothingOuterWinterRobo
+#
+#- type: loadout
+#  id: GSSeniorResearcherLabCoat
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: GSSeniorResearcher
+#  equipment:
+#    outerClothing: ClothingOuterCoatLabSeniorResearcher
+#
+## Gloves
+#- type: loadout
+#  id: GSLatexGloves
+#  equipment:
+#    gloves: ClothingHandsGlovesLatex
+#
+#- type: loadout
+#  id: GSRobohandsGloves
+#  equipment:
+#    gloves: ClothingHandsGlovesRobohands
+#
+## Shoes
+#- type: loadout
+#  id: GSScienceWinterBoots
+#  equipment:
+#    shoes: ClothingShoesBootsWinterSci
+#
+## ID
+#- type: loadout
+#  id: GSScientistPDA
+#  equipment:
+#    id: SciencePDA
+#
+#- type: loadout
+#  id: GSSeniorResearcherPDA
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: GSSeniorResearcher
+#  equipment:
+#    id: SeniorResearcherPDA

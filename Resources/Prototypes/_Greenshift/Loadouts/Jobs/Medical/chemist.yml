@@ -1,0 +1,38 @@
+# Jumpsuit
+- type: loadout
+  id: GSChemistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChemistry
+
+- type: loadout
+  id: GSChemistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChemistry
+
+# Back
+- type: loadout
+  id: GSChemistBackpack
+  equipment:
+    back: ClothingBackpackChemistry
+
+- type: loadout
+  id: GSChemistSatchel
+  equipment:
+    back: ClothingBackpackSatchelChemistry
+
+- type: loadout
+  id: GSChemistDuffel
+  equipment:
+    back: ClothingBackpackDuffelChemistry
+
+# Outer clothing
+- type: loadout
+  id: GSChemistLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabChem
+
+- type: loadout
+  id: GSChemistWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterChem
+

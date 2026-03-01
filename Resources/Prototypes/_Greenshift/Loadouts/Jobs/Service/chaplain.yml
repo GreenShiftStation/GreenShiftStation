@@ -1,0 +1,155 @@
+# Playtime requirement for NanoTrasen Bible, Codex NanoTrasimus
+- type: loadoutEffectGroup
+  id: GSNanoTrasenBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobCaptain
+      time: 7200 #2 hrs
+
+# Playtime requirement for Druid Bible, Druidic Tablet
+- type: loadoutEffectGroup
+  id: GSDruidBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobBotanist
+      time: 18000 #5 hrs
+
+# Playtime requirement for Clown Bible, Mirth of the Honkmother
+- type: loadoutEffectGroup
+  id: GSClownBibleRequirement
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: GSJobClown
+      time: 18000 #5 hrs
+
+# Head
+- type: loadout
+  id: GSChaplainHead
+  equipment:
+    head: ClothingHeadHatFez
+
+- type: loadout
+  id: GSChaplainNunHood
+  equipment:
+    head: ClothingHeadHatHoodNunHood
+
+- type: loadout
+  id: GSChaplainPlagueHat
+  equipment:
+    head: ClothingHeadHatPlaguedoctor
+
+- type: loadout
+  id: GSChaplainWitchHat
+  equipment:
+    head: ClothingHeadHatWitch
+
+- type: loadout
+  id: GSChaplainWitchHatAlt
+  equipment:
+    head: ClothingHeadHatWitch1
+
+# Mask
+- type: loadout
+  id: GSChaplainMask
+  equipment:
+    mask: ClothingMaskPlague
+
+# Jumpsuit
+- type: loadout
+  id: GSChaplainJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChaplain
+
+- type: loadout
+  id: GSChaplainJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChaplain
+
+- type: loadout
+  id: GSChaplainRobesDark
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMonasticRobeDark
+
+- type: loadout
+  id: GSChaplainRobesLight
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMonasticRobeLight
+
+# Neck
+- type: loadout
+  id: GSChaplainNeck
+  equipment:
+    neck: ClothingNeckStoleChaplain
+
+# Outer clothing
+- type: loadout
+  id: GSChaplainPlagueSuit
+  equipment:
+    outerClothing: ClothingOuterPlagueSuit
+
+- type: loadout
+  id: GSChaplainNunRobe
+  equipment:
+    outerClothing: ClothingOuterNunRobe
+
+- type: loadout
+  id: GSChaplainBlackHoodie
+  equipment:
+    outerClothing: ClothingOuterHoodieBlack
+
+- type: loadout
+  id: GSChaplainHoodie
+  equipment:
+    outerClothing: ClothingOuterHoodieChaplain
+
+# Bible/Holy Book
+- type: loadout
+  id: GSBible
+  storage:
+    back:
+    - Bible
+
+- type: loadout
+  id: GSBibleDruid
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: DruidBibleRequirement
+  storage:
+    back:
+    - BibleDruid
+
+- type: loadout
+  id: GSBibleNanoTrasen
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NanoTrasenBibleRequirement
+  storage:
+    back:
+    - BibleNanoTrasen
+
+- type: loadout
+  id: GSBibleNarsie
+  storage:
+    back:
+    - BibleNarsie
+
+- type: loadout
+  id: GSBibleHonk
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ClownBibleRequirement
+  storage:
+    back:
+    - BibleHonk
+
+- type: loadout
+  id: GSBibleRatvar
+  storage:
+    back:
+    - BibleRatvar
