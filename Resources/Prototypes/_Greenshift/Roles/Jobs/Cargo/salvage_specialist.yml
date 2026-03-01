@@ -1,0 +1,39 @@
+- type: job
+  id: GSSalvageSpecialist
+  name: job-name-salvagespec
+  description: job-description-salvagespec
+  playTimeTracker: GSJobSalvageSpecialist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: GSCargo
+      time: 2.5h
+  icon: "JobIconShaftMiner"
+  startingGear: GSSalvageSpecialistGear
+  supervisors: job-supervisors-qm
+  access:
+  - Cargo
+  - Salvage
+  - Maintenance
+  - External
+
+- type: startingGear
+  id: GSSalvageSpecialistGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    id: SalvagePDA
+    ears: ClothingHeadsetCargo
+  #storage:
+    #back:
+    #- Stuff
+
+- type: chameleonOutfit
+  id: GSSalvageSpecialistChameleonOutfit
+  job: GSSalvageSpecialist
+  equipment:
+    head: ClothingHeadHatCargosoft
+    eyes: ClothingEyesGlassesCheapSunglasses
+    mask: ClothingMaskGasExplorer
+    outerClothing: ClothingOuterWinterMiner
+    neck: ClothingNeckScarfStripedBrown
+    gloves: ClothingHandsGlovesColorBlack
+

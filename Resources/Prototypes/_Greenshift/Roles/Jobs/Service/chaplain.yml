@@ -1,0 +1,37 @@
+- type: job
+  id: GSChaplain
+  name: job-name-chaplain
+  description: job-description-chaplain
+  playTimeTracker: GSJobChaplain
+  startingGear: GSChaplainGear
+  icon: "JobIconChaplain"
+  supervisors: job-supervisors-hop
+  access:
+  - Chapel
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: BibleUser #Lets them heal with bibles
+
+- type: startingGear
+  id: GSChaplainGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    id: ChaplainPDA
+    ears: ClothingHeadsetService
+  storage:
+    back:
+    - RubberStampChaplain
+
+- type: chameleonOutfit
+  id: GSChaplainChameleonOutfit
+  job: GSChaplain
+  equipment:
+    head: ClothingHeadHatPlaguedoctor
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskPlague
+    neck: ClothingNeckStoleChaplain
+    outerClothing: ClothingOuterPlagueSuit
+    gloves: ClothingHandsGlovesColorBlack
+

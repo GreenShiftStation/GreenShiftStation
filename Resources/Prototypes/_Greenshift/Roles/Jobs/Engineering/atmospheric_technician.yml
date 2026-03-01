@@ -1,0 +1,42 @@
+- type: job
+  id: GSAtmosphericTechnician
+  name: job-name-atmostech
+  description: job-description-atmostech
+  playTimeTracker: GSJobAtmosphericTechnician
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: GSEngineering
+    time: 2.5h
+  startingGear: GSAtmosphericTechnicianGear
+  icon: "JobIconAtmosphericTechnician"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FirefighterDay
+    prototype: FireAxe
+
+- type: startingGear
+  id: GSAtmosphericTechnicianGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    id: AtmosPDA
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+  #storage:
+    #back:
+    #- Stuff
+
+- type: chameleonOutfit
+  id: GSAtmosphericTechnicianChameleonOutfit
+  job: GSAtmosphericTechnician
+  equipment:
+    head: ClothingHeadHelmetAtmosFire
+    mask: ClothingMaskGasAtmos
+    neck: ClothingNeckScarfStripedLightBlue
+    outerClothing: ClothingOuterSuitAtmosFire
+    gloves: ClothingHandsGlovesColorYellow

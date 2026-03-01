@@ -1,0 +1,34 @@
+- type: job
+  id: GSParamedic
+  name: job-name-paramedic
+  description: job-description-paramedic
+  playTimeTracker: GSJobParamedic
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: GSMedical
+    time: 2.5h
+  startingGear: GSParamedicGear
+  icon: "JobIconParamedic"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+
+- type: startingGear
+  id: GSParamedicGear
+  equipment:
+    id: ParamedicPDA
+    ears: ClothingHeadsetMedical
+
+- type: chameleonOutfit
+  id: GSParamedicChameleonOutfit
+  job: GSParamedic
+  equipment:
+    head: ClothingHeadHatParamedicsoft
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterile
+    neck: ClothingNeckStethoscope
+    outerClothing: ClothingOuterCoatParamedicWB
+    gloves: ClothingHandsGlovesLatex

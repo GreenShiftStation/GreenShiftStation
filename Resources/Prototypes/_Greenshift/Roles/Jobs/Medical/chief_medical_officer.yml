@@ -1,0 +1,57 @@
+# Best job.
+
+- type: job
+  id: GSChiefMedicalOfficer
+  name: job-name-cmo
+  description: job-description-cmo
+  playTimeTracker: GSJobChiefMedicalOfficer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: GSJobChemist
+      time: 2.5h
+    - !type:RoleTimeRequirement
+      role: GSJobMedicalDoctor
+      time: 5h
+    - !type:DepartmentTimeRequirement
+      department: GSMedical
+      time: 10h
+  weight: 10
+  startingGear: GSCMOGear
+  icon: "JobIconChiefMedicalOfficer"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Medical
+  - Command
+  - Maintenance
+  - Chemistry
+  - ChiefMedicalOfficer
+  - Brig
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: GSCMOGear
+  equipment:
+    id: CMOPDA
+    ears: ClothingHeadsetCMO
+  storage:
+    back:
+    - Flash
+
+- type: chameleonOutfit
+  id: GSChiefMedicalOfficerChameleonOutfit
+  job: GSChiefMedicalOfficer
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatBeretCmo
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterile
+    neck: ClothingCloakCmo
+    outerClothing: ClothingOuterCoatLabCmo
+    gloves: ClothingHandsGlovesNitrile

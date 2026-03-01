@@ -1,0 +1,32 @@
+- type: job
+  id: GSChemist
+  name: job-name-chemist
+  description: job-description-chemist
+  playTimeTracker: GSJobChemist
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: GSMedical
+      time: 5h
+  startingGear: GSChemistGear
+  icon: "JobIconChemist"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Chemistry
+  - Maintenance
+
+- type: startingGear
+  id: GSChemistGear
+  equipment:
+    id: ChemistryPDA
+    ears: ClothingHeadsetMedical
+
+- type: chameleonOutfit
+  id: GSChemistChameleonOutfit
+  job: GSChemist
+  equipment:
+    head: ClothingHeadHatBeretMedic
+    mask: ClothingMaskSterile
+    neck: ClothingNeckStethoscope
+    outerClothing: ClothingOuterCoatLabChem
+    gloves: ClothingHandsGlovesLatex

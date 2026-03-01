@@ -1,0 +1,124 @@
+# Overall play time is in the upstream file.
+# Jobs. Sorted by department because alphabetically annoys me.
+
+# Cargo
+- type: playTimeTracker
+  id: GSJobCargoTechnician
+
+- type: playTimeTracker
+  id: GSJobQuartermaster
+
+- type: playTimeTracker
+  id: GSJobSalvageSpecialist
+
+# Command
+- type: playTimeTracker
+  id: GSJobCaptain
+
+- type: playTimeTracker
+  id: GSJobHeadOfPersonnel
+
+# Engineering
+- type: playTimeTracker
+  id: GSJobAtmosphericTechnician
+
+- type: playTimeTracker
+  id: GSJobChiefEngineer
+
+- type: playTimeTracker
+  id: GSJobStationEngineer
+
+- type: playTimeTracker
+  id: GSJobTechnicalAssistant
+
+#Medical
+- type: playTimeTracker
+  id: GSJobChemist
+
+- type: playTimeTracker
+  id: GSJobChiefMedicalOfficer
+
+- type: playTimeTracker
+  id: GSJobMedicalDoctor
+
+- type: playTimeTracker
+  id: GSJobMedicalIntern
+
+- type: playTimeTracker
+  id: GSJobParamedic
+
+- type: playTimeTracker
+  id: GSJobPsychologist
+
+# Science - currently disabled
+#- type: playTimeTracker
+#  id: GSJobResearchAssistant
+#
+#- type: playTimeTracker
+#  id: GSJobResearchDirector
+#
+#- type: playTimeTracker
+#  id: GSJobScientist
+
+# Security
+- type: playTimeTracker
+  id: GSJobDetective
+
+- type: playTimeTracker
+  id: GSJobHeadOfSecurity
+
+- type: playTimeTracker
+  id: GSJobSecurityCadet
+
+- type: playTimeTracker
+  id: GSJobSecurityOfficer
+
+- type: playTimeTracker
+  id: GSJobWarden
+
+# Service
+- type: playTimeTracker
+  id: GSJobBartender
+
+- type: playTimeTracker
+  id: GSJobBotanist
+
+- type: playTimeTracker
+  id: GSJobChaplain
+
+- type: playTimeTracker
+  id: GSJobChef
+
+- type: playTimeTracker
+  id: GSJobClown
+
+- type: playTimeTracker
+  id: GSJobJanitor
+
+- type: playTimeTracker
+  id: GSJobLawyer
+
+- type: playTimeTracker
+  id: GSJobLibrarian
+
+- type: playTimeTracker
+  id: GSJobMime
+
+- type: playTimeTracker
+  id: GSJobMusician
+
+- type: playTimeTracker
+  id: GSJobPassenger
+
+- type: playTimeTracker
+  id: GSJobReporter
+
+- type: playTimeTracker
+  id: GSJobServiceWorker
+
+# Silicon
+- type: playTimeTracker
+  id: GSJobBorg
+
+- type: playTimeTracker
+  id: GSJobStationAi

@@ -1,0 +1,43 @@
+- type: job
+  id: GSSecurityOfficer
+  name: job-name-security
+  description: job-description-security
+  playTimeTracker: GSJobSecurityOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: GSSecurity
+      time: 4h
+  startingGear: GSSecurityOfficerGear
+  icon: "JobIconSecurityOfficer"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: GSSecurityOfficerGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
+
+- type: chameleonOutfit
+  id: GSSecurityOfficerChameleonOutfit
+  job: GSSecurityOfficer
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatBeretSecurity
+    mask: ClothingMaskGasSecurity
+    neck: Dinkystar
+    gloves: ClothingHandsGlovesColorBlack

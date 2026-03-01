@@ -1,0 +1,36 @@
+﻿- type: job
+  id: GSMedicalIntern
+  name: job-name-intern
+  description: job-description-intern
+  playTimeTracker: GSJobMedicalIntern
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: GSMedical
+      time: 10h
+      inverted: true # stop playing intern if you're good at med!
+  startingGear: GSMedicalInternGear
+  icon: "JobIconMedicalIntern"
+  supervisors: job-supervisors-medicine
+  canBeAntag: false
+  access:
+  - Medical
+  - Maintenance
+
+- type: startingGear
+  id: GSMedicalInternGear
+  equipment:
+    shoes: ClothingShoesColorWhite
+    id: MedicalInternPDA
+    ears: ClothingHeadsetMedical
+    pocket2: BookMedicalReferenceBook
+
+- type: chameleonOutfit
+  id: GSMedicalInternChameleonOutfit
+  job: GSMedicalIntern
+  equipment:
+    head: ClothingHeadHatBeretMedic
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterile
+    neck: ClothingNeckStethoscope
+    outerClothing: ClothingOuterCoatLabOpened
+    gloves: ClothingHandsGlovesLatex

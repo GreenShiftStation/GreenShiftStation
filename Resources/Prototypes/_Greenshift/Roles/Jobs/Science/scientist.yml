@@ -1,0 +1,34 @@
+#- type: job
+#  id: GSScientist
+#  name: job-name-scientist
+#  description: job-description-scientist
+#  playTimeTracker: GSJobScientist
+#  requirements:
+#    - !type:DepartmentTimeRequirement
+#      department: GSScience
+#      time: 2.5h
+#  startingGear: GSScientistGear
+#  icon: "JobIconScientist"
+#  supervisors: job-supervisors-rd
+#  access:
+#  - Research
+#  - Maintenance
+#
+#- type: startingGear
+#  id: GSScientistGear
+#  equipment:
+#    ears: ClothingHeadsetScience
+#  #storage:
+#    #back:
+#    #- Stuff
+#
+#- type: chameleonOutfit
+#  id: GSScientistChameleonOutfit
+#  job: GSScientist
+#  equipment:
+#    head: ClothingHeadBandSkull
+#    eyes: ClothingEyesGlassesCheapSunglasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckTieSci
+#    outerClothing: ClothingOuterCoatRnd
+#    gloves: ClothingHandsGlovesLatex

@@ -1,0 +1,39 @@
+- type: job
+  id: GSStationEngineer
+  name: job-name-engineer
+  description: job-description-engineer
+  playTimeTracker: GSJobStationEngineer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: GSEngineering
+      time: 2.5h
+  startingGear: GSStationEngineerGear
+  icon: "JobIconStationEngineer"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  extendedAccess:
+  - Atmospherics
+
+- type: startingGear
+  id: GSStationEngineerGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+  #storage:
+    #back:
+    #- Stuff
+
+- type: chameleonOutfit
+  id: GSStationEngineerChameleonOutfit
+  job: GSStationEngineer
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+    mask: ClothingMaskBreath
+    neck: ClothingNeckScarfStripedOrange
+    outerClothing: ClothingOuterWinterEngi
+    gloves: ClothingHandsGlovesColorYellow
+    shoes: ClothingShoesBootsMag

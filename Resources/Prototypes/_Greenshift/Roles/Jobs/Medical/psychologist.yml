@@ -1,0 +1,35 @@
+- type: job
+  id: GSPsychologist
+  name: job-name-psychologist
+  description: job-description-psychologist
+  playTimeTracker: GSJobPsychologist
+  startingGear: PsychologistGear
+  icon: "JobIconPsychologist"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+
+- type: startingGear
+  id: GSPsychologistGear
+  equipment:
+    shoes: ClothingShoesLeather
+    id: PsychologistPDA
+    ears: ClothingHeadsetMedical
+  storage:
+    back:
+    - RubberStampPsychologist
+
+- type: chameleonOutfit
+  id: GSPsychologistChameleonOutfit
+  job: GSPsychologist
+  equipment:
+    head: ClothingHeadHatBeretMedic
+    eyes: ClothingEyesHudMedical
+    mask: ClothingMaskSterile
+    outerClothing: ClothingOuterCoatLab
+    neck: ClothingNeckStethoscope
+    belt: ClothingBeltMedical
+    gloves: ClothingHandsGlovesLatex

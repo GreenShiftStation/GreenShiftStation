@@ -1,0 +1,40 @@
+- type: job
+  id: GSLawyer
+  name: job-name-lawyer
+  description: job-description-lawyer
+  playTimeTracker: GSJobLawyer
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 2.5h
+  startingGear: GSLawyerGear
+  icon: "JobIconLawyer"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Lawyer
+  - Brig
+  - Maintenance
+
+- type: startingGear
+  id: GSLawyerGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: LawyerPDA
+    ears: ClothingHeadsetSecurity
+  inhand:
+    - BriefcaseBrownFilled
+  storage:
+    back:
+    - RubberStampLawyer
+    - BookSpaceLaw
+
+- type: chameleonOutfit
+  id: GSLawyerChameleonOutfit
+  job: GSLawyer
+  equipment:
+    head: ClothingHeadHatBowlerHat
+    eyes: ClothingEyesGlassesCheapSunglasses
+    mask: ClothingMaskBreath
+    neck: ClothingNeckLawyerbadge
+    outerClothing: ClothingOuterWinterColorBlack
+    gloves: ClothingHandsGlovesColorBlack

@@ -1,0 +1,46 @@
+- type: job
+  id: GSDetective
+  name: job-name-detective
+  description: job-description-detective
+  playTimeTracker: GSJobDetective
+  requirements:
+  - !type:RoleTimeRequirement
+    role: GSJobSecurityOfficer
+    time: 5h
+  startingGear: GSDetectiveGear
+  icon: "JobIconDetective"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Detective
+  - Cryogenics
+  - External
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: GSDetectiveGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    id: DetectivePDA
+    ears: ClothingHeadsetSecurity
+    belt: ClothingBeltHolsterFilled
+  storage:
+    back:
+    - Flash
+    - ForensicPad
+    - ForensicScanner
+
+- type: chameleonOutfit
+  id: GSDetectiveChameleonOutfit
+  job: GSDetective
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatFedoraBrown
+    mask: ClothingMaskGasSecurity
+    neck: ClothingNeckTieDet
+    gloves: ClothingHandsGlovesForensic

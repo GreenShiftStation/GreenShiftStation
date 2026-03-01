@@ -1,0 +1,51 @@
+#- type: job
+#  id: GSResearchDirector
+#  name: job-name-rd
+#  description: job-description-rd
+#  playTimeTracker: GSJobResearchDirector
+#  requirements:
+#  - !type:RoleTimeRequirement
+#    role: GSJobScientist
+#    time: 5h
+#  - !type:DepartmentTimeRequirement
+#    department: GSScience
+#    time: 10h
+#  weight: 10
+#  startingGear: ResearchDirectorGear
+#  icon: "JobIconResearchDirector"
+#  supervisors: job-supervisors-captain
+#  canBeAntag: false
+#  access:
+#  - Research
+#  - Command
+#  - Maintenance
+#  - ResearchDirector
+#  - Brig
+#  - Cryogenics
+#  special:
+#  - !type:AddImplantSpecial
+#    implants: [ MindShieldImplant ]
+#  - !type:AddComponentSpecial
+#    components:
+#      - type: CommandStaff
+#
+#- type: startingGear
+#  id: GSResearchDirectorGear
+#  equipment:
+#    id: RnDPDA
+#    ears: ClothingHeadsetRD
+#  storage:
+#    back:
+#    - Flash
+#
+#- type: chameleonOutfit
+#  id: GSResearchDirectorChameleonOutfit
+#  job: GSResearchDirector
+#  hasMindShield: true
+#  equipment:
+#    head: ClothingHeadHatBeretRND
+#    eyes: ClothingEyesGlasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckCloakRd
+#    outerClothing: ClothingOuterCoatRD
+#    gloves: ClothingHandsGlovesColorPurple

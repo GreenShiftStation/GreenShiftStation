@@ -1,0 +1,58 @@
+- type: job
+  id: GSQuartermaster
+  name: job-name-qm
+  description: job-description-qm
+  playTimeTracker: GSJobQuartermaster
+  requirements:
+    - !type:RoleTimeRequirement
+      role: GSJobCargoTechnician
+      time: 5h
+    - !type:RoleTimeRequirement
+      role: GSJobSalvageSpecialist
+      time: 2.5h
+    - !type:DepartmentTimeRequirement
+      department: GSCargo
+      time: 10h
+  weight: 10
+  startingGear: GSQuartermasterGear
+  icon: "JobIconQuarterMaster"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Cargo
+  - Salvage
+  - Quartermaster
+  - Maintenance
+  - External
+  - Command
+  - Brig
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: GSQuartermasterGear
+  equipment:
+    id: QuartermasterPDA
+    ears: ClothingHeadsetQM
+    belt: BoxFolderClipboardThreePapers
+    pocket1: AppraisalTool
+  storage:
+    back:
+    - Flash
+
+- type: chameleonOutfit
+  id: GSQuartermasterChameleonOutfit
+  job: GSQuartermaster
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatQMsoft
+    eyes: ClothingEyesGlassesSunglasses
+    mask: ClothingMaskBreath
+    outerClothing: ClothingOuterWinterQM
+    neck: ClothingNeckCloakQm
+    gloves: ClothingHandsKnuckleDustersQM

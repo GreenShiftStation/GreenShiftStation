@@ -1,0 +1,39 @@
+﻿#- type: job
+#  id: GSResearchAssistant
+#  name: job-name-research-assistant
+#  description: job-description-research-assistant
+#  playTimeTracker: GSJobResearchAssistant
+#  requirements:
+#    - !type:DepartmentTimeRequirement
+#      department: GSScience
+#      time: 10h
+#      inverted: true # stop playing intern if you're good at science!
+#  startingGear: GSResearchAssistantGear
+#  icon: "JobIconResearchAssistant"
+#  supervisors: job-supervisors-science
+#  canBeAntag: false
+#  access:
+#  - Research
+#  - Maintenance
+#
+#- type: startingGear
+#  id: GSResearchAssistantGear
+#  equipment:
+#    shoes: ClothingShoesColorWhite
+#    id: ResearchAssistantPDA
+#    ears: ClothingHeadsetScience
+#    pocket2: BookScientistsGuidebook
+#  #storage:
+#    #back:
+#    #- Stuff
+#
+#- type: chameleonOutfit
+#  id: GSResearchAssistantChameleonOutfit
+#  job: GSResearchAssistant
+#  equipment:
+#    head: ClothingHeadHatCardborg
+#    eyes: ClothingEyesGlasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckScarfStripedPurple
+#    outerClothing: ClothingOuterCoatLab
+#    gloves: ClothingHandsGlovesLatex

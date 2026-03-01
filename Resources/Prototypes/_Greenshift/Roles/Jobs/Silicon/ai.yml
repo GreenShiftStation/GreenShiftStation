@@ -1,0 +1,16 @@
+- type: job
+  id: GSStationAi
+  name: job-name-station-ai
+  description: job-description-station-ai
+  playTimeTracker: GSJobStationAi
+  requirements:
+  - !type:RoleTimeRequirement
+    role: GSJobBorg
+    time: 5h
+  weight: 10
+  canBeAntag: false
+  icon: JobIconStationAi
+  supervisors: job-supervisors-rd
+  jobEntity: StationAiBrain
+  jobPreviewEntity: PlayerStationAiPreview
+  applyTraits: false

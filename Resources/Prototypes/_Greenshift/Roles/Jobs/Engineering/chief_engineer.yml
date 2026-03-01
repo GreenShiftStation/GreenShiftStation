@@ -1,0 +1,58 @@
+- type: job
+  id: GSChiefEngineer
+  name: job-name-ce
+  description: job-description-ce
+  playTimeTracker: GSJobChiefEngineer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: GSJobAtmosphericTechnician
+      time: 2.5h
+    - !type:RoleTimeRequirement
+      role: GSJobStationEngineer
+      time: 5h
+    - !type:DepartmentTimeRequirement
+      department: GSEngineering
+      time: 10h
+  weight: 10
+  startingGear: ChiefEngineerGear
+  icon: "JobIconChiefEngineer"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Maintenance
+  - Engineering
+  - Command
+  - External
+  - ChiefEngineer
+  - Atmospherics
+  - Brig
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: GSChiefEngineerGear
+  equipment:
+    id: CEPDA
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetCE
+    belt: ClothingBeltUtilityEngineering
+  storage:
+    back:
+    - Flash
+
+- type: chameleonOutfit
+  id: GSChiefEngineerChameleonOutfit
+  job: GSChiefEngineer
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatBeretEngineering
+    mask: ClothingMaskBreath
+    neck: ClothingNeckCloakCe
+    outerClothing: ClothingOuterWinterCE
+    gloves: ClothingHandsGlovesColorYellow
+    shoes: ClothingShoesBootsMagAdv

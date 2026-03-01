@@ -1,0 +1,81 @@
+- type: job
+  id: GSHeadOfPersonnel
+  name: job-name-hop
+  description: job-description-hop
+  playTimeTracker: GSJobHeadOfPersonnel
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: GSEngineering
+      time: 2.5h
+    - !type:DepartmentTimeRequirement
+      department: GSMedical
+      time: 2.5h
+    - !type:DepartmentTimeRequirement
+      department: GSSecurity
+      time: 2.5h
+    - !type:DepartmentTimeRequirement
+      department: GSCommand
+      time: 2.5h
+  weight: 20
+  startingGear: GSHoPGear
+  icon: "JobIconHeadOfPersonnel"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Command
+  - HeadOfPersonnel
+  - Bar
+  - Service
+  - Maintenance
+  - Janitor
+  - Theatre
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - External
+  - Cryogenics
+  # I mean they'll give themselves the rest of the access levels *anyways*.
+  # As of 15/03/23 they can't do that so here's MOST of the rest of the access levels.
+  # Head level access that isn't their own was deliberately left out, get AA from the captain instead.
+  - Chemistry
+  - Engineering
+  - Research
+  - Detective
+  - Salvage
+  - Security
+  - Brig
+  - Lawyer
+  - Cargo
+  - Atmospherics
+  - Medical
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: GSHoPGear
+  equipment:
+    shoes: ClothingShoesColorBrown
+    id: HoPPDA
+    gloves: ClothingHandsGlovesHop
+    ears: ClothingHeadsetAltCommand
+    belt: BoxFolderClipboardThreePapers
+    eyes: ClothingEyesHudCommand
+  storage:
+    back:
+    - Flash
+
+- type: chameleonOutfit
+  id: GSHeadOfPersonnelChameleonOutfit
+  job: GSHeadOfPersonnel
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatHopcap
+    eyes: ClothingEyesHudCommand
+    mask: ClothingMaskNeckGaiterRed
+    neck: ClothingNeckCloakHop
+    outerClothing: ClothingOuterWinterHoP
+

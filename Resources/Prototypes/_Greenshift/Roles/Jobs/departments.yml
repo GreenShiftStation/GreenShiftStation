@@ -1,0 +1,102 @@
+- type: department
+  id: GSCargo
+  name: department-Cargo
+  description: department-Cargo-description
+  color: "#A46106"
+  roles:
+  - GSCargoTechnician
+  - GSQuartermaster
+  - GSSalvageSpecialist
+
+- type: department
+  id: GSService
+  name: department-Civilian
+  description: department-Civilian-description
+  color: "#9FED58"
+  weight: -10
+  roles:
+  - GSBartender
+  - GSBotanist
+  - GSChaplain
+  - GSChef
+  - GSClown
+  - GSHeadOfPersonnel
+  - GSJanitor
+  - GSLawyer
+  - GSLibrarian
+  - GSMime
+  - GSMusician
+  - GSPassenger
+  - GSReporter
+  - GSServiceWorker
+
+- type: department
+  id: GSCommand
+  name: department-Command
+  description: department-Command-description
+  color: "#334E6D"
+  roles:
+  - GSCaptain
+  - GSChiefEngineer
+  - GSChiefMedicalOfficer
+  - GSHeadOfPersonnel
+  - GSHeadOfSecurity
+  - GSQuartermaster
+  primary: false
+  weight: 100
+
+- type: department
+  id: GSEngineering
+  name: department-Engineering
+  description: department-Engineering-description
+  color: "#EFB341"
+  roles:
+  - GSAtmosphericTechnician
+  - GSChiefEngineer
+  - GSStationEngineer
+  - GSTechnicalAssistant
+
+- type: department
+  id: GSMedical
+  name: department-Medical
+  description: department-Medical-description
+  color: "#52B4E9"
+  roles:
+  - GSChemist
+  - GSChiefMedicalOfficer
+  - GSMedicalDoctor
+  - GSMedicalIntern
+  - GSPsychologist
+  - GSParamedic
+
+- type: department
+  id: GSSecurity
+  name: department-Security
+  description: department-Security-description
+  color: "#DE3A3A"
+  weight: 20
+  roles:
+  - GSHeadOfSecurity
+  - GSSecurityCadet
+  - GSSecurityOfficer
+  - GSDetective
+  - GSWarden
+
+#- type: department
+#  id: Science
+#  name: department-Science
+#  description: department-Science-description
+#  color: "#D381C9"
+#  roles:
+#  - GSResearchDirector
+#  - GSScientist
+#  - GSResearchAssistant
+
+- type: department
+  id: GSSilicon
+  name: department-Silicon
+  description: department-Silicon-description
+  color: "#D381C9"
+  roles:
+  - GSBorg
+  - GSStationAi
