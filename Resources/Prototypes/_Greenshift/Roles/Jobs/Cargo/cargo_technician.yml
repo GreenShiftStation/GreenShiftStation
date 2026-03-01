@@ -26,7 +26,7 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: CGCargoTechnicianChameleonOutfit
+  id: GSCargoTechnicianChameleonOutfit
   job: GSCargoTechnician
   equipment:
     head: ClothingHeadHatCargosoft
