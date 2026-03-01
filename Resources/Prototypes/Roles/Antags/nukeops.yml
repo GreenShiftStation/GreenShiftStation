@@ -19,7 +19,7 @@
   - !type:OverallPlaytimeRequirement
     time: 5h
   - !type:RoleTimeRequirement
-    role: JobChemist
+    role: GSJobChemist # GREENSHIFT - JOB PROTO
     time: 3h
   guides: [ NuclearOperatives ]
 
@@ -33,7 +33,7 @@
   - !type:OverallPlaytimeRequirement
     time: 5h
   - !type:DepartmentTimeRequirement
-    department: Security
+    department: GSSecurity # GREENSHIFT - JOB PROTOS
     time: 5h
   # should be changed to nukie playtime when thats tracked (wyci)
   guides: [ NuclearOperatives ]

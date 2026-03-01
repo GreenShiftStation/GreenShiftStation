@@ -6,7 +6,7 @@
   objective: roles-antag-mothership-core-objective
   requirements:
   - !type:RoleTimeRequirement
-    role: JobBorg
+    role: GSJobBorg # GREENSHIFT CHANGE - JOB PROTO
     time: 18000  # 5 hrs
   guides: [ Xenoborgs ]
 
@@ -24,7 +24,7 @@
   objective: roles-antag-xenoborg-objective
   requirements:
   - !type:RoleTimeRequirement
-    role: JobBorg
+    role: GSJobBorg # GREENSHIFT CHANGE - JOB PROTO
     time: 18000  # 5 hrs
   guides: [ Xenoborgs ]
 
