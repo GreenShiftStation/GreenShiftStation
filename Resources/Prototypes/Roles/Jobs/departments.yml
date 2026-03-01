@@ -7,6 +7,7 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  editorHidden: true # GREENSHIFT
 
 - type: department
   id: Civilian
@@ -15,6 +16,7 @@
   color: "#9FED58"
   weight: -10
   ignoreForDepartmentFallback: true
+  editorHidden: true # GREENSHIFT
   roles:
   - Bartender
   - Botanist
@@ -75,6 +77,7 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
+  editorHidden: true # GREENSHIFT
   primary: false
   weight: 100
 
@@ -88,6 +91,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  editorHidden: true # GREENSHIFT
 
 - type: department
   id: Medical
@@ -101,6 +105,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  editorHidden: true # GREENSHIFT
 
 - type: department
   id: Security
@@ -114,6 +119,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  editorHidden: true # GREENSHIFT
 
 - type: department
   id: Science
@@ -124,6 +130,7 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  editorHidden: true # GREENSHIFT
 
 - type: department
   id: Silicon
@@ -133,6 +140,7 @@
   roles:
   - Borg
   - StationAi
+  editorHidden: true # GREENSHIFT
 
 - type: department
   id: Specific
@@ -146,3 +154,4 @@
   - Psychologist
   - TramDriver
   primary: false
+  editorHidden: true # GREENSHIFT
