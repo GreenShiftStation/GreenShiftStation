@@ -88,18 +88,6 @@
       - state: security_cadet
 
 - type: entity
-  id: GSSpawnPointResearchAssistant
-  parent: SpawnPointJobBase
-  name: research assistant
-  components:
-  - type: SpawnPoint
-    job_id: GSResearchAssistant
-  - type: Sprite
-    layers:
-      - state: green
-      - state: researchassistant
-
-- type: entity
   id: GSSpawnPointServiceWorker
   parent: SpawnPointJobBase
   name: service worker
@@ -385,6 +373,18 @@
 #    layers:
 #      - state: green
 #      - state: scientist
+#
+#- type: entity
+#  id: GSSpawnPointResearchAssistant
+#  parent: SpawnPointJobBase
+#  name: research assistant
+#  components:
+#  - type: SpawnPoint
+#    job_id: GSResearchAssistant
+#  - type: Sprite
+#    layers:
+#      - state: green
+#      - state: researchassistant
 
 # Security
 
