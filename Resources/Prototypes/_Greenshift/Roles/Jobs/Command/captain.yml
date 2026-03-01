@@ -5,19 +5,16 @@
   playTimeTracker: GSJobCaptain
   requirements:
     - !type:DepartmentTimeRequirement
-      department: Engineering
+      department: GSEngineering
       time: 4h
     - !type:DepartmentTimeRequirement
-      department: Medical
+      department: GSMedical
       time: 4h
     - !type:DepartmentTimeRequirement
-      department: Science
+      department: GSSecurity
       time: 4h
     - !type:DepartmentTimeRequirement
-      department: Security
-      time: 4h
-    - !type:DepartmentTimeRequirement
-      department: Command
+      department: GSCommand
       time: 4h
   weight: 20
   startingGear: GSCaptainGear
