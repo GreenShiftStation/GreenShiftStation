@@ -1,6 +1,6 @@
 # Command
 - type: roleLoadout
-  id: GSJobCaptain
+  id: JobGSCaptain
   groups:
   - GSCaptainHead
   - GSCaptainNeck
@@ -13,7 +13,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobHeadOfPersonnel
+  id: JobGSHeadOfPersonnel
   groups:
   - GSGroupTankHarness
   - GSHoPHead
@@ -29,18 +29,18 @@
 
 # Silicons
 - type: roleLoadout
-  id: GSJobBorg
+  id: JobGSBorg
   nameDataset: NamesBorg
   canCustomizeName: true
 
 - type: roleLoadout
-  id: GSJobStationAi
+  id: JobGSStationAi
   nameDataset: NamesAI
   canCustomizeName: true
 
 # Civilian
 - type: roleLoadout
-  id: GSJobPassenger
+  id: JobGSPassenger
   groups:
   - GSGroupTankHarness
   - GSPassengerJumpsuit
@@ -57,7 +57,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobBartender
+  id: JobGSBartender
   groups:
   - GSGroupTankHarness
   - GSBartenderHead
@@ -71,7 +71,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobServiceWorker
+  id: JobGSServiceWorker
   groups:
   - GSGroupTankHarness
   - GSBartenderJumpsuit
@@ -83,7 +83,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobChef
+  id: JobGSChef
   groups:
   - GSGroupTankHarness
   - GSChefHead
@@ -98,7 +98,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobLibrarian
+  id: JobGSLibrarian
   groups:
   - GSGroupTankHarness
   - GSLibrarianJumpsuit
@@ -110,7 +110,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobLawyer
+  id: JobGSLawyer
   groups:
   - GSGroupTankHarness
   - GSLawyerNeck
@@ -123,7 +123,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobChaplain
+  id: JobGSChaplain
   groups:
   - GSGroupTankHarness
   - GSChaplainHead
@@ -140,7 +140,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobJanitor
+  id: JobGSJanitor
   groups:
   - GSGroupTankHarness
   - GSJanitorHead
@@ -155,7 +155,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobBotanist
+  id: JobGSBotanist
   groups:
   - GSGroupTankHarness
   - GSBotanistHead
@@ -169,7 +169,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobClown
+  id: JobGSClown
   canCustomizeName: true
   groups:
   - GSGroupTankHarness
@@ -184,7 +184,7 @@
   - GSClownJobTrinkets
 
 - type: roleLoadout
-  id: GSJobMime
+  id: JobGSMime
   canCustomizeName: true
   groups:
   - GSGroupTankHarness
@@ -200,7 +200,7 @@
   #- GSMimeJobTrinkets
 
 - type: roleLoadout
-  id: GSJobMusician
+  id: JobGSMusician
   canCustomizeName: true
   groups:
   - GSGroupTankHarness
@@ -216,7 +216,7 @@
 
 # Cargo
 - type: roleLoadout
-  id: GSJobQuartermaster
+  id: JobGSQuartermaster
   groups:
   - GSGroupTankHarness
   - GSQuartermasterHead
@@ -232,7 +232,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobCargoTechnician
+  id: JobGSCargoTechnician
   groups:
   - GSGroupTankHarness
   - GSCargoTechnicianHead
@@ -248,7 +248,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobSalvageSpecialist
+  id: JobGSSalvageSpecialist
   groups:
   - GSGroupTankHarness
   - GSSalvageSpecialistBackpack
@@ -262,7 +262,7 @@
 
 # Engineering
 - type: roleLoadout
-  id: GSJobChiefEngineer
+  id: JobGSChiefEngineer
   groups:
   - GSGroupTankHarness
   - GSChiefEngineerHead
@@ -277,7 +277,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobTechnicalAssistant
+  id: JobGSTechnicalAssistant
   groups:
   - GSGroupTankHarness
   - GSTechnicalAssistantJumpsuit
@@ -288,7 +288,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobStationEngineer
+  id: JobGSStationEngineer
   groups:
   - GSGroupTankHarness
   - GSStationEngineerHead
@@ -303,7 +303,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobAtmosphericTechnician
+  id: JobGSAtmosphericTechnician
   groups:
   - GSGroupTankHarness
   - GSAtmosphericTechnicianJumpsuit
@@ -317,7 +317,7 @@
 
 # Science
 #- type: roleLoadout
-#  id: GSJobResearchDirector
+#  id: JobGSResearchDirector
 #  groups:
 #  - GSGroupTankHarness
 #  - GSResearchDirectorHead
@@ -334,7 +334,7 @@
 #  - GSGroupSpeciesBreathTool
 #
 #- type: roleLoadout
-#  id: GSJobScientist
+#  id: JobGSScientist
 #  groups:
 #  - GSGroupTankHarness
 #  - GSScientistHead
@@ -352,7 +352,7 @@
 #  - GSGroupSpeciesBreathTool
 #
 #- type: roleLoadout
-#  id: GSJobResearchAssistant
+#  id: JobGSResearchAssistant
 #  groups:
 #  - GSGroupTankHarness
 #  - GSResearchAssistantJumpsuit
@@ -365,7 +365,7 @@
 
 # Security
 - type: roleLoadout
-  id: GSJobHeadOfSecurity
+  id: JobGSHeadOfSecurity
   groups:
   - GSHeadofSecurityHead
   - GSHeadofSecurityNeck
@@ -380,7 +380,7 @@
   - GSGroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: GSJobWarden
+  id: JobGSWarden
   groups:
   - GSWardenHead
   - GSWardenJumpsuit
@@ -394,7 +394,7 @@
   - GSGroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: GSJobSecurityOfficer
+  id: JobGSSecurityOfficer
   groups:
   - GSSecurityHead
   - GSSecurityJumpsuit
@@ -409,7 +409,7 @@
   - GSGroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: GSJobDetective
+  id: JobGSDetective
   groups:
   - GSDetectiveHead
   - GSDetectiveNeck
@@ -423,7 +423,7 @@
   - GSGroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: GSJobSecurityCadet
+  id: JobGSSecurityCadet
   groups:
   - GSSecurityCadetJumpsuit
   - GSSecurityBackpack
@@ -434,7 +434,7 @@
 
 # Wildcards
 - type: roleLoadout
-  id: GSJobReporter
+  id: JobGSReporter
   groups:
   - GSGroupTankHarness
   - GSReporterJumpsuit
@@ -446,7 +446,7 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: GSJobPsychologist
+  id: JobGSPsychologist
   groups:
   - GSGroupTankHarness
   - GSPsychologistJumpsuit

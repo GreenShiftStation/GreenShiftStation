@@ -1,7 +1,7 @@
 ## Role Loadouts
 
 - type: roleLoadout
-  id: GSJobChiefMedicalOfficer
+  id: JobGSChiefMedicalOfficer
   groups:
   - GroupTankHarness
   - ChiefMedicalOfficerHead
@@ -18,7 +18,7 @@
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
-  id: GSJobMedicalDoctor
+  id: JobGSMedicalDoctor
   groups:
   - GroupTankHarness
   - MedicalDoctorHead
@@ -35,7 +35,7 @@
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
-  id: GSJobMedicalIntern
+  id: JobGSMedicalIntern
   groups:
   - GroupTankHarness
   - MedicalInternJumpsuit
@@ -47,7 +47,7 @@
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
-  id: GSJobChemist
+  id: JobGSChemist
   groups:
   - GroupTankHarness
   - MedicalMask
@@ -62,7 +62,7 @@
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
-  id: GSJobParamedic
+  id: JobGSParamedic
   groups:
   - GroupTankHarness
   - ParamedicHead
