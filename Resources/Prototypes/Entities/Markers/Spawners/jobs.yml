@@ -52,6 +52,7 @@
 - type: entity
   id: SpawnPointQuartermaster
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: quartermaster
   components:
   - type: SpawnPoint
@@ -65,6 +66,7 @@
 - type: entity
   id: SpawnPointCargoTechnician
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: cargotechnician
   components:
   - type: SpawnPoint
@@ -77,6 +79,7 @@
 - type: entity
   id: SpawnPointSalvageSpecialist
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: salvagespecialist
   components:
   - type: SpawnPoint
@@ -91,6 +94,7 @@
 - type: entity
   id: SpawnPointPassenger
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: passenger
   components:
   - type: SpawnPoint
@@ -103,6 +107,7 @@
 - type: entity
   id: SpawnPointTechnicalAssistant
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: technical assistant
   components:
   - type: SpawnPoint
@@ -115,6 +120,7 @@
 - type: entity
   id: SpawnPointMedicalIntern
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: medical intern
   components:
   - type: SpawnPoint
@@ -127,6 +133,7 @@
 - type: entity
   id: SpawnPointSecurityCadet
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: security cadet
   components:
   - type: SpawnPoint
@@ -139,6 +146,7 @@
 - type: entity
   id: SpawnPointResearchAssistant
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: research assistant
   components:
   - type: SpawnPoint
@@ -151,6 +159,7 @@
 - type: entity
   id: SpawnPointServiceWorker
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: service worker
   components:
   - type: SpawnPoint
@@ -163,6 +172,7 @@
 - type: entity
   id: SpawnPointBartender
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: bartender
   components:
   - type: SpawnPoint
@@ -175,6 +185,7 @@
 - type: entity
   id: SpawnPointChef
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: chef
   components:
   - type: SpawnPoint
@@ -187,6 +198,7 @@
 - type: entity
   id: SpawnPointBotanist
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: botanist
   components:
   - type: SpawnPoint
@@ -199,6 +211,7 @@
 - type: entity
   id: SpawnPointClown
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: clown
   components:
   - type: SpawnPoint
@@ -211,6 +224,7 @@
 - type: entity
   id: SpawnPointMime
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: mime
   components:
   - type: SpawnPoint
@@ -223,6 +237,7 @@
 - type: entity
   id: SpawnPointChaplain
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: chaplain
   components:
   - type: SpawnPoint
@@ -235,6 +250,7 @@
 - type: entity
   id: SpawnPointLibrarian
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: librarian
   components:
   - type: SpawnPoint
@@ -247,6 +263,7 @@
 - type: entity
   id: SpawnPointLawyer
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: lawyer
   components:
   - type: SpawnPoint
@@ -259,6 +276,7 @@
 - type: entity
   id: SpawnPointJanitor
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: janitor
   components:
   - type: SpawnPoint
@@ -271,6 +289,7 @@
 - type: entity
   id: SpawnPointMusician
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: musician
   components:
   - type: SpawnPoint
@@ -283,6 +302,7 @@
 - type: entity
   id: SpawnPointBorg
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: cyborg
   components:
   - type: SpawnPoint
@@ -300,6 +320,7 @@
 - type: entity
   id: SpawnPointCaptain
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: captain
   components:
   - type: SpawnPoint
@@ -312,6 +333,7 @@
 - type: entity
   id: SpawnPointHeadOfPersonnel
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: headofpersonnel
   components:
   - type: SpawnPoint
@@ -326,6 +348,7 @@
 - type: entity
   id: SpawnPointChiefEngineer
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: chiefengineer
   components:
   - type: SpawnPoint
@@ -338,6 +361,7 @@
 - type: entity
   id: SpawnPointStationEngineer
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: stationengineer
   components:
   - type: SpawnPoint
@@ -350,6 +374,7 @@
 - type: entity
   id: SpawnPointAtmos
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: atmospherics
   components:
   - type: SpawnPoint
@@ -364,6 +389,7 @@
 - type: entity
   id: SpawnPointChiefMedicalOfficer
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: chiefmedicalofficer
   components:
   - type: SpawnPoint
@@ -376,6 +402,7 @@
 - type: entity
   id: SpawnPointMedicalDoctor
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: medicaldoctor
   components:
   - type: SpawnPoint
@@ -388,6 +415,7 @@
 - type: entity
   id: SpawnPointParamedic
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: paramedic
   components:
   - type: SpawnPoint
@@ -400,6 +428,7 @@
 - type: entity
   id: SpawnPointChemist
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: chemist
   components:
   - type: SpawnPoint
@@ -414,6 +443,7 @@
 - type: entity
   id: SpawnPointResearchDirector
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: researchdirector
   components:
   - type: SpawnPoint
@@ -426,6 +456,7 @@
 - type: entity
   id: SpawnPointScientist
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: scientist
   components:
   - type: SpawnPoint
@@ -440,6 +471,7 @@
 - type: entity
   id: SpawnPointHeadOfSecurity
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: headofsecurity
   components:
   - type: SpawnPoint
@@ -452,6 +484,7 @@
 - type: entity
   id: SpawnPointWarden
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: warden
   components:
   - type: SpawnPoint
@@ -464,6 +497,7 @@
 - type: entity
   id: SpawnPointSecurityOfficer
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: securityofficer
   components:
   - type: SpawnPoint
@@ -476,6 +510,7 @@
 - type: entity
   id: SpawnPointDetective
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: detective
   components:
   - type: SpawnPoint
@@ -488,6 +523,7 @@
 - type: entity
   id: SpawnPointBrigmedic
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: brigmedic
   components:
   - type: Sprite
@@ -500,6 +536,7 @@
 - type: entity
   id: SpawnPointERTLeader
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: ERTleader
   components:
   - type: SpawnPoint
@@ -512,6 +549,7 @@
 - type: entity
   id: SpawnPointERTChaplain
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: ERTchaplain
   components:
   - type: SpawnPoint
@@ -524,6 +562,7 @@
 - type: entity
   id: SpawnPointERTEngineer
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: ERTengineer
   components:
   - type: SpawnPoint
@@ -536,6 +575,7 @@
 - type: entity
   id: SpawnPointERTMedical
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: ERTmedical
   components:
   - type: SpawnPoint
@@ -548,6 +588,7 @@
 - type: entity
   id: SpawnPointERTSecurity
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: ERTsecurity
   components:
   - type: SpawnPoint
@@ -560,6 +601,7 @@
 - type: entity
   id: SpawnPointERTJanitor
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: ERTjanitor
   components:
   - type: SpawnPoint
@@ -574,6 +616,7 @@
 - type: entity
   id: SpawnPointReporter
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: reporter
   components:
   - type: SpawnPoint
@@ -586,6 +629,7 @@
 - type: entity
   id: SpawnPointPsychologist
   parent: SpawnPointJobBase
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   name: psychologist
   components:
   - type: SpawnPoint
