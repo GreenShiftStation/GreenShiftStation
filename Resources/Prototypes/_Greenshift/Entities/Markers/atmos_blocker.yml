@@ -3,7 +3,7 @@
   id: GSAtmosFixAirHallMarker
   name: Atmos Fix Air Hall Marker
   suffix: GS, H2O
-  description: "Oxygen (22%) Nitrogen (62%) Water Vapor (16%) @ gas miner pressure, T20C"
+  description: "Oxygen (22%) Nitrogen (62%) Water Vapor (16%) @ standard pressure, T20C"
   components:
   - type: Sprite
     layers:
