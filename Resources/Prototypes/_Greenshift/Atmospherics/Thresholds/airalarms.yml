@@ -1,0 +1,6 @@
+- type: alarmThreshold
+  id: GShallWaterVapor #default is 16% - that seems fine on the lower end. no reason to warn as a lack of oxy will be the concern there.
+  upperBound: !type:AlarmThresholdSetting
+    threshold: .25
+  lowerBound: !type:AlarmThresholdSetting
+    threshold: .15
