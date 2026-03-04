@@ -69,7 +69,7 @@ public sealed partial class AtmosphereSystem
     /// <remarks>Please be responsible with this method. Used only by tests and fixgridatmos.</remarks>
     public void RebuildGridAtmosphere(Entity<GridAtmosphereComponent, MapGridComponent> ent)
     {
-        var mixtures = new GasMixture[9];
+        var mixtures = new GasMixture[10]; // GREENSHIFT - +1 gas mix
         for (var i = 0; i < mixtures.Length; i++)
         {
             mixtures[i] = new GasMixture(Atmospherics.CellVolume) { Temperature = Atmospherics.T20C };
@@ -106,6 +106,13 @@ public sealed partial class AtmosphereSystem
         // 8: Air (GM)
         mixtures[8].AdjustMoles(Gas.Oxygen, Atmospherics.OxygenMolesGasMiner);
         mixtures[8].AdjustMoles(Gas.Nitrogen, Atmospherics.NitrogenMolesGasMiner);
+
+        // GREENSHIFT START
+        // 9: Hallway Air (Oxygen, Nitrogen, Water Vapor)
+        mixtures[9].AdjustMoles(Gas.Oxygen, Atmospherics.GSOxygenMolesHallStandard);
+        mixtures[9].AdjustMoles(Gas.Nitrogen, Atmospherics.GSNitrogenMolesHallStandard);
+        mixtures[9].AdjustMoles(Gas.WaterVapor, Atmospherics.GSWaterVaporMolesHallStandard);
+        // GREENSHIFT END
 
 
         // Force Invalidate & update air on all tiles
