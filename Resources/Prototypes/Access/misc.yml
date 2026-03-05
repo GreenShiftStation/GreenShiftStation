@@ -39,4 +39,5 @@
 - type: accessGroup
   id: General
   tags:
+  - Common # GreenShift
   - Maintenance
