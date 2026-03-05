@@ -7,6 +7,7 @@
   icon: "JobIconClown"
   supervisors: job-supervisors-hop
   access:
+  - Common
   - Theatre
   - Maintenance
   special:

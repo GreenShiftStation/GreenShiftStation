@@ -10,6 +10,7 @@
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop
   access:
+  - Common
   - Service
   - Lawyer
   - Brig

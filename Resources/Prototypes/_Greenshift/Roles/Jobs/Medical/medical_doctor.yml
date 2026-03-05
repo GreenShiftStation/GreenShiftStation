@@ -11,6 +11,7 @@
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-cmo
   access:
+  - Common
   - Medical
   - Maintenance
   extendedAccess:

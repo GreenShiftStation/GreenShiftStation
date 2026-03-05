@@ -23,6 +23,7 @@
   canBeAntag: false
   access:
   - Command
+  - Common
   - HeadOfPersonnel
   - Bar
   - Service

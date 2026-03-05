@@ -11,6 +11,7 @@
   icon: "JobIconStationEngineer"
   supervisors: job-supervisors-ce
   access:
+  - Common
   - Maintenance
   - Engineering
   - External

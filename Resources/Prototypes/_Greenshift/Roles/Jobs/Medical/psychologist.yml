@@ -7,6 +7,7 @@
   icon: "JobIconPsychologist"
   supervisors: job-supervisors-cmo
   access:
+  - Common
   - Medical
   - Maintenance
   extendedAccess:

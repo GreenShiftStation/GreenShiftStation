@@ -15,6 +15,7 @@
   supervisors: job-supervisors-engineering
   canBeAntag: false
   access:
+  - Common
   - Maintenance
   - Engineering
   - External

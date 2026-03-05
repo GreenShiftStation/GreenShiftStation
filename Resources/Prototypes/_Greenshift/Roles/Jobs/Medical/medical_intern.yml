@@ -13,6 +13,7 @@
   supervisors: job-supervisors-medicine
   canBeAntag: false
   access:
+  - Common
   - Medical
   - Maintenance
 

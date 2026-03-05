@@ -15,6 +15,7 @@
   supervisors: job-supervisors-security
   canBeAntag: false
   access:
+  - Common
   - Security
   - Brig
   - Maintenance

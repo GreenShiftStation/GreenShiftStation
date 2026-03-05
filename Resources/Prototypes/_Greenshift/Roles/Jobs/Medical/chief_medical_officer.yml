@@ -23,6 +23,7 @@
   access:
   - Medical
   - Command
+  - Common
   - Maintenance
   - Chemistry
   - ChiefMedicalOfficer

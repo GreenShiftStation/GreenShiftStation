@@ -11,6 +11,7 @@
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo
   access:
+  - Common
   - Medical
   - Chemistry
   - Maintenance

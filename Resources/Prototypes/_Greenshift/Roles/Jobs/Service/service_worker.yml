@@ -11,6 +11,7 @@
   icon: "JobIconServiceWorker"
   supervisors: job-supervisors-service
   access:
+  - Common
   - Service
   - Maintenance
   - Bar

@@ -12,6 +12,7 @@
   supervisors: job-supervisors-qm
   access:
   - Cargo
+  - Common
   - Salvage
   - Maintenance
   - External
