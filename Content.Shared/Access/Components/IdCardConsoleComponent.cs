@@ -54,6 +54,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "ChiefEngineer",
         "ChiefMedicalOfficer",
         "Command",
+        "Common", // GreenShift
         "Cryogenics",
         "Engineering",
         "External",
