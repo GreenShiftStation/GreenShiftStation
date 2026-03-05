@@ -1,0 +1,19 @@
+# Regular Airlocks
+- type: entity
+  parent: Airlock
+  id: GSAirlockCommonLocked
+  suffix: Common, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ GSDoorElectronicsCommon ]
+
+# Glass Airlocks
+- type: entity
+  parent: AirlockGlass
+  id: GSAirlockCommonGlassLocked
+  suffix: Common, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ GSDoorElectronicsCommon ]
