@@ -73,6 +73,7 @@
 
 - type: chameleonOutfit
   id: HeadOfPersonnelChameleonOutfit
+  abstract: true # GREENSHIFT
   job: HeadOfPersonnel
   hasMindShield: true
   equipment:

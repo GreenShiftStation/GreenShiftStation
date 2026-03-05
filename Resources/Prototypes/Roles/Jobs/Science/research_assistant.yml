@@ -28,6 +28,7 @@
 
 - type: chameleonOutfit
   id: ResearchAssistantChameleonOutfit
+  abstract: true # GREENSHIFT
   job: ResearchAssistant
   equipment:
     head: ClothingHeadHatCardborg

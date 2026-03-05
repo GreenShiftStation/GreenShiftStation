@@ -49,6 +49,7 @@
 
 - type: chameleonOutfit
   id: MimeChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Mime
   equipment:
     head: ClothingHeadHatMimesoft

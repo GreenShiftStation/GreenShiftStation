@@ -24,6 +24,7 @@
 
 - type: chameleonOutfit
   id: PsychologistChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Psychologist
   equipment:
     head: ClothingHeadHatBeretMedic

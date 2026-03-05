@@ -27,6 +27,7 @@
 
 - type: chameleonOutfit
   id: CargoTechnicianChameleonOutfit
+  abstract: true # GREENSHIFT
   job: CargoTechnician
   equipment:
     head: ClothingHeadHatCargosoft

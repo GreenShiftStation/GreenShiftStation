@@ -27,6 +27,7 @@
 
 - type: chameleonOutfit
   id: MedicalDoctorChameleonOutfit
+  abstract: true # GREENSHIFT
   job: MedicalDoctor
   equipment:
     head: ClothingHeadNurseHat

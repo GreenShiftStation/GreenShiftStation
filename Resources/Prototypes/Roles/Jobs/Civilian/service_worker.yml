@@ -30,6 +30,7 @@
 
 - type: chameleonOutfit
   id: ServiceWorkerChameleonOutfit
+  abstract: true # GREENSHIFT
   job: ServiceWorker
   equipment:
     head: ClothingHeadHatBowlerHat

@@ -24,6 +24,7 @@
 
 - type: chameleonOutfit
   id: LibrarianChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Librarian
   equipment:
     head: ClothingHeadHatCanadaBeanie

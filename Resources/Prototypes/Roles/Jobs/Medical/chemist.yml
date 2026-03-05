@@ -23,6 +23,7 @@
 
 - type: chameleonOutfit
   id: ChemistChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Chemist
   equipment:
     head: ClothingHeadHatBeretMedic

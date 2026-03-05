@@ -20,6 +20,7 @@
 
 - type: chameleonOutfit
   id: PassengerChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Passenger
   equipment:
     head: ClothingHeadHatWelding

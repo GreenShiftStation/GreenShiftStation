@@ -45,6 +45,7 @@
 
 - type: chameleonOutfit
   id: QuartermasterChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Quartermaster
   hasMindShield: true
   equipment:

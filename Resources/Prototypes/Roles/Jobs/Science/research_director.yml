@@ -38,6 +38,7 @@
 
 - type: chameleonOutfit
   id: ResearchDirectorChameleonOutfit
+  abstract: true # GREENSHIFT
   job: ResearchDirector
   hasMindShield: true
   equipment:

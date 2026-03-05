@@ -33,6 +33,7 @@
 
 - type: chameleonOutfit
   id: AtmosphericTechnicianChameleonOutfit
+  abstract: true # GREENSHIFT
   job: AtmosphericTechnician
   equipment:
     head: ClothingHeadHelmetAtmosFire

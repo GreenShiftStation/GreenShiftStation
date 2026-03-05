@@ -44,6 +44,7 @@
 
 - type: chameleonOutfit
   id: ChiefMedicalOfficerChameleonOutfit
+  abstract: true # GREENSHIFT
   job: ChiefMedicalOfficer
   hasMindShield: true
   equipment:

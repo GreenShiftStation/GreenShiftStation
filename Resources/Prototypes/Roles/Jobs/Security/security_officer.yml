@@ -33,6 +33,7 @@
 
 - type: chameleonOutfit
   id: SecurityOfficerChameleonOutfit
+  abstract: true # GREENSHIFT
   job: SecurityOfficer
   hasMindShield: true
   equipment:

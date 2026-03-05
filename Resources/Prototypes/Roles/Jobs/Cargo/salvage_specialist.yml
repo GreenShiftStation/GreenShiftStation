@@ -28,6 +28,7 @@
 
 - type: chameleonOutfit
   id: SalvageSpecialistChameleonOutfit
+  abstract: true # GREENSHIFT
   job: SalvageSpecialist
   equipment:
     head: ClothingHeadHatCargosoft

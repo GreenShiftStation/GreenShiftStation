@@ -24,6 +24,7 @@
 
 - type: chameleonOutfit
   id: ScientistChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Scientist
   equipment:
     head: ClothingHeadBandSkull

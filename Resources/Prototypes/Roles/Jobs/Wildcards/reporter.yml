@@ -22,6 +22,7 @@
 
 - type: chameleonOutfit
   id: ReporterChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Reporter
   equipment:
     head: ClothingHeadHatFedoraGrey

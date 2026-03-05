@@ -38,6 +38,7 @@
 
 - type: chameleonOutfit
   id: JanitorChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Janitor
   equipment:
     head: ClothingHeadHatPurplesoft

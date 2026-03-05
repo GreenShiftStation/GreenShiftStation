@@ -38,6 +38,7 @@
 
 - type: chameleonOutfit
   id: ClownChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Clown
   equipment:
     head: ClothingHeadHatXmasCrown

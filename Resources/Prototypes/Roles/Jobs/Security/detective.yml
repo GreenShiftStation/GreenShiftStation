@@ -36,6 +36,7 @@
 
 - type: chameleonOutfit
   id: DetectiveChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Detective
   hasMindShield: true
   equipment:

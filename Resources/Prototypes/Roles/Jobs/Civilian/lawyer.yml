@@ -30,6 +30,7 @@
 
 - type: chameleonOutfit
   id: LawyerChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Lawyer
   equipment:
     head: ClothingHeadHatBowlerHat

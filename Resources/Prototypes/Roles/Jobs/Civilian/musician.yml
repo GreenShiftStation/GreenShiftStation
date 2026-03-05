@@ -27,6 +27,7 @@
 
 - type: chameleonOutfit
   id: MusicianChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Musician
   equipment:
     head: ClothingHeadHatTophat

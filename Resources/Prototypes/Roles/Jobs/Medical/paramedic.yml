@@ -24,6 +24,7 @@
 
 - type: chameleonOutfit
   id: ParamedicChameleonOutfit
+  abstract: true # GREENSHIFT
   job: Paramedic
   equipment:
     head: ClothingHeadHatParamedicsoft

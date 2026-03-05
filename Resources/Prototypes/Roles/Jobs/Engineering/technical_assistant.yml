@@ -32,6 +32,7 @@
 
 - type: chameleonOutfit
   id: TechnicalAssistantChameleonOutfit
+  abstract: true # GREENSHIFT
   job: TechnicalAssistant
   equipment:
     head: ClothingHeadHatHardhatOrange
