@@ -229,26 +229,6 @@
   group: GSMarket
 
 - type: cargoProduct
-  id: GSHydratedScurret
-  icon:
-    sprite: Structures/Wallmounts/posters.rsi
-    state: poster55_legit
-  product: CrateFunScurret
-  cost: 25000 # You will surely not regret buying this
-  category: cargoproduct-category-name-fun
-  group: GSMarket
-
-- type: cargoProduct
-  id: GSFunCrateGambling
-  icon:
-    sprite: Objects/Economy/cash.rsi
-    state: cash_1000000
-  product: CrateCargoGambling
-  cost: 10000
-  category: cargoproduct-category-name-fun
-  group: GSMarket
-
-- type: cargoProduct
   id: GSChurchOrganInstrument
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
