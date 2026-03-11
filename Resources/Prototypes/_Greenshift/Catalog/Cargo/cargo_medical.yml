@@ -1,0 +1,149 @@
+- type: cargoProduct
+  id: GSMedicalSupplies
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: firstaid
+  product: CrateMedicalSupplies
+  cost: 2400
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSMedicalChemistrySupplies
+  icon:
+    sprite: Objects/Specific/Chemistry/beaker.rsi
+    state: beaker
+  product: CrateChemistrySupplies
+  cost: 750
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSMedicalChemistryVials
+  icon:
+    sprite: Objects/Specific/Chemistry/vial.rsi
+    state: vial
+  product: CrateChemistryVials
+  cost: 1100
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSEmergencyBurnKit
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: burnkit
+  product: CrateEmergencyBurnKit
+  cost: 700
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSEmergencyToxinKit
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: toxinkit
+  product: CrateEmergencyToxinKit
+  cost: 600
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSEmergencyO2Kit
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: o2kit
+  product: CrateEmergencyO2Kit
+  cost: 600
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSEmergencyBruteKit
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: brutekit
+  product: CrateEmergencyBruteKit
+  cost: 600
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSEmergencyAdvancedKit
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: advkit
+  product: CrateEmergencyAdvancedKit
+  cost: 1200
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSEmergencyRadiationKit
+  icon:
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    state: radkit
+  product: CrateEmergencyRadiationKit
+  cost: 600
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSMedicalBodybags
+  icon:
+    sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
+    state: bag_folded
+  product: CrateBodyBags
+  cost: 700
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSMedicalBiosuit
+  icon:
+    sprite: Clothing/Head/Hoods/Bio/bio.rsi
+    state: icon
+  product: CrateVirologyBiosuit
+  cost: 800
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSMedicalMindShieldImplants
+  icon:
+    sprite: Objects/Specific/Medical/implanter.rsi
+    state: implanter0
+  product: CrateMindShieldImplants
+  cost: 3000
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSChemistryP
+  icon:
+    sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+    state: icon
+  product: CrateChemistryP
+  cost: 850
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSChemistryS
+  icon:
+    sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+    state: icon
+  product: CrateChemistryS
+  cost: 750
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateChemistryD
+  icon:
+    sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+    state: icon
+  product: CrateChemistryD
+  cost: 750
+  category: cargoproduct-category-name-medical
+  group: GSMarket

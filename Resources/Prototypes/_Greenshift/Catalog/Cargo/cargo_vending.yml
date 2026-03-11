@@ -1,0 +1,267 @@
+# If you've arrived here after a failed NoCargoOrderArbitrage test, it's likely
+# because the product in question contains a restock box which links to a
+# vending machine inventory that has had items added to it recently and caused
+# its calculated price to exceed the cost below.
+#
+# The costs will need to be kept in line with the inventory of the respective
+# vending machines. An extra hundred or two profit margin should be fine.
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockBooze
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockBoozeFilled
+  cost: 3500
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockChefvend
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockChefvendFilled
+  cost: 680
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockClothes
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockClothesFilled
+  cost: 2500
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockAutoDrobe
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockAutoDrobeFilled
+  cost: 2500
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockDinnerware
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockDinnerwareFilled
+  cost: 2000
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockCondimentStation
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockCondimentStationFilled
+  cost: 300
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockEngineering
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockEngineeringFilled
+  cost: 3200
+  category: cargoproduct-category-name-engineering
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockGames
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockGamesFilled
+  cost: 750
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockHotDrinks
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockHotDrinksFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockMedical
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockMedicalFilled
+  cost: 1750
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockChemVend
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockChemVendFilled
+  cost: 3820
+  category: cargoproduct-category-name-medical
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockNutriMax
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockNutriMaxFilled
+  cost: 2400
+  category: cargoproduct-category-name-hydroponics
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockPTech
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockPTechFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockRobustSoftdrinks
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockRobustSoftdrinksFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockSalvageEquipment
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockSalvageEquipmentFilled
+  cost: 1500
+  category: cargoproduct-category-name-engineering
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockSecTech
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockSecTechFilled
+  cost: 2200
+  category: cargoproduct-category-name-security
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockSeeds
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockSeedsFilled
+  cost: 3600
+  category: cargoproduct-category-name-hydroponics
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockSmokes
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockSmokesFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockVendomat
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockVendomatFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockRobotics
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockRoboticsFilled
+  cost: 1600
+  category: cargoproduct-category-name-science
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockTankDispenser
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockTankDispenserFilled
+  cost: 1000
+  category: cargoproduct-category-name-atmospherics
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockHappyHonk
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockHappyHonkFilled
+  cost: 2100
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockGetmoreChocolateCorp
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockGetmoreChocolateCorpFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockChang
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockChangFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockDiscountDans
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockDiscountDansFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
+
+- type: cargoProduct
+  id: GSCrateVendingMachineRestockDonut
+  icon:
+    sprite: Objects/Specific/Service/vending_machine_restock.rsi
+    state: base
+  product: CrateVendingMachineRestockDonutFilled
+  cost: 1200
+  category: cargoproduct-category-name-service
+  group: GSMarket
