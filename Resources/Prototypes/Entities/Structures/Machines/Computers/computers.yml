@@ -955,6 +955,7 @@
   id: ComputerCargoOrders
   parent: BaseComputerAiAccess
   name: cargo request computer
+  categories: [ HideSpawnMenu ] # GREENSHIFT CHANGE - CARGO MIGRATION
   description: Used to order supplies and approve requests.
   components:
   - type: Sprite
@@ -1008,6 +1009,7 @@
   id: ComputerCargoOrdersEngineering
   parent: ComputerCargoOrders
   name: engineering request computer
+  categories: [ HideSpawnMenu ] # GREENSHIFT CHANGE - CARGO MIGRATION
   description: Used by the engineering department to order supplies.
   components:
   - type: Sprite
@@ -1042,6 +1044,7 @@
   id: ComputerCargoOrdersMedical
   parent: ComputerCargoOrders
   name: medical request computer
+  categories: [ HideSpawnMenu ] # GREENSHIFT CHANGE - CARGO MIGRATION
   description: Used by the medical department to order supplies.
   components:
   - type: Sprite
@@ -1076,6 +1079,7 @@
   id: ComputerCargoOrdersScience
   parent: ComputerCargoOrders
   name: science request computer
+  categories: [ HideSpawnMenu ] # GREENSHIFT CHANGE - CARGO MIGRATION
   description: Used by the science department to order supplies.
   components:
   - type: Sprite
@@ -1109,6 +1113,7 @@
   id: ComputerCargoOrdersSecurity
   parent: ComputerCargoOrders
   name: security request computer
+  categories: [ HideSpawnMenu ] # GREENSHIFT CHANGE - CARGO MIGRATION
   description: Used by the security department to order supplies.
   components:
   - type: Sprite
@@ -1142,6 +1147,7 @@
   id: ComputerCargoOrdersService
   parent: ComputerCargoOrders
   name: service request computer
+  categories: [ HideSpawnMenu ] # GREENSHIFT CHANGE - CARGO MIGRATION
   description: Used by the service department to order supplies.
   components:
   - type: Sprite

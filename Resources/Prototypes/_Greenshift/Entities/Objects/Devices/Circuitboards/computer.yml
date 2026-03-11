@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: GSCargoRequestComputerCircuitboard
+  name: cargo request computer board
+  description: A computer printed circuit board for a cargo request computer.
+  components:
+  - type: Sprite
+    state: cpu_supply
+  - type: ComputerBoard
+    prototype: GSComputerCargoOrders
+  - type: StaticPrice
+    price: 750

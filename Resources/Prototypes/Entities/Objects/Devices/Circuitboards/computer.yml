@@ -89,6 +89,7 @@
   parent: BaseComputerCircuitboard
   id: CargoRequestComputerCircuitboard
   name: cargo request computer board
+  categories: [ HideSpawnMenu ] # GREENSHIFT - CARGO MIGRATION
   description: A computer printed circuit board for a cargo request computer.
   components:
     - type: Sprite
@@ -102,6 +103,7 @@
   parent: BaseComputerCircuitboard
   id: CargoRequestEngineeringComputerCircuitboard
   name: engineering request computer board
+  categories: [ HideSpawnMenu ] # GREENSHIFT - CARGO MIGRATION
   description: A computer printed circuit board for an engineering request computer.
   components:
   - type: Sprite
@@ -115,6 +117,7 @@
   parent: BaseComputerCircuitboard
   id: CargoRequestMedicalComputerCircuitboard
   name: medical request computer board
+  categories: [ HideSpawnMenu ] # GREENSHIFT - CARGO MIGRATION
   description: A computer printed circuit board for a medical request computer.
   components:
   - type: Sprite
@@ -128,6 +131,7 @@
   parent: BaseComputerCircuitboard
   id: CargoRequestScienceComputerCircuitboard
   name: science request computer board
+  categories: [ HideSpawnMenu ] # GREENSHIFT - CARGO MIGRATION
   description: A computer printed circuit board for a science request computer.
   components:
   - type: Sprite
@@ -141,6 +145,7 @@
   parent: BaseComputerCircuitboard
   id: CargoRequestSecurityComputerCircuitboard
   name: security request computer board
+  categories: [ HideSpawnMenu ] # GREENSHIFT - CARGO MIGRATION
   description: A computer printed circuit board for a security request computer.
   components:
   - type: Sprite
@@ -154,6 +159,7 @@
   parent: BaseComputerCircuitboard
   id: CargoRequestServiceComputerCircuitboard
   name: service request computer board
+  categories: [ HideSpawnMenu ] # GREENSHIFT - CARGO MIGRATION
   description: A computer printed circuit board for a service request computer.
   components:
   - type: Sprite
