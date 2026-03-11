@@ -1,0 +1,27 @@
+name: GreenShift RSI Validator
+
+on:
+  push:
+    branches: [ master, stable ]
+  merge_group:
+  pull_request:
+    paths:
+      - '**.rsi/**'
+
+jobs:
+  validate_rsis:
+    name: GreenShift Validate RSIs
+    if: github.actor != 'GSBot' && github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: GreenShiftStation/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Setup Submodule
+        run: git submodule update --init
+      - name: Pull engine updates
+        uses: GreenShiftStation/submodule-dependency@c236e9954c5e8e0034d7d0ba16fbba23494ba557
+      - name: Install Python dependencies
+        run: |
+          pip3 install --ignore-installed --user pillow jsonschema
+      - name: Validate RSIs
+        run: |
+          python3 RobustToolbox/Schemas/validate_rsis.py Resources/

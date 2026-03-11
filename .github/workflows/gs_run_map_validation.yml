@@ -1,0 +1,25 @@
+name: GreenShift Map file schema validator
+on:
+  push:
+    branches: [ master, stable ]
+  merge_group:
+  pull_request:
+    types: [ ready_for_review ]
+
+jobs:
+  yaml-schema-validation:
+    name: GreenShift YAML map schema validator
+    if: github.actor != 'GSBot' && github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+    - uses: GreenShiftStation/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+    - name: Setup Submodule
+      run: git submodule update --init
+    - name: Pull engine updates
+      uses: GreenShiftStation/submodule-dependency@c236e9954c5e8e0034d7d0ba16fbba23494ba557
+    - uses: GreenShiftStation/yaml-schema-validator@3d153666aa5d5cd6af5fd030c364aec8d8bfd7f4
+      with:
+        schema: RobustToolbox/Schemas/mapfile.yml
+        path_pattern: .*Resources/Maps/.*
+        validators_path: RobustToolbox/Schemas/mapfile_validators.py
+        validators_requirements: RobustToolbox/Schemas/mapfile_requirements.txt

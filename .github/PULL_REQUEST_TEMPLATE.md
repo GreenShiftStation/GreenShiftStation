@@ -1,5 +1,11 @@
 <!-- Guidelines: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
 
+## Related Information
+<!-- What doc or issue number does this implement or resolve-->
+
+## Dependencies (if any)
+<!-- A submodule pull-request dependency can be declared by putting "Requires <GitHub user>/<repository>#<PR number>" here-->
+
 ## About the PR
 <!-- What did you change? -->
 
@@ -23,7 +29,12 @@ Small fixes/refactors are exempt. Media may be used in SS14 progress reports wit
 - [ ] I have read and am following the [Pull Request and Changelog Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
 - [ ] I have tested this pull request and written instructions on how to test it
 - [ ] I have added media to this PR or it does not require an in-game showcase.
-<!-- You should understand that not following the above may get your PR closed at maintainer’s discretion -->
+- [ ] I have included a link to the doc or issue that these changes are related to
+- [ ] I have tested these changes in a development environment.
+<!-- You should understand that not following the above will get your PR closed without review, and could bar your future PR's from consideration. -->
+<!-- Making sure your changes work as intended and do not have blatant bugs or unintended gameplay consequences is your responsibility. -->
+<!-- You are not expected to test every possible bug that could come from a change, but you are expected to have made reasonable attempts to test for, fix, and prevent issues. -->
+<!--If issues arise, you will be asked how you performed testing, and unsatisfactory answers could result in strikes - after 3 strikes you will no longer be allowed to contribute to the repository without an appeal to the maintainers and admininstrators. -->
 
 ## Breaking changes
 <!-- List any breaking changes, including namespaces, public class/method/field changes, prototype renames; and provide instructions for fixing them.
