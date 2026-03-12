@@ -62,7 +62,7 @@ public sealed class ChameleonJobLoadoutTest : InteractionTest
     /// </summary>
     private bool IsProbablyRoundStartJob(JobPrototype job)
     {
-        return job.StartingGear != null && ProtoMan.HasIndex<RoleLoadoutPrototype>(LoadoutSystem.GetJobPrototype(job.ID));
+        return job.StartingGear != null && job.ID.Contains("GS") && ProtoMan.HasIndex<RoleLoadoutPrototype>(LoadoutSystem.GetJobPrototype(job.ID)); // Greenshift roundstart roles
     }
 
 }
