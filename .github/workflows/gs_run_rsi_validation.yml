@@ -5,6 +5,7 @@ on:
     branches: [ master, stable ]
   merge_group:
   pull_request:
+    types: [ review_requested ]
     paths:
       - '**.rsi/**'
 

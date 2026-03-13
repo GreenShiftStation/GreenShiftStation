@@ -15,7 +15,7 @@ on:
       - 'RobustToolbox/**'
   merge_group:
   pull_request:
-    types: [ ready_for_review ]
+    types: [ review_requested ]
     branches: [ master, stable ]
     paths:
       - '**.cs'
@@ -29,7 +29,7 @@ on:
 jobs:
   build:
     name: GreenShift Test Packaging
-    if: github.actor != 'PJBot' && github.event.pull_request.draft == false
+    if: github.actor != 'GSBot' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
 
     steps:
