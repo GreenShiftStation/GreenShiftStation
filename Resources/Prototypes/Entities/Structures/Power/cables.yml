@@ -62,6 +62,7 @@
   parent: CableBase
   id: CableHV
   name: HV power cable
+  categories: [ HideSpawnMenu ] # GREENSHIFT - we have power pipes now :)
   description: An orange high voltage power cable.
   components:
   - type: Sprite

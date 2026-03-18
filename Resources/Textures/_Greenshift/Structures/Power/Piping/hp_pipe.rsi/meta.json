@@ -1,0 +1,74 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+	"license": "CC-BY-SA-4.0",
+	"copyright": "Made by Mish for Greenshift",
+    "states": [
+        {
+            "name": "hppipe_0"
+
+        },
+        {
+            "name": "hppipe_1"
+
+        },
+        {
+            "name": "hppipe_2"
+
+        },
+        {
+            "name": "hppipe_3"
+
+        },
+        {
+            "name": "hppipe_4"
+
+        },
+        {
+            "name": "hppipe_5"
+
+        },
+        {
+            "name": "hppipe_6"
+
+        },
+        {
+            "name": "hppipe_7"
+
+        },
+        {
+            "name": "hppipe_8"
+
+        },
+        {
+            "name": "hppipe_9"
+
+        },
+        {
+            "name": "hppipe_10"
+
+        },
+        {
+            "name": "hppipe_11"
+
+        },
+        {
+            "name": "hppipe_12"
+
+        },
+        {
+            "name": "hppipe_13"
+
+        },
+        {
+            "name": "hppipe_14"
+
+        },
+        {
+            "name": "hppipe_15"
+        }
+    ]
+}
