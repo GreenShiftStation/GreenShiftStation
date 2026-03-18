@@ -43,6 +43,7 @@
   id: CableHVStack
   parent: CableStack
   name: HV cable coil
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   suffix: Full
   description: HV cables for connecting engines to heavy duty machinery, SMESes, and substations.
   components:
@@ -77,6 +78,7 @@
   parent: CableHVStack
   id: CableHVStack10
   suffix: 10
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   components:
   - type: Sprite
     state: coilhv-10
@@ -87,6 +89,7 @@
   parent: CableHVStack
   id: CableHVStack1
   suffix: 1
+  categories: [ HideSpawnMenu ] # GREENSHIFT
   components:
   - type: Sprite
     state: coilhv-10

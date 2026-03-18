@@ -1,0 +1,6 @@
+- type: stack
+  parent: BaseMediumStack
+  id: GSPipeHP
+  name: stack-hp-pipe
+  icon: { sprite: "/Textures/Objects/Tools/cable-coils.rsi", state: coilhv-30 }
+  spawn: GSPipeHPStack1

@@ -17,7 +17,7 @@
         !type:CableNode
         nodeGroupID: HVPower
   - type: Cable
-    cableDroppedOnCutPrototype: CableHVStack1
+    cableDroppedOnCutPrototype: GSPipeHPStack1
     cableType: HighVoltage
   - type: Destructible
     thresholds:
@@ -33,7 +33,7 @@
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
-          CableHVStack1:
+          GSPipeHPStack1:
             min: 1
             max: 1
       - !type:DoActsBehavior
