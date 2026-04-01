@@ -40,3 +40,49 @@
         acts: [ "Destruction" ]
   - type: CableVisualizer
     statePrefix: hppipe_
+
+- type: entity
+  parent: CableBase
+  id: GSPipeMP
+  name: medium-pressure power pipe
+  description: A medium-pressure power pipe.
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Structures/Power/Piping/mp_pipe.rsi
+    layers:
+    - state: mppipe_0
+    - state: mpstripes_0
+      shader: unshaded
+  - type: Icon
+    sprite: _Greenshift/Structures/Power/Piping/mp_pipe.rsi
+    state: mppipe_4
+  - type: NodeContainer
+    nodes:
+      power:
+        !type:CableNode
+        nodeGroupID: MVPower
+  - type: Cable
+    cableDroppedOnCutPrototype: GSPipeMPStack1
+    cableType: MediumVoltage
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors: #excess damage (nuke?). avoid computational cost of spawning entities.
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          GSPipeMPStack1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: CableVisualizer
+    statePrefix: mppipe_
+    extraLayerPrefix: mpstripes_

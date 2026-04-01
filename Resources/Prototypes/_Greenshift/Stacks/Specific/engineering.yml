@@ -4,3 +4,10 @@
   name: stack-hp-pipe
   icon: { sprite: "/Textures/Objects/Tools/cable-coils.rsi", state: coilhv-30 }
   spawn: GSPipeHPStack1
+
+- type: stack
+  parent: BaseMediumStack
+  id: GSPipeMP
+  name: stack-mp-pipe
+  icon: { sprite: "/Textures/Objects/Tools/cable-coils.rsi", state: coilmv-30 }
+  spawn: GSPipeMPStack1

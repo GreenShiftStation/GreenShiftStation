@@ -1,3 +1,4 @@
+#HP Stacks
 - type: entity
   id: GSPipeHPStack
   parent: CableStack
@@ -41,5 +42,52 @@
   components:
   - type: Sprite
     state: coilhv-10
+  - type: Stack
+    count: 1
+
+#MP Stacks
+- type: entity
+  parent: CableStack
+  id: GSPipeMPStack
+  name: medium-pressure power pipe
+  suffix: Full
+  description: Medium-pressure piping for connecting substations to APCs.
+  components:
+  - type: Stack
+    stackType: GSPipeMP
+    baseLayer: base
+    layerStates:
+    - coilmv-10
+    - coilmv-20
+    - coilmv-30
+  - type: Sprite
+    state: coilmv-30
+    layers:
+    - state: coilmv-30
+      map: ["base"]
+  - type: Item
+    heldPrefix: coilmv
+  - type: CablePlacer
+    cablePrototypeID: GSPipeMP
+    blockingWireType: MediumVoltage
+  - type: Appearance
+
+- type: entity
+  parent: GSPipeMPStack
+  id: GSPipeMPStack10
+  suffix: 10
+  components:
+  - type: Sprite
+    state: coilmv-10
+  - type: Stack
+    count: 10
+
+- type: entity
+  parent: GSPipeMPStack
+  id: GSPipeMPStack1
+  suffix: 1
+  components:
+  - type: Sprite
+    state: coilmv-10
   - type: Stack
     count: 1
