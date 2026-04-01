@@ -1,0 +1,139 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+	"license": "CC-BY-SA-4.0",
+	"copyright": "Made by Mish for Greenshift",
+    "states": [
+        {
+            "name": "mppipe_0"
+
+        },
+        {
+            "name": "mppipe_1"
+
+        },
+        {
+            "name": "mppipe_2"
+
+        },
+        {
+            "name": "mppipe_3"
+
+        },
+        {
+            "name": "mppipe_4"
+
+        },
+        {
+            "name": "mppipe_5"
+
+        },
+        {
+            "name": "mppipe_6"
+
+        },
+        {
+            "name": "mppipe_7"
+
+        },
+        {
+            "name": "mppipe_8"
+
+        },
+        {
+            "name": "mppipe_9"
+
+        },
+        {
+            "name": "mppipe_10"
+
+        },
+        {
+            "name": "mppipe_11"
+
+        },
+        {
+            "name": "mppipe_12"
+
+        },
+        {
+            "name": "mppipe_13"
+
+        },
+        {
+            "name": "mppipe_14"
+
+        },
+        {
+            "name": "mppipe_15"
+
+        },
+        {
+            "name": "mpstripes_0"
+
+        },
+        {
+            "name": "mpstripes_1"
+
+        },
+        {
+            "name": "mpstripes_2"
+
+        },
+        {
+            "name": "mpstripes_3"
+
+        },
+        {
+            "name": "mpstripes_4"
+
+        },
+        {
+            "name": "mpstripes_5"
+
+        },
+        {
+            "name": "mpstripes_6"
+
+        },
+        {
+            "name": "mpstripes_7"
+
+        },
+        {
+            "name": "mpstripes_8"
+
+        },
+        {
+            "name": "mpstripes_9"
+
+        },
+        {
+            "name": "mpstripes_10"
+
+        },
+        {
+            "name": "mpstripes_11"
+
+        },
+        {
+            "name": "mpstripes_12"
+
+        },
+        {
+            "name": "mpstripes_13"
+
+        },
+        {
+            "name": "mpstripes_14"
+
+        },
+        {
+            "name": "mpstripes_15"
+
+        }
+    ]
+}
