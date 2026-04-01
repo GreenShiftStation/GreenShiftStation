@@ -19,6 +19,7 @@
   - type: Cable
     cableDroppedOnCutPrototype: GSPipeHPStack1
     cableType: HighVoltage
+    cuttingQuality: Anchoring
   - type: Destructible
     thresholds:
     - trigger:
@@ -64,6 +65,7 @@
   - type: Cable
     cableDroppedOnCutPrototype: GSPipeMPStack1
     cableType: MediumVoltage
+    cuttingQuality: Anchoring
   - type: Destructible
     thresholds:
     - trigger:
