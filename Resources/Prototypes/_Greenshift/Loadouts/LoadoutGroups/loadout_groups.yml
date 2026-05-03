@@ -56,51 +56,44 @@
 
 # Command
 - type: loadoutGroup
-  id: GSCaptainHead
-  name: loadout-group-captain-head
+  id: GSSkipperHead
+  name: loadout-group-skipper-head
   minLimit: 0
   loadouts:
-  - GSCaptainHead
-  - GSCaptainCap
+  - GSSkipperHead
+  - GSSkipperCap
 
 - type: loadoutGroup
-  id: GSCaptainJumpsuit
-  name: loadout-group-captain-jumpsuit
+  id: GSSkipperJumpsuit
+  name: loadout-group-skipper-jumpsuit
   loadouts:
-  - GSCaptainJumpsuit
-  - GSCaptainJumpskirt
-  - GSCaptainFormalSuit
-  - GSCaptainFormalSkirt
+  - GSSkipperJumpsuit
+  - GSSkipperJumpskirt
+  - GSSkipperFormalSuit
+  - GSSkipperFormalSkirt
 
 - type: loadoutGroup
-  id: GSCaptainNeck
-  name: loadout-group-captain-neck
+  id: GSSkipperNeck
+  name: loadout-group-skipper-neck
   minLimit: 0
   loadouts:
-  - GSCaptainCloak
-  - GSCaptainCloakFormal
-  - GSCaptainMantle
+  - GSSkipperCloak
+  - GSSkipperCloakFormal
 
 - type: loadoutGroup
-  id: GSCaptainBackpack
-  name: loadout-group-captain-backpack
+  id: GSSkipperBackpack
+  name: loadout-group-skipper-backpack
   loadouts:
-  - GSCaptainBackpack
-  - GSCaptainSatchel
-  - GSCaptainDuffel
+  - GSSkipperBackpack
+  - GSSkipperSatchel
+  - GSSkipperDuffel
 
 - type: loadoutGroup
-  id: GSCaptainOuterClothing
-  name: loadout-group-captain-outerclothing
+  id: GSSkipperOuterClothing
+  name: loadout-group-skipper-outerclothing
   loadouts:
-  - GSCaptainOuterClothing
-  - GSCaptainWintercoat
-
-#- type: loadoutGroup
-#  id: GSCaptainJobTrinkets
-#  name: loadout-group-jobtrinkets
-#  minLimit: 0
-#  loadouts: []
+  - GSSkipperOuterClothing
+  - GSSkipperWintercoat
 
 - type: loadoutGroup
   id: GSHoPHead

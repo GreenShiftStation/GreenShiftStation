@@ -1,8 +1,8 @@
 - type: job
-  id: GSCaptain
-  name: job-name-captain
-  description: job-description-captain
-  playTimeTracker: GSJobCaptain
+  id: GSSkipper
+  name: job-name-skipper
+  description: job-description-skipper
+  playTimeTracker: GSJobSkipper
   requirements:
     - !type:DepartmentTimeRequirement
       department: GSEngineering
@@ -17,7 +17,7 @@
       department: GSCommand
       time: 4h
   weight: 20
-  startingGear: GSCaptainGear
+  startingGear: GSSkipperGear
   icon: "JobIconCaptain"
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
@@ -32,7 +32,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: GSCaptainGear
+  id: GSSkipperGear
   equipment:
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesCommand
@@ -45,8 +45,8 @@
     # - StationCharter
 
 - type: chameleonOutfit
-  id: GSCaptainChameleonOutfit
-  job: GSCaptain
+  id: GSSkipperChameleonOutfit
+  job: GSSkipper
   hasMindShield: true
   equipment:
     head: ClothingHeadHatCapcap

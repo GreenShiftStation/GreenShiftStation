@@ -10,7 +10,7 @@
 
 # Command
 - type: playTimeTracker
-  id: GSJobCaptain
+  id: GSJobSkipper
 
 - type: playTimeTracker
   id: GSJobHeadOfPersonnel

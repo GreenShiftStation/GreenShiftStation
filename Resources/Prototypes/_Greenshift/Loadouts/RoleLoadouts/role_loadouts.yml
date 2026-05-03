@@ -1,12 +1,12 @@
 # Command
 - type: roleLoadout
-  id: JobGSCaptain
+  id: JobGSSkipper
   groups:
-  - GSCaptainHead
-  - GSCaptainNeck
-  - GSCaptainJumpsuit
-  - GSCaptainBackpack
-  - GSCaptainOuterClothing
+  - GSSkipperHead
+  - GSSkipperNeck
+  - GSSkipperJumpsuit
+  - GSSkipperBackpack
+  - GSSkipperOuterClothing
   - GSSurvival
   - GSTrinkets
   - GSGroupSpeciesBreathTool

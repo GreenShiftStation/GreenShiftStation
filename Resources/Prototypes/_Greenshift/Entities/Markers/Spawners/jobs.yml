@@ -89,12 +89,12 @@
 # Command
 
 - type: entity
-  id: GSSpawnPointCaptain
+  id: GSSpawnPointSkipper
   parent: SpawnPointJobBase
-  name: captain
+  name: skipper
   components:
   - type: SpawnPoint
-    job_id: GSCaptain
+    job_id: GSSkipper
   - type: Sprite
     layers:
       - state: green

@@ -1,82 +1,69 @@
 # Jumpsuit
 - type: loadout
-  id: GSCaptainJumpsuit
+  id: GSSkipperJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCaptain
 
 - type: loadout
-  id: GSCaptainJumpskirt
+  id: GSSkipperJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCaptain
 
 - type: loadout
-  id: GSCaptainFormalSuit
+  id: GSSkipperFormalSuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCapFormal
 
 - type: loadout
-  id: GSCaptainFormalSkirt
+  id: GSSkipperFormalSkirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCapFormalDress
 
 # Head
 - type: loadout
-  id: GSCaptainHead
+  id: GSSkipperHead
   equipment:
     head: ClothingHeadHatCaptain
 
 - type: loadout
-  id: GSCaptainCap
+  id: GSSkipperCap
   equipment:
     head: ClothingHeadHatCapcap
 
 # Neck
 - type: loadout
-  id: GSCaptainCloak
+  id: GSSkipperCloak
   equipment:
     neck: ClothingNeckCloakCap
 
 - type: loadout
-  id: GSCaptainCloakFormal
+  id: GSSkipperCloakFormal
   equipment:
     neck: ClothingNeckCloakCapFormal
 
-- type: loadout
-  id: GSCaptainMantle
-  equipment:
-    neck: ClothingNeckMantleCap
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterCap
-
-- type: startingGear
-  id: GSCaptainMantle
-  equipment:
-    neck: ClothingNeckMantleCap
-
 # Back
 - type: loadout
-  id: GSCaptainBackpack
+  id: GSSkipperBackpack
   equipment:
     back: ClothingBackpackCaptain
 
 - type: loadout
-  id: GSCaptainSatchel
+  id: GSSkipperSatchel
   equipment:
     back: ClothingBackpackSatchelCaptain
 
 - type: loadout
-  id: GSCaptainDuffel
+  id: GSSkipperDuffel
   equipment:
     back: ClothingBackpackDuffelCaptain
 
 # Outer clothing
 - type: loadout
-  id: GSCaptainOuterClothing
+  id: GSSkipperOuterClothing
   equipment:
     outerClothing: ClothingOuterArmorCaptainCarapace
 
 - type: loadout
-  id: GSCaptainWintercoat
+  id: GSSkipperWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCap
