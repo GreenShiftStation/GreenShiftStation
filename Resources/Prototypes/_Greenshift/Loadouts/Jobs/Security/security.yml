@@ -1,0 +1,31 @@
+# Back
+- type: loadout
+  id: GSSecurityBackpack
+  equipment:
+    back: ClothingBackpackSecurity
+
+- type: loadout
+  id: GSSecuritySatchel
+  equipment:
+    back: ClothingBackpackSatchelSecurity
+
+- type: loadout
+  id: GSSecurityDuffel
+  equipment:
+    back: ClothingBackpackDuffelSecurity
+
+# Shoes
+- type: loadout
+  id: GSCombatBoots
+  equipment:
+    shoes: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: GSJackBoots
+  equipment:
+    shoes: ClothingShoesBootsJackFilled
+
+- type: loadout
+  id: GSSecurityWinterBoots
+  equipment:
+    shoes: ClothingShoesBootsWinterSecFilled

@@ -5,7 +5,7 @@
   playTimeTracker: GSJobQuartermaster
   requirements:
     - !type:RoleTimeRequirement
-      role: GSJobCargoTechnician
+      role: GSJobDeckhand
       time: 5h
     - !type:DepartmentTimeRequirement
       department: GSCargo

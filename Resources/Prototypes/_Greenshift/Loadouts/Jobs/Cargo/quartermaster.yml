@@ -41,19 +41,6 @@
   equipment:
     neck: ClothingNeckCloakQm
 
-- type: loadout
-  id: GSQuartermasterMantle
-  equipment:
-    neck: ClothingNeckMantleQM
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterQM
-
-- type: startingGear
-  id: GSQuartermasterMantle
-  equipment:
-    neck: ClothingNeckMantleQM
-
 # OuterClothing
 - type: loadout
   id: GSQuartermasterWintercoat

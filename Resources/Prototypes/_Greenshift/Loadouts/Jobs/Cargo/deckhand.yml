@@ -1,50 +1,50 @@
 # Head
 - type: loadout
-  id: GSCargoTechnicianHead
+  id: GSDeckhandHead
   equipment:
     head: ClothingHeadHatCargosoft
 
 # Jumpsuit
 - type: loadout
-  id: GSCargoTechnicianJumpsuit
+  id: GSDeckhandJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCargo
 
 - type: loadout
-  id: GSCargoTechnicianJumpskirt
+  id: GSDeckhandJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCargo
 
 # Back
 - type: loadout
-  id: GSCargoTechnicianBackpack
+  id: GSDeckhandBackpack
   equipment:
     back: ClothingBackpackCargo
 
 - type: loadout
-  id: GSCargoTechnicianSatchel
+  id: GSDeckhandSatchel
   equipment:
     back: ClothingBackpackSatchelCargo
 
 - type: loadout
-  id: GSCargoTechnicianDuffel
+  id: GSDeckhandDuffel
   equipment:
     back: ClothingBackpackDuffelCargo
 
 # OuterClothing
 - type: loadout
-  id: GSCargoTechnicianWintercoat
+  id: GSDeckhandWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCargo
 
 # Shoes
 - type: loadout
-  id: GSCargoWinterBoots
+  id: GSDeckhandWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinterCargo
 
 # ID
 - type: loadout
-  id: GSCargoTechnicianPDA
+  id: GSDeckhandPDA
   equipment:
     id: CargoPDA

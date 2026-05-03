@@ -13,12 +13,12 @@
       - state: qm
 
 - type: entity
-  id: GSSpawnPointCargoTechnician
+  id: GSSpawnPointDeckhand
   parent: SpawnPointJobBase
-  name: cargotechnician
+  name: deckhand
   components:
   - type: SpawnPoint
-    job_id: GSCargoTechnician
+    job_id: GSDeckhand
   - type: Sprite
     layers:
       - state: green

@@ -3,7 +3,7 @@
 
 # Cargo
 - type: playTimeTracker
-  id: GSJobCargoTechnician
+  id: GSJobDeckhand
 
 - type: playTimeTracker
   id: GSJobQuartermaster

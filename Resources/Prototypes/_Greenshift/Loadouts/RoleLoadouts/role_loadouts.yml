@@ -21,7 +21,6 @@
   - GSHoPJumpsuit
   - GSHoPBackpack
   - GSHoPOuterClothing
-  - GSGlasses
   - GSSurvival
   - GSTrinkets
   #- GSHoPJobTrinkets
@@ -34,29 +33,11 @@
   - GSGroupTankHarness
   - GSPassengerJumpsuit
   - GSCommonBackpack
-  - GSPassengerNeck
-  - GSPassengerFace
-  - GSPassengerGloves
   - GSPassengerOuterClothing
   - GSPassengerShoes
-  - GSGlasses
   - GSSurvival
   - GSTrinkets
   #- GSPassengerJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSBartender
-  groups:
-  - GSGroupTankHarness
-  - GSBartenderHead
-  - GSBartenderJumpsuit
-  - GSCommonBackpack
-  - GSBartenderOuterClothing
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  - GSBartenderJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -65,7 +46,6 @@
   - GSGroupTankHarness
   - GSBartenderJumpsuit
   - GSCommonBackpack
-  - GSGlasses
   - GSSurvival
   - GSTrinkets
   #- GSServiceWorkerJobTrinkets
@@ -79,7 +59,6 @@
   - GSBotanistJumpsuit
   - GSBotanistBackpack
   - GSBotanistOuterClothing
-  - GSGlasses
   - GSSurvival
   - GSTrinkets
   #- GSBotanistJobTrinkets
@@ -95,7 +74,6 @@
   - GSClownBackpack
   - GSClownOuterClothing
   - GSClownShoes
-  - GSGlasses
   - GSSurvivalClown
   - GSTrinkets
   - GSClownJobTrinkets
@@ -111,7 +89,6 @@
   - GSMimeBackpack
   - GSMimeOuterClothing
   - GSMimeBelt
-  - GSGlasses
   - GSSurvivalMime
   - GSTrinkets
   #- GSMimeJobTrinkets
@@ -124,29 +101,27 @@
   - GSQuartermasterHead
   - GSQuartermasterNeck
   - GSQuartermasterJumpsuit
-  - GSCargoTechnicianBackpack
+  - GSDeckhandBackpack
   - GSQuartermasterOuterClothing
   - GSQuartermasterShoes
-  - GSGlasses
   - GSSurvival
   - GSTrinkets
   #- GSQuartermasterJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobGSCargoTechnician
+  id: JobGSDeckhand
   groups:
   - GSGroupTankHarness
-  - GSCargoTechnicianHead
-  - GSCargoTechnicianJumpsuit
-  - GSCargoTechnicianBackpack
-  - GSCargoTechnicianOuterClothing
-  - GSCargoTechnicianShoes
-  - GSCargoTechnicianID
-  - GSGlasses
+  - GSDeckhandHead
+  - GSDeckhandJumpsuit
+  - GSDeckhandBackpack
+  - GSDeckhandOuterClothing
+  - GSDeckhandShoes
+  - GSDeckhandID
   - GSSurvival
   - GSTrinkets
-  #- GSCargoTechnicianJobTrinkets
+  #- GSDeckhandJobTrinkets
   - GSGroupSpeciesBreathTool
 
 # Engineering
@@ -201,12 +176,10 @@
   - GSHeadofSecurityNeck
   - GSHeadofSecurityJumpsuit
   - GSSecurityBackpack
-  - GSSecurityBelt
   - GSHeadofSecurityOuterClothing
   - GSSecurityShoes
   - GSSurvivalSecurity
   - GSTrinkets
-  - GSHeadofSecurityJobTrinkets
   - GSGroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
@@ -220,7 +193,6 @@
   - GSSecurityShoes
   - GSSurvivalSecurity
   - GSTrinkets
-  - GSDetectiveJobTrinkets
   - GSGroupSpeciesBreathToolSecurity
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs

@@ -1,24 +1,18 @@
 - type: job
-  id: GSCargoTechnician
-  name: job-name-cargotech
-  description: job-description-cargotech
-  playTimeTracker: GSJobCargoTechnician
-  startingGear: GSCargoTechGear
+  id: GSDeckhand
+  name: job-name-deckhand
+  description: job-description-deckhand
+  playTimeTracker: GSJobDeckhand
+  startingGear: GSDeckhandGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm
   access:
   - Cargo
   - Common
   - Maintenance
-  extendedAccess:
-  - Salvage
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: BoxingDay
-    prototype: BoxCardboard
 
 - type: startingGear
-  id: GSCargoTechGear
+  id: GSDeckhandGear
   equipment:
     ears: ClothingHeadsetCargo
     pocket1: AppraisalTool
@@ -27,8 +21,8 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: GSCargoTechnicianChameleonOutfit
-  job: GSCargoTechnician
+  id: GSDeckhandChameleonOutfit
+  job: GSDeckhand
   equipment:
     head: ClothingHeadHatCargosoft
     eyes: ClothingEyesGlassesCheapSunglasses
