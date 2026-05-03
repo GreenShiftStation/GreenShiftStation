@@ -9,7 +9,6 @@
   - GSCaptainOuterClothing
   - GSSurvival
   - GSTrinkets
-  #- GSCaptainJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -23,7 +22,6 @@
   - GSHoPOuterClothing
   - GSSurvival
   - GSTrinkets
-  #- GSHoPJobTrinkets
   - GSGroupSpeciesBreathTool
 
 # Civilian
@@ -37,7 +35,6 @@
   - GSPassengerShoes
   - GSSurvival
   - GSTrinkets
-  #- GSPassengerJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -48,7 +45,6 @@
   - GSCommonBackpack
   - GSSurvival
   - GSTrinkets
-  #- GSServiceWorkerJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -61,7 +57,6 @@
   - GSBotanistOuterClothing
   - GSSurvival
   - GSTrinkets
-  #- GSBotanistJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -91,7 +86,6 @@
   - GSMimeBelt
   - GSSurvivalMime
   - GSTrinkets
-  #- GSMimeJobTrinkets
 
 # Cargo
 - type: roleLoadout
@@ -106,7 +100,6 @@
   - GSQuartermasterShoes
   - GSSurvival
   - GSTrinkets
-  #- GSQuartermasterJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -121,7 +114,6 @@
   - GSDeckhandID
   - GSSurvival
   - GSTrinkets
-  #- GSDeckhandJobTrinkets
   - GSGroupSpeciesBreathTool
 
 # Engineering
@@ -137,7 +129,6 @@
   - GSChiefEngineerShoes
   - GSSurvivalExtended
   - GSTrinkets
-  #- GSChiefEngineerJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -152,7 +143,6 @@
   - GSStationEngineerID
   - GSSurvivalExtended
   - GSTrinkets
-  #- GSStationEngineerJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -165,7 +155,6 @@
   - GSAtmosphericTechnicianShoes
   - GSSurvivalExtended
   - GSTrinkets
-  #- GSAtmosphericTechnicianJobTrinkets
   - GSGroupSpeciesBreathTool
 
 # Security
