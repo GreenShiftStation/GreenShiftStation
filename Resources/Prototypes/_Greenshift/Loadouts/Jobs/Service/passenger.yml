@@ -1,32 +1,3 @@
-# Greytide Time
-- type: loadoutEffectGroup
-  id: GSGreyTider
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: GSJobPassenger
-      time: 10h # silly reward for people who play passenger a lot
-
-# Head of Greytide (for grey mantle)
-- type: loadoutEffectGroup
-  id: GSMasterGrey
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: GSJobPassenger
-      time: 20h # fun mantle for the most experienced greytiders
-
-# Face
-- type: loadout
-  id: GSPassengerFace
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSGreyTider
-  equipment:
-    mask: ClothingMaskGas
-
 # Jumpsuits
 # Grey
 - type: loadout
@@ -38,47 +9,6 @@
   id: GSGreyJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorGrey
-
-# Rainbow
-- type: loadout
-  id: GSRainbowJumpsuit
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSGreyTider
-  equipment:
-    jumpsuit: ClothingUniformColorRainbow
-
-# Rainbow Jumpskirt
-- type: loadout
-  id: GSRainbowJumpskirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSGreyTider
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtColorRainbow
-
-# Ancient
-- type: loadout
-  id: GSAncientJumpsuit
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSGreyTider
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitAncient
-
-# Neck
-- type: loadout
-  id: GSMantle
-  equipment:
-    neck: ClothingNeckMantle
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSMasterGrey
-
-- type: startingGear
-  id: GSMantle
-  equipment:
-    neck: ClothingNeckMantle
 
 # Back
 - type: loadout
@@ -95,15 +25,6 @@
   id: GSCommonDuffel
   equipment:
     back: ClothingBackpackDuffel
-
-# Gloves
-- type: loadout
-  id: GSPassengerGloves
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSGreyTider
-  equipment:
-    gloves: ClothingHandsGlovesFingerlessInsulated
 
 # Outerclothing
 - type: loadout

@@ -3,10 +3,10 @@
   name: job-name-detective
   description: job-description-detective
   playTimeTracker: GSJobDetective
-  requirements:
-  - !type:RoleTimeRequirement
-    role: GSJobSecurityOfficer
-    time: 5h
+#  requirements:
+#  - !type:RoleTimeRequirement
+#    role: GSJobSecurityOfficer
+#    time: 5h
   startingGear: GSDetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos

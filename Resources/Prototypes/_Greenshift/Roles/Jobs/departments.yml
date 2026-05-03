@@ -6,7 +6,6 @@
   roles:
   - GSCargoTechnician
   - GSQuartermaster
-  - GSSalvageSpecialist
 
 - type: department
   id: GSService
@@ -15,19 +14,10 @@
   color: "#9FED58"
   weight: -10
   roles:
-  - GSBartender
-  - GSBotanist
-  - GSChaplain
-  - GSChef
   - GSClown
   - GSHeadOfPersonnel
-  - GSJanitor
-  - GSLawyer
-  - GSLibrarian
   - GSMime
-  - GSMusician
   - GSPassenger
-  - GSReporter
   - GSServiceWorker
 
 - type: department
@@ -54,7 +44,6 @@
   - GSAtmosphericTechnician
   - GSChiefEngineer
   - GSStationEngineer
-  - GSTechnicalAssistant
 
 - type: department
   id: GSMedical
@@ -65,9 +54,6 @@
   - GSChemist
   - GSChiefMedicalOfficer
   - GSMedicalDoctor
-  - GSMedicalIntern
-  - GSPsychologist
-  - GSParamedic
 
 - type: department
   id: GSSecurity
@@ -77,26 +63,4 @@
   weight: 20
   roles:
   - GSHeadOfSecurity
-  - GSSecurityCadet
-  - GSSecurityOfficer
   - GSDetective
-  - GSWarden
-
-#- type: department
-#  id: Science
-#  name: department-Science
-#  description: department-Science-description
-#  color: "#D381C9"
-#  roles:
-#  - GSResearchDirector
-#  - GSScientist
-#  - GSResearchAssistant
-
-- type: department
-  id: GSSilicon
-  name: department-Silicon
-  description: department-Silicon-description
-  color: "#D381C9"
-  roles:
-  - GSBorg
-  - GSStationAi

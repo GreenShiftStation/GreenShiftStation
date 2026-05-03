@@ -36,14 +36,6 @@
   equipment:
     neck: ClothingCloakCmo
 
-- type: loadout
-  id: GSChiefMedicalOfficerMantle
-  equipment:
-    neck: ClothingNeckMantleCMO
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSMasterCMO
-
 # Outer clothing
 - type: loadout
   id: GSChiefMedicalOfficerLabCoat

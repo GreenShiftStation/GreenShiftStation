@@ -35,18 +35,6 @@
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
-  id: JobGSMedicalIntern
-  groups:
-  - GroupTankHarness
-  - MedicalInternJumpsuit
-  - MedicalBackpack
-  - Glasses
-  - SurvivalMedical
-  - Trinkets
-#  - MedicalInternJobTrinkets
-  - GroupSpeciesBreathToolMedical
-
-- type: roleLoadout
   id: JobGSChemist
   groups:
   - GroupTankHarness
@@ -59,20 +47,4 @@
   - SurvivalMedical
   - Trinkets
 #  - ChemistJobTrinkets
-  - GroupSpeciesBreathToolMedical
-
-- type: roleLoadout
-  id: JobGSParamedic
-  groups:
-  - GroupTankHarness
-  - ParamedicHead
-  - MedicalMask
-  - ParamedicJumpsuit
-  - MedicalBackpack
-  - ParamedicOuterClothing
-  - ParamedicShoes
-  - Glasses
-  - SurvivalMedical
-  - Trinkets
-#  - ParamedicJobTrinkets
   - GroupSpeciesBreathToolMedical

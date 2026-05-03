@@ -5,14 +5,8 @@
   playTimeTracker: GSJobHeadOfSecurity
   requirements:
     - !type:RoleTimeRequirement
-      role: GSJobWarden
-      time: 3h
-    - !type:RoleTimeRequirement
       role: GSJobDetective
-      time: 1h # knowing how to use the tools is important
-    - !type:RoleTimeRequirement
-      role: GSJobSecurityOfficer
-      time: 5h
+      time: 5h # knowing how to use the tools is important
     - !type:DepartmentTimeRequirement
       department: GSSecurity
       time: 10h

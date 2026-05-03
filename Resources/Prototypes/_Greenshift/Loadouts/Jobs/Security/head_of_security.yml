@@ -1,13 +1,3 @@
-# For mantles
-- type: loadoutEffectGroup
-  id: GSMasterHoS
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: GSJobHeadOfSecurity
-      time: 20h
-
 # Jumpsuit
 - type: loadout
   id: GSHeadofSecurityJumpsuit

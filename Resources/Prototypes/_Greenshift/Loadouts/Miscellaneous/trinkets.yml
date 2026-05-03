@@ -300,32 +300,6 @@
     - OffsetCaneMime
   groupBy: "canes"
 
-- type: loadout
-  id: GSOffsetCaneNT
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: GSCommand
-      time: 18000 # 5hr
-  storage:
-    back:
-    - OffsetCaneNT
-  groupBy: "canes"
-
-- type: loadout
-  id: GSCane
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: GSJobLibrarian
-      time: 3600 # 1hr same as Jamjar.
-  storage:
-    back:
-    - Cane
-  groupBy: "canes"
-
 # Towels
 - type: loadout
   id: GSTowelColorWhite

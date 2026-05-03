@@ -24,18 +24,6 @@
       - state: green
       - state: cargo_tech
 
-- type: entity
-  id: GSSpawnPointSalvageSpecialist
-  parent: SpawnPointJobBase
-  name: salvagespecialist
-  components:
-  - type: SpawnPoint
-    job_id: GSSalvageSpecialist
-  - type: Sprite
-    layers:
-      - state: green
-      - state: salvagespecialist
-
 # Civilian
 
 - type: entity
@@ -51,42 +39,6 @@
       - state: passenger
 
 - type: entity
-  id: GSSpawnPointTechnicalAssistant
-  parent: SpawnPointJobBase
-  name: technical assistant
-  components:
-  - type: SpawnPoint
-    job_id: GSTechnicalAssistant
-  - type: Sprite
-    layers:
-      - state: green
-      - state: technicalassistant
-
-- type: entity
-  id: GSSpawnPointMedicalIntern
-  parent: SpawnPointJobBase
-  name: medical intern
-  components:
-  - type: SpawnPoint
-    job_id: GSMedicalIntern
-  - type: Sprite
-    layers:
-      - state: green
-      - state: medicalintern
-
-- type: entity
-  id: GSSpawnPointSecurityCadet
-  parent: SpawnPointJobBase
-  name: security cadet
-  components:
-  - type: SpawnPoint
-    job_id: GSSecurityCadet
-  - type: Sprite
-    layers:
-      - state: green
-      - state: security_cadet
-
-- type: entity
   id: GSSpawnPointServiceWorker
   parent: SpawnPointJobBase
   name: service worker
@@ -97,30 +49,6 @@
     layers:
       - state: green
       - state: serviceworker
-
-- type: entity
-  id: GSSpawnPointBartender
-  parent: SpawnPointJobBase
-  name: bartender
-  components:
-  - type: SpawnPoint
-    job_id: GSBartender
-  - type: Sprite
-    layers:
-      - state: green
-      - state: bartender
-
-- type: entity
-  id: GSSpawnPointChef
-  parent: SpawnPointJobBase
-  name: chef
-  components:
-  - type: SpawnPoint
-    job_id: GSChef
-  - type: Sprite
-    layers:
-      - state: green
-      - state: chef
 
 - type: entity
   id: GSSpawnPointBotanist
@@ -157,81 +85,6 @@
     layers:
       - state: green
       - state: mime
-
-- type: entity
-  id: GSSpawnPointChaplain
-  parent: SpawnPointJobBase
-  name: chaplain
-  components:
-  - type: SpawnPoint
-    job_id: GSChaplain
-  - type: Sprite
-    layers:
-      - state: green
-      - state: chaplain
-
-- type: entity
-  id: GSSpawnPointLibrarian
-  parent: SpawnPointJobBase
-  name: librarian
-  components:
-  - type: SpawnPoint
-    job_id: GSLibrarian
-  - type: Sprite
-    layers:
-      - state: green
-      - state: librarian
-
-- type: entity
-  id: GSSpawnPointLawyer
-  parent: SpawnPointJobBase
-  name: lawyer
-  components:
-  - type: SpawnPoint
-    job_id: GSLawyer
-  - type: Sprite
-    layers:
-      - state: green
-      - state: lawyer
-
-- type: entity
-  id: GSSpawnPointJanitor
-  parent: SpawnPointJobBase
-  name: janitor
-  components:
-  - type: SpawnPoint
-    job_id: GSJanitor
-  - type: Sprite
-    layers:
-      - state: green
-      - state: janitor
-
-- type: entity
-  id: GSSpawnPointMusician
-  parent: SpawnPointJobBase
-  name: musician
-  components:
-  - type: SpawnPoint
-    job_id: GSMusician
-  - type: Sprite
-    layers:
-      - state: green
-      - state: musician
-
-- type: entity
-  id: GSSpawnPointBorg
-  parent: SpawnPointJobBase
-  name: cyborg
-  components:
-  - type: SpawnPoint
-    job_id: GSBorg
-  - type: Sprite
-    layers:
-    - state: green
-    - sprite: Mobs/Silicon/chassis.rsi
-      state: robot
-    - sprite: Mobs/Silicon/chassis.rsi
-      state: robot_e
 
 # Command
 
@@ -324,18 +177,6 @@
       - state: doctor
 
 - type: entity
-  id: GSSpawnPointParamedic
-  parent: SpawnPointJobBase
-  name: paramedic
-  components:
-  - type: SpawnPoint
-    job_id: GSParamedic
-  - type: Sprite
-    layers:
-      - state: green
-      - state: paramedic
-
-- type: entity
   id: GSSpawnPointChemist
   parent: SpawnPointJobBase
   name: chemist
@@ -346,44 +187,6 @@
     layers:
       - state: green
       - state: chemist
-
-# Science
-#
-#- type: entity
-#  id: GSSpawnPointResearchDirector
-#  parent: SpawnPointJobBase
-#  name: researchdirector
-#  components:
-#  - type: SpawnPoint
-#    job_id: GSResearchDirector
-#  - type: Sprite
-#    layers:
-#      - state: green
-#      - state: rd
-#
-#- type: entity
-#  id: GSSpawnPointScientist
-#  parent: SpawnPointJobBase
-#  name: scientist
-#  components:
-#  - type: SpawnPoint
-#    job_id: GSScientist
-#  - type: Sprite
-#    layers:
-#      - state: green
-#      - state: scientist
-#
-#- type: entity
-#  id: GSSpawnPointResearchAssistant
-#  parent: SpawnPointJobBase
-#  name: research assistant
-#  components:
-#  - type: SpawnPoint
-#    job_id: GSResearchAssistant
-#  - type: Sprite
-#    layers:
-#      - state: green
-#      - state: researchassistant
 
 # Security
 
@@ -400,30 +203,6 @@
       - state: hos
 
 - type: entity
-  id: GSSpawnPointWarden
-  parent: SpawnPointJobBase
-  name: warden
-  components:
-  - type: SpawnPoint
-    job_id: GSWarden
-  - type: Sprite
-    layers:
-      - state: green
-      - state: warden
-
-- type: entity
-  id: GSSpawnPointSecurityOfficer
-  parent: SpawnPointJobBase
-  name: securityofficer
-  components:
-  - type: SpawnPoint
-    job_id: GSSecurityOfficer
-  - type: Sprite
-    layers:
-      - state: green
-      - state: security_officer
-
-- type: entity
   id: GSSpawnPointDetective
   parent: SpawnPointJobBase
   name: detective
@@ -434,29 +213,3 @@
     layers:
       - state: green
       - state: detective
-
-# STATION SPECIFIC
-
-- type: entity
-  id: GSSpawnPointReporter
-  parent: SpawnPointJobBase
-  name: reporter
-  components:
-  - type: SpawnPoint
-    job_id: GSReporter
-  - type: Sprite
-    layers:
-      - state: green
-      - state: reporter
-
-- type: entity
-  id: GSSpawnPointPsychologist
-  parent: SpawnPointJobBase
-  name: psychologist
-  components:
-  - type: SpawnPoint
-    job_id: GSPsychologist
-  - type: Sprite
-    layers:
-      - state: green
-      - state: psychologist

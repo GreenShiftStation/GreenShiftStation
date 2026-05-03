@@ -7,9 +7,6 @@
     - !type:RoleTimeRequirement
       role: GSJobCargoTechnician
       time: 5h
-    - !type:RoleTimeRequirement
-      role: GSJobSalvageSpecialist
-      time: 2.5h
     - !type:DepartmentTimeRequirement
       department: GSCargo
       time: 10h

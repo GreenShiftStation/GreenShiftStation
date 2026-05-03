@@ -1,15 +1,6 @@
 ﻿# Job-specific trinkets
 
 - type: loadout
-  id: GSJanitorGoldenPlunger
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSSeniorJanitorial
-  storage:
-    back:
-    - GoldenPlunger
-
-- type: loadout
   id: GSFlowerWaterClown
   effects:
   - !type:JobRequirementLoadoutEffect
@@ -20,15 +11,3 @@
   storage:
     back:
     - SprayFlowerPin
-
-- type: loadout
-  id: GSSecStar
-  effects:
-    - !type:JobRequirementLoadoutEffect
-      requirement:
-        !type:DepartmentTimeRequirement
-        department: GSSecurity
-        time: 100h
-  storage:
-    back:
-    - Dinkystar

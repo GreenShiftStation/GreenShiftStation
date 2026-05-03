@@ -1,13 +1,3 @@
-# For mantles
-- type: loadoutEffectGroup
-  id: GSMasterCE
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: GSJobChiefEngineer
-      time: 20h
-
 # Jumpsuit
 - type: loadout
   id: GSChiefEngineerJumpsuit
@@ -44,19 +34,6 @@
   id: GSChiefEngineerCloak
   equipment:
     neck: ClothingNeckCloakCe
-
-- type: loadout
-  id: GSChiefEngineerMantle
-  equipment:
-    neck: ClothingNeckMantleCE
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: GSMasterCE
-
-- type: startingGear
-  id: GSChiefEngineerMantle
-  equipment:
-    neck: ClothingNeckMantleCE
 
 # OuterClothing
 - type: loadout

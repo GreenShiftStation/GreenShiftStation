@@ -776,34 +776,6 @@
 #  minLimit: 0
 #  loadouts:
 
-- type: loadoutGroup
-  id: GSSalvageSpecialistBackpack
-  name: loadout-group-salvage-specialist-backpack
-  loadouts:
-  - SalvageSpecialistBackpack
-  - SalvageSpecialistSatchel
-  - SalvageSpecialistDuffel
-
-- type: loadoutGroup
-  id: GSSalvageSpecialistOuterClothing
-  name: loadout-group-salvage-specialist-outerclothing
-  minLimit: 0
-  loadouts:
-  - SalvageSpecialistWintercoat
-
-- type: loadoutGroup
-  id: GSSalvageSpecialistShoes
-  name: loadout-group-salvage-specialist-shoes
-  loadouts:
-  - SalvageBoots
-  - CargoWinterBoots
-
-#- type: loadoutGroup
-#  id: GSSalvageSpecialistJobTrinkets
-#  name: loadout-group-jobtrinkets
-#  minLimit: 0
-#  loadouts:
-
 # Engineering
 - type: loadoutGroup
   id: GSChiefEngineerHead

@@ -4,10 +4,10 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-mothership-core-objective
-  requirements:
-  - !type:RoleTimeRequirement
-    role: GSJobBorg # GREENSHIFT CHANGE - JOB PROTO
-    time: 18000  # 5 hrs
+#  requirements: Greenshift - no borgs
+#  - !type:RoleTimeRequirement
+#    role: GSJobBorg # GREENSHIFT CHANGE - JOB PROTO
+#    time: 18000  # 5 hrs
   guides: [ Xenoborgs ]
 
 - type: antagSpecifier
@@ -22,10 +22,10 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-xenoborg-objective
-  requirements:
-  - !type:RoleTimeRequirement
-    role: GSJobBorg # GREENSHIFT CHANGE - JOB PROTO
-    time: 18000  # 5 hrs
+#  requirements: Greenshift - no borgs
+#  - !type:RoleTimeRequirement
+#    role: GSJobBorg # GREENSHIFT CHANGE - JOB PROTO
+#    time: 18000  # 5 hrs
   guides: [ Xenoborgs ]
 
 - type: antagSpecifier

@@ -27,17 +27,6 @@
   #- GSHoPJobTrinkets
   - GSGroupSpeciesBreathTool
 
-# Silicons
-- type: roleLoadout
-  id: JobGSBorg
-  nameDataset: NamesBorg
-  canCustomizeName: true
-
-- type: roleLoadout
-  id: JobGSStationAi
-  nameDataset: NamesAI
-  canCustomizeName: true
-
 # Civilian
 - type: roleLoadout
   id: JobGSPassenger
@@ -80,78 +69,6 @@
   - GSSurvival
   - GSTrinkets
   #- GSServiceWorkerJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSChef
-  groups:
-  - GSGroupTankHarness
-  - GSChefHead
-  - GSChefMask
-  - GSChefJumpsuit
-  - GSCommonBackpack
-  - GSChefOuterClothing
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSChefJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSLibrarian
-  groups:
-  - GSGroupTankHarness
-  - GSLibrarianJumpsuit
-  - GSCommonBackpack
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSLibrarianJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSLawyer
-  groups:
-  - GSGroupTankHarness
-  - GSLawyerNeck
-  - GSLawyerJumpsuit
-  - GSCommonBackpack
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSLawyerJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSChaplain
-  groups:
-  - GSGroupTankHarness
-  - GSChaplainHead
-  - GSChaplainMask
-  - GSChaplainNeck
-  - GSChaplainJumpsuit
-  - GSCommonBackpack
-  - GSChaplainOuterClothing
-  - GSChaplainBible
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSChaplainJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSJanitor
-  groups:
-  - GSGroupTankHarness
-  - GSJanitorHead
-  - GSJanitorJumpsuit
-  - GSJanitorGloves
-  - GSCommonBackpack
-  - GSJanitorOuterClothing
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  - GSJanitorJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -199,21 +116,6 @@
   - GSTrinkets
   #- GSMimeJobTrinkets
 
-- type: roleLoadout
-  id: JobGSMusician
-  canCustomizeName: true
-  groups:
-  - GSGroupTankHarness
-  - GSMusicianJumpsuit
-  - GSCommonBackpack
-  - GSMusicianOuterClothing
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSMusicianJobTrinkets
-  - GSInstruments
-  - GSGroupSpeciesBreathTool
-
 # Cargo
 - type: roleLoadout
   id: JobGSQuartermaster
@@ -247,19 +149,6 @@
   #- GSCargoTechnicianJobTrinkets
   - GSGroupSpeciesBreathTool
 
-- type: roleLoadout
-  id: JobGSSalvageSpecialist
-  groups:
-  - GSGroupTankHarness
-  - GSSalvageSpecialistBackpack
-  - GSSalvageSpecialistOuterClothing
-  - GSSalvageSpecialistShoes
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSSalvageSpecialistJobTrinkets
-  - GSGroupSpeciesBreathTool
-
 # Engineering
 - type: roleLoadout
   id: JobGSChiefEngineer
@@ -274,17 +163,6 @@
   - GSSurvivalExtended
   - GSTrinkets
   #- GSChiefEngineerJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSTechnicalAssistant
-  groups:
-  - GSGroupTankHarness
-  - GSTechnicalAssistantJumpsuit
-  - GSStationEngineerBackpack
-  - GSSurvivalExtended
-  - GSTrinkets
-  #- GSTechnicalAssistantJobTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -315,54 +193,6 @@
   #- GSAtmosphericTechnicianJobTrinkets
   - GSGroupSpeciesBreathTool
 
-# Science
-#- type: roleLoadout
-#  id: JobGSResearchDirector
-#  groups:
-#  - GSGroupTankHarness
-#  - GSResearchDirectorHead
-#  - GSResearchDirectorNeck
-#  - GSResearchDirectorJumpsuit
-#  - GSScientistBackpack
-#  - GSResearchDirectorOuterClothing
-#  - GSScientistGloves
-#  - GSResearchDirectorShoes
-#  - GSGlasses
-#  - GSSurvival
-#  - GSTrinkets
-#  #- GSResearchDirectorJobTrinkets
-#  - GSGroupSpeciesBreathTool
-#
-#- type: roleLoadout
-#  id: JobGSScientist
-#  groups:
-#  - GSGroupTankHarness
-#  - GSScientistHead
-#  - GSScientistNeck
-#  - GSScientistJumpsuit
-#  - GSScientistBackpack
-#  - GSScientistOuterClothing
-#  - GSScientistGloves
-#  - GSScientistShoes
-#  - GSScientistPDA
-#  - GSGlasses
-#  - GSSurvival
-#  - GSTrinkets
-#  #- GSScientistJobTrinkets
-#  - GSGroupSpeciesBreathTool
-#
-#- type: roleLoadout
-#  id: JobGSResearchAssistant
-#  groups:
-#  - GSGroupTankHarness
-#  - GSResearchAssistantJumpsuit
-#  - GSScientistBackpack
-#  - GSGlasses
-#  - GSSurvival
-#  - GSTrinkets
-#  #- GSResearchAssistantJobTrinkets
-#  - GSGroupSpeciesBreathTool
-
 # Security
 - type: roleLoadout
   id: JobGSHeadOfSecurity
@@ -380,35 +210,6 @@
   - GSGroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
-  id: JobGSWarden
-  groups:
-  - GSWardenHead
-  - GSWardenJumpsuit
-  - GSSecurityBackpack
-  - GSSecurityBelt
-  - GSWardenOuterClothing
-  - GSSecurityShoes
-  - GSSurvivalSecurity
-  - GSTrinkets
-  - GSWardenJobTrinkets
-  - GSGroupSpeciesBreathToolSecurity
-
-- type: roleLoadout
-  id: JobGSSecurityOfficer
-  groups:
-  - GSSecurityHead
-  - GSSecurityJumpsuit
-  - GSSecurityBackpack
-  - GSSecurityOuterClothing
-  - GSSecurityShoes
-  - GSSecurityPDA
-  - GSSecurityBelt
-  - GSSurvivalSecurity
-  - GSTrinkets
-  - GSSecurityJobTrinkets
-  - GSGroupSpeciesBreathToolSecurity
-
-- type: roleLoadout
   id: JobGSDetective
   groups:
   - GSDetectiveHead
@@ -421,41 +222,6 @@
   - GSTrinkets
   - GSDetectiveJobTrinkets
   - GSGroupSpeciesBreathToolSecurity
-
-- type: roleLoadout
-  id: JobGSSecurityCadet
-  groups:
-  - GSSecurityCadetJumpsuit
-  - GSSecurityBackpack
-  - GSSurvivalSecurity
-  - GSTrinkets
-  #- GSSecurityCadetJobTrinkets
-  - GSGroupSpeciesBreathToolSecurity
-
-# Wildcards
-- type: roleLoadout
-  id: JobGSReporter
-  groups:
-  - GSGroupTankHarness
-  - GSReporterJumpsuit
-  - GSCommonBackpack
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSReporterJobTrinkets
-  - GSGroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobGSPsychologist
-  groups:
-  - GSGroupTankHarness
-  - GSPsychologistJumpsuit
-  - GSMedicalBackpack
-  - GSGlasses
-  - GSSurvival
-  - GSTrinkets
-  #- GSPsychologistJobTrinkets
-  - GSGroupSpeciesBreathTool
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit

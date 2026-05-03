@@ -1,13 +1,3 @@
-# For mantles
-- type: loadoutEffectGroup
-  id: GSMasterQM
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: GSJobQuartermaster
-      time: 20h
-
 # Jumpsuit
 - type: loadout
   id: GSQuartermasterJumpsuit
