@@ -15,7 +15,6 @@
   weight: -10
   roles:
   - GSClown
-  - GSHeadOfPersonnel
   - GSMime
   - GSPassenger
   - GSServiceWorker
@@ -29,7 +28,7 @@
   - GSSkipper
   - GSChiefEngineer
   - GSChiefMedicalOfficer
-  - GSHeadOfPersonnel
+  - GSFirstOfficer
   - GSHeadOfSecurity
   - GSQuartermaster
   primary: false

@@ -13,7 +13,7 @@
   id: GSJobSkipper
 
 - type: playTimeTracker
-  id: GSJobHeadOfPersonnel
+  id: GSJobFirstOfficer
 
 # Engineering
 - type: playTimeTracker

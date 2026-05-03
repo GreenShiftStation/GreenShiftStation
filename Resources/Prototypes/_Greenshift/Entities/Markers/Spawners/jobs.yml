@@ -101,12 +101,12 @@
       - state: captain
 
 - type: entity
-  id: GSSpawnPointHeadOfPersonnel
+  id: GSSpawnPointFirstOfficer
   parent: SpawnPointJobBase
-  name: headofpersonnel
+  name: firstofficer
   components:
   - type: SpawnPoint
-    job_id: GSHeadOfPersonnel
+    job_id: GSFirstOfficer
   - type: Sprite
     layers:
       - state: green

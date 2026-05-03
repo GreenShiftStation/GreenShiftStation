@@ -1,8 +1,8 @@
 - type: job
-  id: GSHeadOfPersonnel
-  name: job-name-hop
-  description: job-description-hop
-  playTimeTracker: GSJobHeadOfPersonnel
+  id: GSFirstOfficer
+  name: job-name-first-officer
+  description: job-description-first-officer
+  playTimeTracker: GSJobFirstOfficer
   requirements:
     - !type:DepartmentTimeRequirement
       department: GSEngineering
@@ -17,7 +17,7 @@
       department: GSCommand
       time: 2.5h
   weight: 20
-  startingGear: GSHoPGear
+  startingGear: GSFirstOfficerGear
   icon: "JobIconHeadOfPersonnel"
   supervisors: job-supervisors-captain
   canBeAntag: false
@@ -57,7 +57,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: GSHoPGear
+  id: GSFirstOfficerGear
   equipment:
     shoes: ClothingShoesColorBrown
     id: HoPPDA
@@ -70,8 +70,8 @@
     - Flash
 
 - type: chameleonOutfit
-  id: GSHeadOfPersonnelChameleonOutfit
-  job: GSHeadOfPersonnel
+  id: GSFirstOfficerChameleonOutfit
+  job: GSFirstOfficer
   hasMindShield: true
   equipment:
     head: ClothingHeadHatHopcap

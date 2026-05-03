@@ -1,29 +1,29 @@
 # Jumpsuit
 - type: loadout
-  id: GSHoPJumpsuit
+  id: GSFirstOfficerJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoP
 
 - type: loadout
-  id: GSHoPJumpskirt
+  id: GSFirstOfficerJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtHoP
 
 # Head
 - type: loadout
-  id: GSHoPHead
+  id: GSFirstOfficerHead
   equipment:
     head: ClothingHeadHatHopcap
 
 # Neck
 - type: loadout
-  id: GSHoPCloak
+  id: GSFirstOfficerCloak
   equipment:
     neck: ClothingNeckCloakHop
 
 # Back
 - type: loadout
-  id: GSHoPBackpackIan
+  id: GSFirstOfficerBackpackIan
   effects:
   - !type:GroupLoadoutEffect
     proto: ProfessionalHoP
@@ -32,6 +32,6 @@
 
 # Outerclothing
 - type: loadout
-  id: GSHoPWintercoat
+  id: GSFirstOfficerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterHoP

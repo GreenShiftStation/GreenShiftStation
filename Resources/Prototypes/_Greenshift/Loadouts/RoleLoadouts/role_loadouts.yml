@@ -12,14 +12,14 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobGSHeadOfPersonnel
+  id: JobGSFirstOfficer
   groups:
   - GSGroupTankHarness
-  - GSHoPHead
-  - GSHoPNeck
-  - GSHoPJumpsuit
-  - GSHoPBackpack
-  - GSHoPOuterClothing
+  - GSFirstOfficerHead
+  - GSFirstOfficerNeck
+  - GSFirstOfficerJumpsuit
+  - GSFirstOfficerBackpack
+  - GSFirstOfficerOuterClothing
   - GSSurvival
   - GSTrinkets
   - GSGroupSpeciesBreathTool

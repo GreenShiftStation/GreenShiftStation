@@ -96,41 +96,41 @@
   - GSSkipperWintercoat
 
 - type: loadoutGroup
-  id: GSHoPHead
-  name: loadout-group-hop-head
+  id: GSFirstOfficerHead
+  name: loadout-group-first-officer-head
   minLimit: 0
   loadouts:
-  - GSHoPHead
+  - GSFirstOfficerHead
 
 - type: loadoutGroup
-  id: GSHoPJumpsuit
-  name: loadout-group-hop-jumpsuit
+  id: GSFirstOfficerJumpsuit
+  name: loadout-group-first-officer-jumpsuit
   loadouts:
-  - GSHoPJumpsuit
-  - GSHoPJumpskirt
+  - GSFirstOfficerJumpsuit
+  - GSFirstOfficerJumpskirt
 
 - type: loadoutGroup
-  id: GSHoPNeck
-  name: loadout-group-hop-neck
+  id: GSFirstOfficerNeck
+  name: loadout-group-first-officer-neck
   minLimit: 0
   loadouts:
-  - GSHoPCloak
+  - GSFirstOfficerCloak
 
 - type: loadoutGroup
-  id: GSHoPBackpack
-  name: loadout-group-hop-backpack
+  id: GSFirstOfficerBackpack
+  name: loadout-group-first-officer-backpack
   loadouts:
   - GSCommonBackpack
   - GSCommonSatchel
   - GSCommonDuffel
-  - GSHoPBackpackIan
+  - GSFirstOfficerBackpackIan
 
 - type: loadoutGroup
-  id: GSHoPOuterClothing
-  name: loadout-group-hop-outerclothing
+  id: GSFirstOfficerOuterClothing
+  name: loadout-group-first-officer-outerclothing
   minLimit: 0
   loadouts:
-  - GSHoPWintercoat
+  - GSFirstOfficerWintercoat
 
 # Civilian
 - type: loadoutGroup
