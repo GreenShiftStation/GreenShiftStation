@@ -118,15 +118,15 @@
 
 # Engineering
 - type: roleLoadout
-  id: JobGSChiefEngineer
+  id: JobGSMasterMachinist
   groups:
   - GSGroupTankHarness
-  - GSChiefEngineerHead
-  - GSChiefEngineerJumpsuit
+  - GSMasterMachinistHead
+  - GSMasterMachinistJumpsuit
   - GSBoatswainBackpack
-  - GSChiefEngineerNeck
-  - GSChiefEngineerOuterClothing
-  - GSChiefEngineerShoes
+  - GSMasterMachinistNeck
+  - GSMasterMachinistOuterClothing
+  - GSMasterMachinistShoes
   - GSSurvivalExtended
   - GSTrinkets
   - GSGroupSpeciesBreathTool

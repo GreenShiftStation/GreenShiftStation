@@ -1,43 +1,43 @@
 # Jumpsuit
 - type: loadout
-  id: GSChiefEngineerJumpsuit
+  id: GSMasterMachinistJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineer
 
 - type: loadout
-  id: GSChiefEngineerJumpskirt
+  id: GSMasterMachinistJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtChiefEngineer
 
 - type: loadout
-  id: GSChiefEngineerTurtleneck
+  id: GSMasterMachinistTurtleneck
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
 
 - type: loadout
-  id: GSChiefEngineerTurtleneckSkirt
+  id: GSMasterMachinistTurtleneckSkirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
 
 # Head
 - type: loadout
-  id: GSChiefEngineerHead
+  id: GSMasterMachinistHead
   equipment:
     head: ClothingHeadHatHardhatWhite
 
 - type: loadout
-  id: GSChiefEngineerBeret
+  id: GSMasterMachinistBeret
   startingGear: EngineeringBeret
 
 # Neck
 - type: loadout
-  id: GSChiefEngineerCloak
+  id: GSMasterMachinistCloak
   equipment:
     neck: ClothingNeckCloakCe
 
 # OuterClothing
 - type: loadout
-  id: GSChiefEngineerWintercoat
+  id: GSMasterMachinistWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCE
 

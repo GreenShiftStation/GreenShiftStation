@@ -427,39 +427,39 @@
 
 # Engineering
 - type: loadoutGroup
-  id: GSChiefEngineerHead
-  name: loadout-group-chief-engineer-head
+  id: GSMasterMachinistHead
+  name: loadout-group-master-machinist-head
   minLimit: 0
   loadouts:
-  - GSChiefEngineerHead
-  - GSChiefEngineerBeret
+  - GSMasterMachinistHead
+  - GSMasterMachinistBeret
 
 - type: loadoutGroup
-  id: GSChiefEngineerJumpsuit
-  name: loadout-group-chief-engineer-jumpsuit
+  id: GSMasterMachinistJumpsuit
+  name: loadout-group-master-machinist-jumpsuit
   loadouts:
-  - GSChiefEngineerJumpsuit
-  - GSChiefEngineerJumpskirt
-  - GSChiefEngineerTurtleneck
-  - GSChiefEngineerTurtleneckSkirt
+  - GSMasterMachinistJumpsuit
+  - GSMasterMachinistJumpskirt
+  - GSMasterMachinistTurtleneck
+  - GSMasterMachinistTurtleneckSkirt
 
 - type: loadoutGroup
-  id: GSChiefEngineerNeck
-  name: loadout-group-chief-engineer-neck
+  id: GSMasterMachinistNeck
+  name: loadout-group-master-machinist-neck
   minLimit: 0
   loadouts:
-  - GSChiefEngineerCloak
+  - GSMasterMachinistCloak
 
 - type: loadoutGroup
-  id: GSChiefEngineerOuterClothing
-  name: loadout-group-chief-engineer-outerclothing
+  id: GSMasterMachinistOuterClothing
+  name: loadout-group-master-machinist-outerclothing
   minLimit: 0
   loadouts:
-  - GSChiefEngineerWintercoat
+  - GSMasterMachinistWintercoat
 
 - type: loadoutGroup
-  id: GSChiefEngineerShoes
-  name: loadout-group-chief-engineer-shoes
+  id: GSMasterMachinistShoes
+  name: loadout-group-master-machinist-shoes
   loadouts:
   - GSBrownShoes
 

@@ -115,12 +115,12 @@
 # Engineering
 
 - type: entity
-  id: GSSpawnPointChiefEngineer
+  id: GSSpawnPointMasterMachinist
   parent: SpawnPointJobBase
-  name: chiefengineer
+  name: mastermachinist
   components:
   - type: SpawnPoint
-    job_id: GSChiefEngineer
+    job_id: GSMasterMachinist
   - type: Sprite
     layers:
       - state: green

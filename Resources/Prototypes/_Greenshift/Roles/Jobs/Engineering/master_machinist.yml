@@ -1,8 +1,8 @@
 - type: job
-  id: GSChiefEngineer
-  name: job-name-ce
-  description: job-description-ce
-  playTimeTracker: GSJobChiefEngineer
+  id: GSMasterMachinist
+  name: job-name-mm
+  description: job-description-mm
+  playTimeTracker: GSJobMasterMachinist
   requirements:
     - !type:RoleTimeRequirement
       role: GSJobMachinist
@@ -14,7 +14,7 @@
       department: GSEngineering
       time: 10h
   weight: 10
-  startingGear: ChiefEngineerGear
+  startingGear: GSMasterMachinistGear
   icon: "JobIconChiefEngineer"
   supervisors: job-supervisors-first-officer
   canBeAntag: false
@@ -36,7 +36,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: GSChiefEngineerGear
+  id: GSMasterMachinistGear
   equipment:
     id: CEPDA
     eyes: ClothingEyesGlassesMeson
@@ -47,8 +47,8 @@
     - Flash
 
 - type: chameleonOutfit
-  id: GSChiefEngineerChameleonOutfit
-  job: GSChiefEngineer
+  id: GSMasterMachinistChameleonOutfit
+  job: GSMasterMachinist
   hasMindShield: true
   equipment:
     head: ClothingHeadHatBeretEngineering

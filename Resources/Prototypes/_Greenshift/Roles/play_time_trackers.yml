@@ -20,7 +20,7 @@
   id: GSJobMachinist
 
 - type: playTimeTracker
-  id: GSJobChiefEngineer
+  id: GSJobMasterMachinist
 
 - type: playTimeTracker
   id: GSJobBoatswain
