@@ -42,7 +42,7 @@
   roles:
   - GSMachinist
   - GSChiefEngineer
-  - GSStationEngineer
+  - GSBoatswain
 
 - type: department
   id: GSMedical

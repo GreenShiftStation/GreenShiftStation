@@ -1,64 +1,59 @@
 # Head
-- type: startingGear
-  id: GSEngineeringBeret
-  equipment:
-    head: ClothingHeadHatBeretEngineering
-
 - type: loadout
-  id: GSStationEngineerHardhatYellow
+  id: GSBoatswainHardhatYellow
   equipment:
     head: ClothingHeadHatHardhatYellow
 
 - type: loadout
-  id: GSStationEngineerHardhatOrange
+  id: GSBoatswainHardhatOrange
   equipment:
     head: ClothingHeadHatHardhatOrange
 
 - type: loadout
-  id: GSStationEngineerHardhatRed
+  id: GSBoatswainHardhatRed
   equipment:
     head: ClothingHeadHatHardhatRed
 
 # Jumpsuit
 - type: loadout
-  id: GSStationEngineerJumpsuit
+  id: GSBoatswainJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitEngineering
 
 - type: loadout
-  id: GSStationEngineerJumpskirt
+  id: GSBoatswainJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtEngineering
 
 - type: loadout
-  id: GSStationEngineerHazardsuit
+  id: GSBoatswainHazardsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitEngineeringHazard
 
 # Back
 - type: loadout
-  id: GSStationEngineerBackpack
+  id: GSBoatswainBackpack
   equipment:
     back: ClothingBackpackEngineering
 
 - type: loadout
-  id: GSStationEngineerSatchel
+  id: GSBoatswainSatchel
   equipment:
     back: ClothingBackpackSatchelEngineering
 
 - type: loadout
-  id: GSStationEngineerDuffel
+  id: GSBoatswainDuffel
   equipment:
     back: ClothingBackpackDuffelEngineering
 
 # OuterClothing
 - type: loadout
-  id: GSStationEngineerOuterVest
+  id: GSBoatswainOuterVest
   equipment:
     outerClothing: ClothingOuterVestHazard
 
 - type: loadout
-  id: GSStationEngineerWintercoat
+  id: GSBoatswainWintercoat
   equipment:
     outerClothing: ClothingOuterWinterEngi
 
@@ -68,13 +63,8 @@
   equipment:
     shoes: ClothingShoesBootsWork
 
-- type: loadout
-  id: GSEngineeringWinterBoots
-  equipment:
-    shoes: ClothingShoesBootsWinterEngi
-
 # ID
 - type: loadout
-  id: GSStationEngineerPDA
+  id: GSBoatswainPDA
   equipment:
     id: EngineerPDA

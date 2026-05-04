@@ -9,7 +9,7 @@
     time: 2.5h
   startingGear: GSMachinistGear
   icon: "JobIconAtmosphericTechnician"
-  supervisors: job-supervisors-ce
+  supervisors: job-supervisors-mm
   access:
   - Common
   - Maintenance

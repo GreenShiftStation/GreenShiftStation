@@ -1,15 +1,15 @@
 - type: job
-  id: GSStationEngineer
-  name: job-name-engineer
-  description: job-description-engineer
-  playTimeTracker: GSJobStationEngineer
+  id: GSBoatswain
+  name: job-name-boatswain
+  description: job-description-boatswain
+  playTimeTracker: GSJobBoatswain
   requirements:
     - !type:DepartmentTimeRequirement
       department: GSEngineering
       time: 2.5h
-  startingGear: GSStationEngineerGear
+  startingGear: GSBoatswainGear
   icon: "JobIconStationEngineer"
-  supervisors: job-supervisors-ce
+  supervisors: job-supervisors-mm
   access:
   - Common
   - Maintenance
@@ -19,7 +19,7 @@
   - Atmospherics
 
 - type: startingGear
-  id: GSStationEngineerGear
+  id: GSBoatswainGear
   equipment:
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
@@ -29,8 +29,8 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: GSStationEngineerChameleonOutfit
-  job: GSStationEngineer
+  id: GSBoatswainChameleonOutfit
+  job: GSBoatswain
   equipment:
     head: ClothingHeadHatHardhatYellow
     mask: ClothingMaskBreath

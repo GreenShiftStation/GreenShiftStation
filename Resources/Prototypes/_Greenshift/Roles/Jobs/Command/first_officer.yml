@@ -19,7 +19,7 @@
   weight: 20
   startingGear: GSFirstOfficerGear
   icon: "JobIconHeadOfPersonnel"
-  supervisors: job-supervisors-captain
+  supervisors: job-supervisors-skipper
   canBeAntag: false
   access:
   - Command

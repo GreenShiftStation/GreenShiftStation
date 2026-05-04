@@ -1,3 +1,4 @@
+job-description-boatswain = Keep the station repaired and in passable shape.
 job-description-deckhand = Handle logistics and orders, drink yourself to death on the ATS.
 job-description-first-officer = Act as the Skipper's right hand, abuse your less-than-absolute power for profit.
 job-description-machinist = Maintain the machines and atmospherics of the station.

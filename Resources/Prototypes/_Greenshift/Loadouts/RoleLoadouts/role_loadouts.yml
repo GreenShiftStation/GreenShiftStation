@@ -123,7 +123,7 @@
   - GSGroupTankHarness
   - GSChiefEngineerHead
   - GSChiefEngineerJumpsuit
-  - GSStationEngineerBackpack
+  - GSBoatswainBackpack
   - GSChiefEngineerNeck
   - GSChiefEngineerOuterClothing
   - GSChiefEngineerShoes
@@ -132,15 +132,15 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobGSStationEngineer
+  id: JobGSBoatswain
   groups:
   - GSGroupTankHarness
-  - GSStationEngineerHead
-  - GSStationEngineerJumpsuit
-  - GSStationEngineerBackpack
-  - GSStationEngineerOuterClothing
-  - GSStationEngineerShoes
-  - GSStationEngineerID
+  - GSBoatswainHead
+  - GSBoatswainJumpsuit
+  - GSBoatswainBackpack
+  - GSBoatswainOuterClothing
+  - GSBoatswainShoes
+  - GSBoatswainID
   - GSSurvivalExtended
   - GSTrinkets
   - GSGroupSpeciesBreathTool

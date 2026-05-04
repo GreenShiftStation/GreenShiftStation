@@ -462,59 +462,51 @@
   name: loadout-group-chief-engineer-shoes
   loadouts:
   - GSBrownShoes
-  - GSEngineeringWinterBoots
 
 - type: loadoutGroup
-  id: GSStationEngineerHead
-  name: loadout-group-station-engineer-head
+  id: GSBoatswainHead
+  name: loadout-group-boatswain-head
   minLimit: 0
   loadouts:
-  - GSStationEngineerHardhatYellow
-  - GSStationEngineerHardhatOrange
-  - GSStationEngineerHardhatRed
+  - GSBoatswainHardhatYellow
+  - GSBoatswainHardhatOrange
+  - GSBoatswainHardhatRed
 
 - type: loadoutGroup
-  id: GSStationEngineerJumpsuit
-  name: loadout-group-station-engineer-jumpsuit
+  id: GSBoatswainJumpsuit
+  name: loadout-group-boatswain-jumpsuit
   loadouts:
-  - GSStationEngineerJumpsuit
-  - GSStationEngineerJumpskirt
-  - GSStationEngineerHazardsuit
+  - GSBoatswainJumpsuit
+  - GSBoatswainJumpskirt
+  - GSBoatswainHazardsuit
 
 - type: loadoutGroup
-  id: GSStationEngineerBackpack
-  name: loadout-group-station-engineer-backpack
+  id: GSBoatswainBackpack
+  name: loadout-group-boatswain-backpack
   loadouts:
-  - GSStationEngineerBackpack
-  - GSStationEngineerSatchel
-  - GSStationEngineerDuffel
+  - GSBoatswainBackpack
+  - GSBoatswainSatchel
+  - GSBoatswainDuffel
 
 - type: loadoutGroup
-  id: GSStationEngineerOuterClothing
-  name: loadout-group-station-engineer-outerclothing
+  id: GSBoatswainOuterClothing
+  name: loadout-group-boatswain-outerclothing
   minLimit: 0
   loadouts:
-  - GSStationEngineerOuterVest
-  - GSStationEngineerWintercoat
+  - GSBoatswainOuterVest
+  - GSBoatswainWintercoat
 
 - type: loadoutGroup
-  id: GSStationEngineerShoes
-  name: loadout-group-station-engineer-shoes
+  id: GSBoatswainShoes
+  name: loadout-group-boatswain-shoes
   loadouts:
   - GSWorkBoots
-  - GSEngineeringWinterBoots
 
 - type: loadoutGroup
-  id: GSStationEngineerID
-  name: loadout-group-station-engineer-id
+  id: GSBoatswainID
+  name: loadout-group-boatswain-id
   loadouts:
-  - GSStationEngineerPDA
-
-#- type: loadoutGroup
-#  id: GSStationEngineerJobTrinkets
-#  name: loadout-group-jobtrinkets
-#  minLimit: 0
-#  loadouts:
+  - GSBoatswainPDA
 
 - type: loadoutGroup
   id: GSMachinistJumpsuit
@@ -544,7 +536,6 @@
   name: loadout-group-machinist-shoes
   loadouts:
   - GSWhiteShoes
-  - GSEngineeringWinterBoots
 
 #- type: loadoutGroup
 #  id: GSAtmosphericTechnicianJobTrinkets

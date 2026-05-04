@@ -127,12 +127,12 @@
       - state: ce
 
 - type: entity
-  id: GSSpawnPointStationEngineer
+  id: GSSpawnPointBoatswain
   parent: SpawnPointJobBase
-  name: stationengineer
+  name: boatswain
   components:
   - type: SpawnPoint
-    job_id: GSStationEngineer
+    job_id: GSBoatswain
   - type: Sprite
     layers:
       - state: green

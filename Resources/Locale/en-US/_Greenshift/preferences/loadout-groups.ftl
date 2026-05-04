@@ -12,6 +12,14 @@ loadout-group-first-officer-backpack = First Officer backpack
 loadout-group-first-officer-outerclothing = First Officer outer clothing
 
 # Engineering
+loadout-group-boatswain-head = Boatswain head
+loadout-group-boatswain-jumpsuit = Boatswain jumpsuit
+loadout-group-boatswain-neck = Boatswain neck
+loadout-group-boatswain-backpack = Boatswain backpack
+loadout-group-boatswain-outerclothing = Boatswain outer clothing
+loadout-group-boatswain-shoes = Boatswain shoes
+loadout-group-boatswain-id = Boatswain ID
+
 loadout-group-machinist-head = Machinist head
 loadout-group-machinist-jumpsuit = Machinist jumpsuit
 loadout-group-machinist-neck = Machinist neck
