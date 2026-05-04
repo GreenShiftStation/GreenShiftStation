@@ -1,13 +1,13 @@
 - type: job
-  id: GSAtmosphericTechnician
-  name: job-name-atmostech
-  description: job-description-atmostech
-  playTimeTracker: GSJobAtmosphericTechnician
+  id: GSMachinist
+  name: job-name-machinist
+  description: job-description-machinist
+  playTimeTracker: GSJobMachinist
   requirements:
   - !type:DepartmentTimeRequirement
     department: GSEngineering
     time: 2.5h
-  startingGear: GSAtmosphericTechnicianGear
+  startingGear: GSMachinistGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce
   access:
@@ -22,7 +22,7 @@
     prototype: FireAxe
 
 - type: startingGear
-  id: GSAtmosphericTechnicianGear
+  id: GSMachinistGear
   equipment:
     eyes: ClothingEyesGlassesMeson
     id: AtmosPDA
@@ -33,8 +33,8 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: GSAtmosphericTechnicianChameleonOutfit
-  job: GSAtmosphericTechnician
+  id: GSMachinistChameleonOutfit
+  job: GSMachinist
   equipment:
     head: ClothingHeadHelmetAtmosFire
     mask: ClothingMaskGasAtmos

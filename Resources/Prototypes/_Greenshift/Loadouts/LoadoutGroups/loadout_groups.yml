@@ -517,31 +517,31 @@
 #  loadouts:
 
 - type: loadoutGroup
-  id: GSAtmosphericTechnicianJumpsuit
-  name: loadout-group-atmospheric-technician-jumpsuit
+  id: GSMachinistJumpsuit
+  name: loadout-group-machinist-jumpsuit
   loadouts:
-  - GSAtmosphericTechnicianJumpsuit
-  - GSAtmosphericTechnicianJumpskirt
-  - GSAtmosphericTechnicianJumpsuitCasual
+  - GSMachinistJumpsuit
+  - GSMachinistJumpskirt
+  - GSMachinistJumpsuitCasual
 
 - type: loadoutGroup
-  id: GSAtmosphericTechnicianOuterClothing
-  name: loadout-group-atmospheric-technician-outerclothing
+  id: GSMachinistOuterClothing
+  name: loadout-group-machinist-outerclothing
   minLimit: 0
   loadouts:
-  - GSAtmosphericTechnicianWintercoat
+  - GSMachinistWintercoat
 
 - type: loadoutGroup
-  id: GSAtmosphericTechnicianBackpack
-  name: loadout-group-atmospheric-technician-backpack
+  id: GSMachinistBackpack
+  name: loadout-group-machinist-backpack
   loadouts:
-  - GSAtmosphericTechnicianBackpack
-  - GSAtmosphericTechnicianSatchel
-  - GSAtmosphericTechnicianDuffel
+  - GSMachinistBackpack
+  - GSMachinistSatchel
+  - GSMachinistDuffel
 
 - type: loadoutGroup
-  id: GSAtmosphericTechnicianShoes
-  name: loadout-group-atmospheric-technician-shoes
+  id: GSMachinistShoes
+  name: loadout-group-machinist-shoes
   loadouts:
   - GSWhiteShoes
   - GSEngineeringWinterBoots

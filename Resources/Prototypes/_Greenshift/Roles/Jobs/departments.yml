@@ -40,7 +40,7 @@
   description: department-Engineering-description
   color: "#EFB341"
   roles:
-  - GSAtmosphericTechnician
+  - GSMachinist
   - GSChiefEngineer
   - GSStationEngineer
 

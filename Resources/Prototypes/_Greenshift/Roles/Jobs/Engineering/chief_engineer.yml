@@ -5,7 +5,7 @@
   playTimeTracker: GSJobChiefEngineer
   requirements:
     - !type:RoleTimeRequirement
-      role: GSJobAtmosphericTechnician
+      role: GSJobMachinist
       time: 2.5h
     - !type:RoleTimeRequirement
       role: GSJobStationEngineer

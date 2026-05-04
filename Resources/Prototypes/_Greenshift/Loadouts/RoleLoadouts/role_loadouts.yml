@@ -146,13 +146,13 @@
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobGSAtmosphericTechnician
+  id: JobGSMachinist
   groups:
   - GSGroupTankHarness
-  - GSAtmosphericTechnicianJumpsuit
-  - GSAtmosphericTechnicianBackpack
-  - GSAtmosphericTechnicianOuterClothing
-  - GSAtmosphericTechnicianShoes
+  - GSMachinistJumpsuit
+  - GSMachinistBackpack
+  - GSMachinistOuterClothing
+  - GSMachinistShoes
   - GSSurvivalExtended
   - GSTrinkets
   - GSGroupSpeciesBreathTool

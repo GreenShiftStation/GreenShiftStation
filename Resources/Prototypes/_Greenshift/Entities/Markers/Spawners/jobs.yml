@@ -139,12 +139,12 @@
       - state: engineer
 
 - type: entity
-  id: GSSpawnPointAtmos
+  id: GSSpawnPointMachinist
   parent: SpawnPointJobBase
-  name: atmospherics
+  name: machinist
   components:
   - type: SpawnPoint
-    job_id: GSAtmosphericTechnician
+    job_id: GSMachinist
   - type: Sprite
     layers:
       - state: green
