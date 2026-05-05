@@ -5,7 +5,7 @@
   playTimeTracker: GSJobClown
   startingGear: GSClownGear
   icon: "JobIconClown"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-qm
   access:
   - Common
   - Theatre

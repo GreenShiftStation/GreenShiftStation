@@ -1,6 +1,14 @@
+job-name-apothecary = Apothecary
 job-name-boatswain = Boatswain
 job-name-deckhand = Deckhand
+job-name-detective-constable = Detective Constable
 job-name-first-officer = First Officer
+job-name-herbalist = Herbalist
+job-name-maa = Master at Arms
 job-name-machinist = Machinist
+job-name-mariner = Mariner
 job-name-mm = Master Machinist
+job-name-master-surgeon = Master Surgeon
 job-name-skipper = Skipper
+job-name-steward = Steward
+job-name-surgeon = Surgeon

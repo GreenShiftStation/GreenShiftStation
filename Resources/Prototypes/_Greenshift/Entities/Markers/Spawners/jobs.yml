@@ -27,36 +27,36 @@
 # Civilian
 
 - type: entity
-  id: GSSpawnPointPassenger
+  id: GSSpawnPointMariner
   parent: SpawnPointJobBase
-  name: passenger
+  name: mariner
   components:
   - type: SpawnPoint
-    job_id: GSPassenger
+    job_id: GSMariner
   - type: Sprite
     layers:
       - state: green
       - state: passenger
 
 - type: entity
-  id: GSSpawnPointServiceWorker
+  id: GSSpawnPointSteward
   parent: SpawnPointJobBase
   name: service worker
   components:
   - type: SpawnPoint
-    job_id: GSServiceWorker
+    job_id: GSSteward
   - type: Sprite
     layers:
       - state: green
       - state: serviceworker
 
 - type: entity
-  id: GSSpawnPointBotanist
+  id: GSSpawnPointHerbalist
   parent: SpawnPointJobBase
-  name: botanist
+  name: herbalist
   components:
   - type: SpawnPoint
-    job_id: GSBotanist
+    job_id: GSHerbalist
   - type: Sprite
     layers:
       - state: green
@@ -153,36 +153,36 @@
 # Medical
 
 - type: entity
-  id: GSSpawnPointChiefMedicalOfficer
+  id: GSSpawnPointMasterSurgeon
   parent: SpawnPointJobBase
-  name: chiefmedicalofficer
+  name: mastersurgeon
   components:
   - type: SpawnPoint
-    job_id: GSChiefMedicalOfficer
+    job_id: GSMasterSurgeon
   - type: Sprite
     layers:
       - state: green
       - state: cmo
 
 - type: entity
-  id: GSSpawnPointMedicalDoctor
+  id: GSSpawnPointSurgeon
   parent: SpawnPointJobBase
-  name: medicaldoctor
+  name: surgeon
   components:
   - type: SpawnPoint
-    job_id: GSMedicalDoctor
+    job_id: GSSurgeon
   - type: Sprite
     layers:
       - state: green
       - state: doctor
 
 - type: entity
-  id: GSSpawnPointChemist
+  id: GSSpawnPointApothecary
   parent: SpawnPointJobBase
-  name: chemist
+  name: apothecary
   components:
   - type: SpawnPoint
-    job_id: GSChemist
+    job_id: GSApothecary
   - type: Sprite
     layers:
       - state: green
@@ -191,12 +191,12 @@
 # Security
 
 - type: entity
-  id: GSSpawnPointHeadOfSecurity
+  id: GSSpawnPointMasteratArms
   parent: SpawnPointJobBase
-  name: headofsecurity
+  name: masteratarms
   components:
   - type: SpawnPoint
-    job_id: GSHeadOfSecurity
+    job_id: GSMasteratArms
   - type: Sprite
     layers:
       - state: green

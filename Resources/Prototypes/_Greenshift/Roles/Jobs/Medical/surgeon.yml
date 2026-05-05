@@ -1,34 +1,30 @@
 - type: job
-  id: GSMedicalDoctor
-  name: job-name-doctor
-  description: job-description-doctor
-  playTimeTracker: GSJobMedicalDoctor
+  id: GSSurgeon
+  name: job-name-surgeon
+  description: job-description-surgeon
+  playTimeTracker: GSJobSurgeon
   requirements:
     - !type:DepartmentTimeRequirement
       department: GSMedical
       time: 2.5h
-  startingGear: GSDoctorGear
+  startingGear: GSSurgeonGear
   icon: "JobIconMedicalDoctor"
-  supervisors: job-supervisors-cmo
+  supervisors: job-supervisors-ms
   access:
   - Common
   - Medical
   - Maintenance
   extendedAccess:
   - Chemistry
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: DoctorDay
-    prototype: WehMedipen
 
 - type: startingGear
-  id: GSDoctorGear
+  id: GSSurgeonGear
   equipment:
     ears: ClothingHeadsetMedical
 
 - type: chameleonOutfit
-  id: GSMedicalDoctorChameleonOutfit
-  job: GSMedicalDoctor
+  id: GSSurgeonChameleonOutfit
+  job: GSSurgeon
   equipment:
     head: ClothingHeadNurseHat
     eyes: ClothingEyesHudMedical

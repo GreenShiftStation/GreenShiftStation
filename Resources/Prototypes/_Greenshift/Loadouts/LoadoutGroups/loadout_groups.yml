@@ -134,8 +134,8 @@
 
 # Civilian
 - type: loadoutGroup
-  id: GSPassengerJumpsuit
-  name: loadout-group-passenger-jumpsuit
+  id: GSMarinerJumpsuit
+  name: loadout-group-mariner-jumpsuit
   loadouts:
   - GSGreyJumpsuit
   - GSGreyJumpskirt
@@ -149,81 +149,68 @@
   - GSCommonDuffel
 
 - type: loadoutGroup
-  id: GSPassengerOuterClothing
-  name: loadout-group-passenger-outerclothing
-  minLimit: 0
-  loadouts:
-  - GSPassengerWintercoat
-
-- type: loadoutGroup
-  id: GSPassengerShoes
-  name: loadout-group-passenger-shoes
+  id: GSMarinerShoes
+  name: loadout-group-mariner-shoes
   loadouts:
   - GSBlackShoes
   - GSWinterBoots
 
 - type: loadoutGroup
-  id: GSBartenderHead
-  name: loadout-group-bartender-head
+  id: GSStewardHead
+  name: loadout-group-steward-head
   minLimit: 0
   loadouts:
-  - GSBartenderHead
-  - GSBartenderBowler
+  - GSStewardHead
+  - GSStewardBowler
 
 - type: loadoutGroup
-  id: GSBartenderJumpsuit
-  name: loadout-group-bartender-jumpsuit
+  id: GSStewardJumpsuit
+  name: loadout-group-steward-jumpsuit
   loadouts:
-  - GSBartenderJumpsuit
-  - GSBartenderJumpskirt
-  - GSBartenderJumpsuitPurple
+  - GSStewardJumpsuit
+  - GSStewardJumpskirt
+  - GSStewardJumpsuitPurple
 
 - type: loadoutGroup
-  id: GSBartenderOuterClothing
-  name: loadout-group-bartender-outerclothing
+  id: GSStewardOuterClothing
+  name: loadout-group-steward-outerclothing
   minLimit: 0
   loadouts:
-  - GSBartenderVest
-  - GSBartenderApron
-  - GSBartenderWintercoat
+  - GSStewardVest
+  - GSStewardApron
+  - GSStewardWintercoat
 
 - type: loadoutGroup
-  id: GSBotanistHead
-  name: loadout-group-botanist-head
+  id: GSHerbalistHead
+  name: loadout-group-herbalist-head
   minLimit: 0
   loadouts:
-  - GSBotanistHead
-  - GSBotanistBandana
+  - GSHerbalistHead
+  - GSHerbalistBandana
 
 - type: loadoutGroup
-  id: GSBotanistJumpsuit
-  name: loadout-group-botanist-jumpsuit
+  id: GSHerbalistJumpsuit
+  name: loadout-group-herbalist-jumpsuit
   loadouts:
-  - GSBotanistJumpsuit
-  - GSBotanistJumpskirt
-  - GSBotanistOveralls
+  - GSHerbalistJumpsuit
+  - GSHerbalistJumpskirt
+  - GSHerbalistOveralls
 
 - type: loadoutGroup
-  id: GSBotanistBackpack
-  name: loadout-group-botanist-backpack
+  id: GSHerbalistBackpack
+  name: loadout-group-herbalist-backpack
   loadouts:
-  - GSBotanistBackpack
-  - GSBotanistSatchel
-  - GSBotanistDuffel
+  - GSHerbalistBackpack
+  - GSHerbalistSatchel
+  - GSHerbalistDuffel
 
 - type: loadoutGroup
-  id: GSBotanistOuterClothing
-  name: loadout-group-botanist-outerclothing
+  id: GSHerbalistOuterClothing
+  name: loadout-group-herbalist-outerclothing
   minLimit: 0
   loadouts:
-  - GSBotanistApron
-  - GSBotanistWintercoat
-
-#- type: loadoutGroup
-#  id: GSBotanistJobTrinkets
-#  name: loadout-group-jobtrinkets
-#  minLimit: 0
-#  loadouts:
+  - GSHerbalistApron
+  - GSHerbalistWintercoat
 
 - type: loadoutGroup
   id: GSClownHead
@@ -380,21 +367,21 @@
 
 - type: loadoutGroup
   id: GSDeckhandHead
-  name: loadout-group-cargo-technician-head
+  name: loadout-group-deckhand-head
   minLimit: 0
   loadouts:
   - GSDeckhandHead
 
 - type: loadoutGroup
   id: GSDeckhandJumpsuit
-  name: loadout-group-cargo-technician-jumpsuit
+  name: loadout-group-deckhand-jumpsuit
   loadouts:
   - GSDeckhandJumpsuit
   - GSDeckhandJumpskirt
 
 - type: loadoutGroup
   id: GSDeckhandBackpack
-  name: loadout-group-cargo-technician-backpack
+  name: loadout-group-deckhand-backpack
   loadouts:
   - GSDeckhandBackpack
   - GSDeckhandSatchel
@@ -402,20 +389,20 @@
 
 - type: loadoutGroup
   id: GSDeckhandOuterClothing
-  name: loadout-group-cargo-technician-outerclothing
+  name: loadout-group-deckhand-outerclothing
   minLimit: 0
   loadouts:
   - GSDeckhandWintercoat
 
 - type: loadoutGroup
   id: GSDeckhandShoes
-  name: loadout-group-cargo-technician-shoes
+  name: loadout-group-deckhand-shoes
   loadouts:
   - GSBlackShoes
 
 - type: loadoutGroup
   id: GSDeckhandID
-  name: loadout-group-cargo-technician-id
+  name: loadout-group-deckhand-id
   loadouts:
   - GSDeckhandPDA
 
@@ -537,12 +524,6 @@
   loadouts:
   - GSWhiteShoes
 
-#- type: loadoutGroup
-#  id: GSAtmosphericTechnicianJobTrinkets
-#  name: loadout-group-jobtrinkets
-#  minLimit: 0
-#  loadouts:
-
 - type: loadoutGroup
   id: GSSurvivalExtended
   name: loadout-group-survival-extended
@@ -571,42 +552,42 @@
   - GSSecurityWinterBoots
 
 - type: loadoutGroup
-  id: GSHeadofSecurityHead
-  name: loadout-group-head-of-security-head
+  id: GSMasteratArmsHead
+  name: loadout-group-master-at-arms-head
   minLimit: 0
   loadouts:
-  - GSHeadofSecurityHead
-  - GSHeadofSecurityBeret
+  - GSMasteratArmsHead
+  - GSMasteratArmsBeret
 
 - type: loadoutGroup
-  id: GSHeadofSecurityJumpsuit
-  name: loadout-group-head-of-security-jumpsuit
+  id: GSMasteratArmsJumpsuit
+  name: loadout-group-master-at-arms-jumpsuit
   loadouts:
-  - GSHeadofSecurityJumpsuit
-  - GSHeadofSecurityJumpskirt
-  - GSHeadofSecurityTurtleneck
-  - GSHeadofSecurityTurtleneckSkirt
-  - GSHeadofSecurityFormalSuit
-  - GSHeadofSecurityFormalSkirt
+  - GSMasteratArmsJumpsuit
+  - GSMasteratArmsJumpskirt
+  - GSMasteratArmsTurtleneck
+  - GSMasteratArmsTurtleneckSkirt
+  - GSMasteratArmsFormalSuit
+  - GSMasteratArmsFormalSkirt
 
 - type: loadoutGroup
-  id: GSHeadofSecurityNeck
-  name: loadout-group-head-of-security-neck
+  id: GSMasteratArmsNeck
+  name: loadout-group-master-at-arms-neck
   minLimit: 0
   loadouts:
-  - GSHeadofSecurityCloak
-  - GSHeadofSecurityMantle
+  - GSMasteratArmsCloak
+  - GSMasteratArmsMantle
 
 - type: loadoutGroup
-  id: GSHeadofSecurityOuterClothing
-  name: loadout-group-head-of-security-outerclothing
+  id: GSMasteratArmsOuterClothing
+  name: loadout-group-master-at-arms-outerclothing
   loadouts:
-  - GSHeadofSecurityCoat
-  - GSHeadofSecurityWinterCoat
+  - GSMasteratArmsCoat
+  - GSMasteratArmsWinterCoat
 
 - type: loadoutGroup
   id: GSDetectiveHead
-  name: loadout-group-detective-head
+  name: loadout-group-detective-constable-head
   minLimit: 0
   loadouts:
   - GSDetectiveFedora
@@ -614,14 +595,14 @@
 
 - type: loadoutGroup
   id: GSDetectiveNeck
-  name: loadout-group-detective-neck
+  name: loadout-group-detective-constable-neck
   minLimit: 0
   loadouts:
   - GSDetectiveTie
 
 - type: loadoutGroup
   id: GSDetectiveJumpsuit
-  name: loadout-group-detective-jumpsuit
+  name: loadout-group-detective-constable-jumpsuit
   loadouts:
   - GSDetectiveJumpsuit
   - GSDetectiveJumpskirt
@@ -630,7 +611,7 @@
 
 - type: loadoutGroup
   id: GSDetectiveOuterClothing
-  name: loadout-group-detective-outerclothing
+  name: loadout-group-detective-constable-outerclothing
   loadouts:
   - GSDetectiveArmorVest
   - GSDetectiveCoat

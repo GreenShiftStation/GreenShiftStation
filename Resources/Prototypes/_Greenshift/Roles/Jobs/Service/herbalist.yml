@@ -1,11 +1,11 @@
 - type: job
-  id: GSBotanist
-  name: job-name-botanist
-  description: job-description-botanist
-  playTimeTracker: GSJobBotanist
-  startingGear: GSBotanistGear
+  id: GSHerbalist
+  name: job-name-herbalist
+  description: job-description-herbalist
+  playTimeTracker: GSJobHerbalist
+  startingGear: GSHerbalistGear
   icon: "JobIconBotanist"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-qm
   access:
   - Common
   - Service
@@ -20,7 +20,7 @@
     prototype: CannabisSeeds
 
 - type: startingGear
-  id: GSBotanistGear
+  id: GSHerbalistGear
   equipment:
     shoes: ClothingShoesColorBrown
     id: BotanistPDA
@@ -31,8 +31,8 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: GSBotanistChameleonOutfit
-  job: GSBotanist
+  id: GSHerbalistChameleonOutfit
+  job: GSHerbalist
   equipment:
     head: ClothingHeadBandBotany
     eyes: ClothingEyesGlassesCheapSunglasses

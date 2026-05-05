@@ -26,35 +26,34 @@
 
 # Civilian
 - type: roleLoadout
-  id: JobGSPassenger
+  id: JobGSMariner
   groups:
   - GSGroupTankHarness
-  - GSPassengerJumpsuit
+  - GSMarinerJumpsuit
   - GSCommonBackpack
-  - GSPassengerOuterClothing
-  - GSPassengerShoes
+  - GSMarinerShoes
   - GSSurvival
   - GSTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobGSServiceWorker
+  id: JobGSSteward
   groups:
   - GSGroupTankHarness
-  - GSBartenderJumpsuit
+  - GSStewardJumpsuit
   - GSCommonBackpack
   - GSSurvival
   - GSTrinkets
   - GSGroupSpeciesBreathTool
 
 - type: roleLoadout
-  id: JobGSBotanist
+  id: JobGSHerbalist
   groups:
   - GSGroupTankHarness
-  - GSBotanistHead
-  - GSBotanistJumpsuit
-  - GSBotanistBackpack
-  - GSBotanistOuterClothing
+  - GSHerbalistHead
+  - GSHerbalistJumpsuit
+  - GSHerbalistBackpack
+  - GSHerbalistOuterClothing
   - GSSurvival
   - GSTrinkets
   - GSGroupSpeciesBreathTool
@@ -159,13 +158,13 @@
 
 # Security
 - type: roleLoadout
-  id: JobGSHeadOfSecurity
+  id: JobGSMasteratArms
   groups:
-  - GSHeadofSecurityHead
-  - GSHeadofSecurityNeck
-  - GSHeadofSecurityJumpsuit
+  - GSMasteratArmsHead
+  - GSMasteratArmsNeck
+  - GSMasteratArmsJumpsuit
   - GSSecurityBackpack
-  - GSHeadofSecurityOuterClothing
+  - GSMasteratArmsOuterClothing
   - GSSecurityShoes
   - GSSurvivalSecurity
   - GSTrinkets

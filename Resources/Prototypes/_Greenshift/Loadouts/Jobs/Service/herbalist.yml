@@ -1,53 +1,53 @@
 # Head
 - type: loadout
-  id: GSBotanistHead
+  id: GSHerbalistHead
   equipment:
     head: ClothingHeadHatTrucker
 
 - type: loadout
-  id: GSBotanistBandana
+  id: GSHerbalistBandana
   equipment:
     head: ClothingHeadBandBotany
 
 # Jumpsuit
 - type: loadout
-  id: GSBotanistJumpsuit
+  id: GSHerbalistJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitHydroponics
 
 - type: loadout
-  id: GSBotanistJumpskirt
+  id: GSHerbalistJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtHydroponics
 
 - type: loadout
-  id: GSBotanistOveralls
+  id: GSHerbalistOveralls
   equipment:
     jumpsuit: ClothingUniformOveralls
 
 # Back
 - type: loadout
-  id: GSBotanistBackpack
+  id: GSHerbalistBackpack
   equipment:
     back: ClothingBackpackHydroponics
 
 - type: loadout
-  id: GSBotanistSatchel
+  id: GSHerbalistSatchel
   equipment:
     back: ClothingBackpackSatchelHydroponics
 
 - type: loadout
-  id: GSBotanistDuffel
+  id: GSHerbalistDuffel
   equipment:
     back: ClothingBackpackDuffelHydroponics
 
 # Outer clothing
 - type: loadout
-  id: GSBotanistApron
+  id: GSHerbalistApron
   equipment:
     outerClothing: ClothingOuterApronBotanist
 
 - type: loadout
-  id: GSBotanistWintercoat
+  id: GSHerbalistWintercoat
   equipment:
     outerClothing: ClothingOuterWinterHydro

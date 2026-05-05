@@ -1,9 +1,9 @@
 - type: job
-  id: GSPassenger
-  name: job-name-passenger
-  description: job-description-passenger
-  playTimeTracker: GSJobPassenger
-  startingGear: GSPassengerGear
+  id: GSMariner
+  name: job-name-mariner
+  description: job-description-mariner
+  playTimeTracker: GSJobMariner
+  startingGear: GSMarinerGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-everyone
   access:
@@ -11,7 +11,7 @@
   - Maintenance
 
 - type: startingGear
-  id: GSPassengerGear
+  id: GSMarinerGear
   equipment:
     id: PassengerPDA
     ears: ClothingHeadsetGrey
@@ -20,8 +20,8 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: GSPassengerChameleonOutfit
-  job: GSPassenger
+  id: GSMarinerChameleonOutfit
+  job: GSMariner
   equipment:
     head: ClothingHeadHatWelding
     eyes: ClothingEyesGlassesCheapSunglasses

@@ -1,24 +1,22 @@
-# Best job.
-
 - type: job
-  id: GSChiefMedicalOfficer
-  name: job-name-cmo
-  description: job-description-cmo
-  playTimeTracker: GSJobChiefMedicalOfficer
+  id: GSMasterSurgeon
+  name: job-name-ms
+  description: job-description-ms
+  playTimeTracker: GSJobMasterSurgeon
   requirements:
     - !type:RoleTimeRequirement
-      role: GSJobChemist
+      role: GSJobApothecary
       time: 2.5h
     - !type:RoleTimeRequirement
-      role: GSJobMedicalDoctor
+      role: GSJobSurgeon
       time: 5h
     - !type:DepartmentTimeRequirement
       department: GSMedical
       time: 10h
   weight: 10
-  startingGear: GSCMOGear
+  startingGear: GSMasterSurgeonGear
   icon: "JobIconChiefMedicalOfficer"
-  supervisors: job-supervisors-captain
+  supervisors: job-supervisors-first-officer
   canBeAntag: false
   access:
   - Medical
@@ -37,7 +35,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: GSCMOGear
+  id: GSMasterSurgeonGear
   equipment:
     id: CMOPDA
     ears: ClothingHeadsetCMO
@@ -46,8 +44,8 @@
     - Flash
 
 - type: chameleonOutfit
-  id: GSChiefMedicalOfficerChameleonOutfit
-  job: GSChiefMedicalOfficer
+  id: GSMasterSurgeonChameleonOutfit
+  job: GSMasterSurgeon
   hasMindShield: true
   equipment:
     head: ClothingHeadHatBeretCmo

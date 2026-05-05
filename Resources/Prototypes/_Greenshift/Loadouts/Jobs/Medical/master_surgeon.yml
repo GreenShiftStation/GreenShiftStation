@@ -1,49 +1,49 @@
 # Jumpsuit
 - type: loadout
-  id: GSChiefMedicalOfficerJumpsuit
+  id: GSMasterSurgeonJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMO
 
 - type: loadout
-  id: GSChiefMedicalOfficerJumpskirt
+  id: GSMasterSurgeonJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCMO
 
 - type: loadout
-  id: GSChiefMedicalOfficerTurtleneckJumpsuit
+  id: GSMasterSurgeonTurtleneckJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMOTurtle
 
 - type: loadout
-  id: GSChiefMedicalOfficerTurtleneckJumpskirt
+  id: GSMasterSurgeonTurtleneckJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCMOTurtle
 
 # Head
 - type: loadout
-  id: GSChiefMedicalOfficerBeret
+  id: GSMasterSurgeonBeret
   equipment:
     head: ClothingHeadHatBeretCmo
 
 - type: loadout
-  id: GSCMOMedicalHeadMirror
+  id: GSMSMedicalHeadMirror
   equipment:
     head: ClothingHeadMirror
 
 # Neck
 - type: loadout
-  id: GSChiefMedicalOfficerCloak
+  id: GSMasterSurgeonCloak
   equipment:
     neck: ClothingCloakCmo
 
 # Outer clothing
 - type: loadout
-  id: GSChiefMedicalOfficerLabCoat
+  id: GSMasterSurgeonLabCoat
   equipment:
     outerClothing: ClothingOuterCoatLabCmo
 
 - type: loadout
-  id: GSChiefMedicalOfficerWintercoat
+  id: GSMasterSurgeonWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCMO
 

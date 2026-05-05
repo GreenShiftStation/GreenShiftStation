@@ -26,12 +26,12 @@
 
 # Jumpsuit
 - type: loadout
-  id: GSMedicalDoctorJumpsuit
+  id: GSSurgeonJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitMedicalDoctor
 
 - type: loadout
-  id: GSMedicalDoctorJumpskirt
+  id: GSSurgeonJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtMedicalDoctor
 
@@ -52,23 +52,23 @@
 
 # Back
 - type: loadout
-  id: GSMedicalDoctorBackpack
+  id: GSSurgeonBackpack
   equipment:
     back: ClothingBackpackMedical
 
 - type: loadout
-  id: GSMedicalDoctorSatchel
+  id: GSSurgeonSatchel
   equipment:
     back: ClothingBackpackSatchelMedical
 
 - type: loadout
-  id: GSMedicalDoctorDuffel
+  id: GSSurgeonDuffel
   equipment:
     back: ClothingBackpackDuffelMedical
 
 # OuterClothing
 - type: loadout
-  id: GSMedicalDoctorWintercoat
+  id: GSSurgeonWintercoat
   equipment:
     outerClothing: ClothingOuterWinterMed
 
@@ -80,7 +80,7 @@
 
 # ID
 - type: loadout
-  id: GSMedicalDoctorPDA
+  id: GSSurgeonPDA
   equipment:
     id: MedicalPDA
 

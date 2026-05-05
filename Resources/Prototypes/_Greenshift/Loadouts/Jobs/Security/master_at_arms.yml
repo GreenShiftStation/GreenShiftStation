@@ -1,59 +1,59 @@
 # Jumpsuit
 - type: loadout
-  id: GSHeadofSecurityJumpsuit
+  id: GSMasteratArmsJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoS
   groupBy: "jumpsuit"
 
 - type: loadout
-  id: GSHeadofSecurityJumpskirt
+  id: GSMasteratArmsJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtHoS
   groupBy: "jumpskirt"
 
 - type: loadout
-  id: GSHeadofSecurityTurtleneck
+  id: GSMasteratArmsTurtleneck
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoSAlt
   groupBy: "jumpsuit"
 
 - type: loadout
-  id: GSHeadofSecurityTurtleneckSkirt
+  id: GSMasteratArmsTurtleneckSkirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtHoSAlt
   groupBy: "jumpskirt"
 
 - type: loadout
-  id: GSHeadofSecurityFormalSuit
+  id: GSMasteratArmsFormalSuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitHosFormal
   groupBy: "jumpsuit"
 
 - type: loadout
-  id: GSHeadofSecurityFormalSkirt
+  id: GSMasteratArmsFormalSkirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtHosFormal
   groupBy: "jumpskirt"
 
 # Head
 - type: loadout
-  id: GSHeadofSecurityHead
+  id: GSMasteratArmsHead
   equipment:
     head: ClothingHeadHatHoshat
 
 - type: loadout
-  id: GSHeadofSecurityBeret
+  id: GSMasteratArmsBeret
   equipment:
     head: ClothingHeadHatBeretHoS
 
 # Neck
 - type: loadout
-  id: GSHeadofSecurityCloak
+  id: GSMasteratArmsCloak
   equipment:
     neck: ClothingNeckCloakHos
 
 - type: loadout
-  id: GSHeadofSecurityMantle
+  id: GSMasteratArmsMantle
   equipment:
     neck: ClothingNeckMantleHOS
   effects:
@@ -61,17 +61,17 @@
     proto: MasterHoS
 
 - type: startingGear
-  id: GSHeadofSecurityMantle
+  id: GSMasteratArmsMantle
   equipment:
     neck: ClothingNeckMantleHOS
 
 # OuterClothing
 - type: loadout
-  id: GSHeadofSecurityCoat
+  id: GSMasteratArmsCoat
   equipment:
     outerClothing: ClothingOuterCoatHoSTrench
 
 - type: loadout
-  id: GSHeadofSecurityWinterCoat
+  id: GSMasteratArmsWinterCoat
   equipment:
     outerClothing: ClothingOuterWinterHoS

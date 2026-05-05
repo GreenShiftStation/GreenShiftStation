@@ -1,19 +1,16 @@
 - type: job
-  id: GSHeadOfSecurity
-  name: job-name-hos
-  description: job-description-hos
-  playTimeTracker: GSJobHeadOfSecurity
+  id: GSMasteratArms
+  name: job-name-maa
+  description: job-description-maa
+  playTimeTracker: GSJobMasteratArms
   requirements:
-    - !type:RoleTimeRequirement
-      role: GSJobDetective
-      time: 5h # knowing how to use the tools is important
     - !type:DepartmentTimeRequirement
       department: GSSecurity
       time: 10h
   weight: 10
-  startingGear: HoSGear
+  startingGear: GSMasteratArmsGear
   icon: "JobIconHeadOfSecurity"
-  supervisors: job-supervisors-captain
+  supervisors: job-supervisors-skipper
   canBeAntag: false
   access:
   - HeadOfSecurity
@@ -36,7 +33,7 @@
       - type: CommandStaff
 
 - type: startingGear
-  id: GSHoSGear
+  id: GSMasteratArmsGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
     id: HoSPDA
@@ -49,8 +46,8 @@
     - MagazinePistol
 
 - type: chameleonOutfit
-  id: GSHeadOfSecurityChameleonOutfit
-  job: GSHeadOfSecurity
+  id: GSMasteratArmChameleonOutfit
+  job: GSMasteratArms
   hasMindShield: true
   equipment:
     mask: ClothingMaskGasSecurity

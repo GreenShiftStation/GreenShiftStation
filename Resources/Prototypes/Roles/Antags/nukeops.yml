@@ -19,7 +19,7 @@
   - !type:OverallPlaytimeRequirement
     time: 5h
   - !type:RoleTimeRequirement
-    role: GSJobChemist # GREENSHIFT - JOB PROTO
+    role: GSJobApothecary # GREENSHIFT - JOB PROTO
     time: 3h
   guides: [ NuclearOperatives ]
 

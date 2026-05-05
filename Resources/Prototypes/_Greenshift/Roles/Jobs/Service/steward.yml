@@ -1,15 +1,15 @@
 - type: job
-  id: GSServiceWorker
-  name: job-name-serviceworker
-  description: job-description-serviceworker
-  playTimeTracker: GSJobServiceWorker
+  id: GSSteward
+  name: job-name-steward
+  description: job-description-steward
+  playTimeTracker: GSJobSteward
   requirements:
   - !type:DepartmentTimeRequirement
     department: GSService
     time: 0.5h
-  startingGear: GSServiceWorkerGear
+  startingGear: GSStewardGear
   icon: "JobIconServiceWorker"
-  supervisors: job-supervisors-service
+  supervisors: job-supervisors-qm
   access:
   - Common
   - Service
@@ -20,7 +20,7 @@
   - Hydroponics
 
 - type: startingGear
-  id: GSServiceWorkerGear
+  id: GSStewardGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: ServiceWorkerPDA
@@ -30,8 +30,8 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: GSServiceWorkerChameleonOutfit
-  job: GSServiceWorker
+  id: GSStewardChameleonOutfit
+  job: GSSteward
   equipment:
     head: ClothingHeadHatBowlerHat
     eyes: ClothingEyesGlassesSunglasses

@@ -1,15 +1,15 @@
 - type: job
-  id: GSChemist
-  name: job-name-chemist
-  description: job-description-chemist
-  playTimeTracker: GSJobChemist
+  id: GSApothecary
+  name: job-name-apothecary
+  description: job-description-apothecary
+  playTimeTracker: GSJobApothecary
   requirements:
     - !type:DepartmentTimeRequirement
       department: GSMedical
       time: 5h
-  startingGear: GSChemistGear
+  startingGear: GSApothecaryGear
   icon: "JobIconChemist"
-  supervisors: job-supervisors-cmo
+  supervisors: job-supervisors-ms
   access:
   - Common
   - Medical
@@ -17,14 +17,14 @@
   - Maintenance
 
 - type: startingGear
-  id: GSChemistGear
+  id: GSApothecaryGear
   equipment:
     id: ChemistryPDA
     ears: ClothingHeadsetMedical
 
 - type: chameleonOutfit
-  id: GSChemistChameleonOutfit
-  job: GSChemist
+  id: GSApothecaryChameleonOutfit
+  job: GSApothecary
   equipment:
     head: ClothingHeadHatBeretMedic
     mask: ClothingMaskSterile

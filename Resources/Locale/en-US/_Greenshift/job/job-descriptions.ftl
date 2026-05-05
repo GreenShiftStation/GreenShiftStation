@@ -1,6 +1,14 @@
+job-description-apothecary = Synthesize 'helpful and medicinal' solutions for the health of the crew.
 job-description-boatswain = Keep the station repaired and in passable shape.
 job-description-deckhand = Handle logistics and orders, drink yourself to death on the ATS.
+job-description-detective-constable = Investigate crime on the station, advise the Master at Arms.
 job-description-first-officer = Act as the Skipper's right hand, abuse your less-than-absolute power for profit.
+job-description-herbalist = Grow useful plants for the Stewards and Apothecary.
 job-description-machinist = Maintain the machines and atmospherics of the station.
+job-description-maa = Deal with security threats, internal and external, and arm the crew as necessary.
+job-description-mariner = Assist the crew with your deckswabbing skills and value as a meat-shield.
+job-description-master-surgeon = Organize the quack surgeons and Apothecary into something resembling an ordinary medical bay.
 job-description-mm = Manage the Machinists and Boatswains to keep the station intact.
 job-description-skipper = Keep the station running, abuse your absolute power for profit.
+job-description-steward = Serve food and drinks for the hungry crew, beat a Mariner to death for jumping over the counters.
+job-description-surgeon = Treat crewmembers for their ailments, accidentally overdose that Deckhand you think is annoying.

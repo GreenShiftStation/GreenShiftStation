@@ -1,42 +1,42 @@
 # Head
 - type: loadout
-  id: GSBartenderHead
+  id: GSStewardHead
   equipment:
     head: ClothingHeadHatTophat
 
 - type: loadout
-  id: GSBartenderBowler
+  id: GSStewardBowler
   equipment:
     head: ClothingHeadHatBowlerHat
 
 # Jumpsuit
 - type: loadout
-  id: GSBartenderJumpsuit
+  id: GSStewardJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitBartender
 
 - type: loadout
-  id: GSBartenderJumpskirt
+  id: GSStewardJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtBartender
 
 - type: loadout
-  id: GSBartenderJumpsuitPurple
+  id: GSStewardJumpsuitPurple
   equipment:
     jumpsuit: ClothingUniformJumpsuitBartenderPurple
 
 # Outer clothing
 - type: loadout
-  id: GSBartenderApron
+  id: GSStewardApron
   equipment:
     outerClothing: ClothingOuterApronBar
 
 - type: loadout
-  id: GSBartenderVest
+  id: GSStewardVest
   equipment:
     outerClothing: ClothingOuterVest
 
 - type: loadout
-  id: GSBartenderWintercoat
+  id: GSStewardWintercoat
   equipment:
     outerClothing: ClothingOuterWinterBar

@@ -1,7 +1,7 @@
 - type: job
   id: GSDetective
-  name: job-name-detective
-  description: job-description-detective
+  name: job-name-detective-constable
+  description: job-description-detective-constable
   playTimeTracker: GSJobDetective
 #  requirements:
 #  - !type:RoleTimeRequirement
@@ -9,7 +9,7 @@
 #    time: 5h
   startingGear: GSDetectiveGear
   icon: "JobIconDetective"
-  supervisors: job-supervisors-hos
+  supervisors: job-supervisors-maa
   canBeAntag: false
   access:
   - Common

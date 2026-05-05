@@ -27,24 +27,24 @@
 
 #Medical
 - type: playTimeTracker
-  id: GSJobChemist
+  id: GSJobApothecary
 
 - type: playTimeTracker
-  id: GSJobChiefMedicalOfficer
+  id: GSJobMasterSurgeon
 
 - type: playTimeTracker
-  id: GSJobMedicalDoctor
+  id: GSJobSurgeon
 
 # Security
 - type: playTimeTracker
   id: GSJobDetective
 
 - type: playTimeTracker
-  id: GSJobHeadOfSecurity
+  id: GSJobMasteratArms
 
 # Service
 - type: playTimeTracker
-  id: GSJobBotanist
+  id: GSJobHerbalist
 
 - type: playTimeTracker
   id: GSJobClown
@@ -53,7 +53,7 @@
   id: GSJobMime
 
 - type: playTimeTracker
-  id: GSJobPassenger
+  id: GSJobMariner
 
 - type: playTimeTracker
-  id: GSJobServiceWorker
+  id: GSJobSteward
