@@ -319,3 +319,6 @@ error.glsl
 
 # C# Dev Kit cache file
 *.lscache
+
+# Greenshift Tools
+.venv

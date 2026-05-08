@@ -96,8 +96,26 @@ public sealed partial class ClientClothingSystem : ClothingSystem
 
         List<PrototypeLayerData>? layers = null;
 
+        // Begin Greenshift - Sexy Layers
+        // BUT ACTUALLY first attempt to get sex specific data.
+        var equipeeSex = CompOrNull<HumanoidProfileComponent>(args.Equipee)?.Sex;
+        if (equipeeSex != null)
+        {
+            // try for full slot-sex-species
+            if (inventory.SpeciesId != null)
+            {
+                ent.Comp.ClothingVisuals.TryGetValue($"{args.Slot}-{equipeeSex.ToString()}-{inventory.SpeciesId}", out layers);
+            }
+            // fall back to slot-sex
+            if (layers == null)
+            {
+                ent.Comp.ClothingVisuals.TryGetValue($"{args.Slot}-{equipeeSex.ToString()}", out layers);
+            }
+        }
+
         // first attempt to get species specific data.
-        if (inventory.SpeciesId != null)
+        if (layers == null && inventory.SpeciesId != null)
+            // End Greenshift - Sexy Layers
             ent.Comp.ClothingVisuals.TryGetValue($"{args.Slot}-{inventory.SpeciesId}", out layers);
 
         // if that returned nothing, attempt to find generic data
@@ -379,6 +397,8 @@ public sealed partial class ClientClothingSystem : ClothingSystem
 
             if (displacementData is not null)
             {
+                // This is so jank. This is not how this should work. What about female vox helmet displacements? This whole shit needs a refactor.
+
                 //Checking that the state is not tied to the current race. In this case we don't need to use the displacement maps.
                 if (layerData.State is not null && inventory.SpeciesId is not null && layerData.State.EndsWith(inventory.SpeciesId))
                     continue;
