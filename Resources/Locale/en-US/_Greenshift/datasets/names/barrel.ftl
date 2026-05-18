@@ -1,0 +1,9 @@
+names-barrel-dataset-1 = barrel
+names-barrel-dataset-2 = keg
+names-barrel-dataset-3 = hogshead
+names-barrel-dataset-4 = pipe
+names-barrel-dataset-5 = puncheon
+names-barrel-dataset-6 = tun
+names-barrel-dataset-7 = firkin
+names-barrel-dataset-8 = butt
+names-barrel-dataset-9 = cask

@@ -1,0 +1,5 @@
+- type: localizedDataset
+  id: GSNamesBarrel
+  values:
+    prefix: names-barrel-dataset-
+    count: 9

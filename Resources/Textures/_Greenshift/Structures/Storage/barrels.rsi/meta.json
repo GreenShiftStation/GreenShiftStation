@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "Made by Miiish for Greenshift",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "icon_open"
+        },
+        {
+            "name": "label1"
+        },
+        {
+            "name": "label2"
+        },
+        {
+            "name": "label3"
+        },
+        {
+            "name": "lid"
+        }
+    ]
+}

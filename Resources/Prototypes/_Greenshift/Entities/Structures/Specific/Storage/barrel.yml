@@ -1,0 +1,73 @@
+- type: entity
+  parent: BaseStructureDynamic
+  name: barrel
+  description: A rounded waterproof wooden container used to store liquids and/or powders.
+  id: GSBarrelBase
+  components:
+  - type: Animateable
+  - type: Sprite
+    sprite: _Greenshift/Structures/Storage/barrels.rsi
+    layers:
+    - state: icon
+      map: [ "enum.OpenableVisuals.Layer" ]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        enum.OpenableVisuals.Layer:
+          True: { state: "icon_open" } # lid off
+          False: { state: "icon" } # lid on
+  - type: ExaminableSolution
+    solution: cask
+    examinableWhileClosed: false
+  - type: InteractionOutline
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.18,-0.4,0.18,0.4" # vibes + trial and error based. make it more Accurate if you feel like doing the math
+        density: 100
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank:
+            min: 1
+            max: 2
+      - !type:SpillBehavior
+        solution: cask
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+  - type: SolutionContainerManager
+    solutions:
+      cask:
+        maxVol: 1000
+  - type: DrainableSolution
+    solution: cask
+  - type: Transform
+    noRot: true
+  - type: Openable
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Effects/woodenclosetopen.ogg
+    closeable: true
+    closeSound: !type:SoundPathSpecifier
+      path: /Audio/Effects/woodenclosetclose.ogg
+  - type: RandomMetadata
+    nameSegments: [GSNamesBarrel]
