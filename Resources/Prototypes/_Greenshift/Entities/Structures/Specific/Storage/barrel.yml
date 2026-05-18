@@ -1,6 +1,7 @@
 - type: entity
   parent: BaseStructureDynamic
   name: barrel
+  suffix: GS
   description: A rounded waterproof wooden container used to store liquids and/or powders.
   id: GSBarrelBase
   components:
@@ -40,7 +41,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 50
+        damage: 75
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -57,9 +58,12 @@
   - type: SolutionContainerManager
     solutions:
       cask:
-        maxVol: 1000
+        maxVol: 600
   - type: DrainableSolution
     solution: cask
+  - type: Spillable
+    solution: cask
+    spillDelay: 3.0
   - type: Transform
     noRot: true
   - type: Openable
@@ -70,3 +74,139 @@
       path: /Audio/Effects/woodenclosetclose.ogg
   - type: RandomMetadata
     nameSegments: [GSNamesBarrel]
+
+- type: entity
+  parent: GSBarrelBase
+  name: flour barrel
+  suffix: GS
+  description: A rounded waterproof wooden container used to store liquids and/or powders. This one is labelled for flour.
+  id: GSBarrelFlour
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Structures/Storage/barrels.rsi
+    layers:
+    - state: icon
+      map: [ "enum.OpenableVisuals.Layer" ]
+    - state: label3
+  - type: SolutionContainerManager
+    solutions:
+      cask:
+        reagents:
+        - ReagentId: Flour
+          Quantity: 600
+  - type: RandomMetadata
+    nameSegments:
+    - GSNamesFlour
+    - GSNamesBarrel
+    nameFormat: name-format-standard
+
+- type: entity
+  parent: GSBarrelBase
+  name: butter barrel
+  suffix: GS
+  description: A rounded waterproof wooden container used to store liquids and/or powders. This one is labelled for butter.
+  id: GSBarrelButter
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Structures/Storage/barrels.rsi
+    layers:
+    - state: icon
+      map: [ "enum.OpenableVisuals.Layer" ]
+    - state: label2
+  - type: SolutionContainerManager
+    solutions:
+      cask:
+        reagents:
+        - ReagentId: Butter
+          Quantity: 600
+  - type: RandomMetadata
+    nameSegments:
+    - GSNamesButter
+    - GSNamesBarrel
+    nameFormat: name-format-standard
+
+- type: entity
+  parent: GSBarrelBase
+  name: water barrel
+  suffix: GS
+  description: A rounded waterproof wooden container used to store liquids and/or powders. This one is labelled for water.
+  id: GSBarrelWater
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Structures/Storage/barrels.rsi
+    layers:
+    - state: icon
+      map: [ "enum.OpenableVisuals.Layer" ]
+    - state: label1
+  - type: SolutionContainerManager
+    solutions:
+      cask:
+        reagents:
+        - ReagentId: Water
+          Quantity: 600
+  - type: RandomMetadata
+    nameSegments:
+    - GSNamesWater
+    - GSNamesBarrel
+    nameFormat: name-format-standard
+
+
+# BARREL IN SPRITE ONLY!!!
+- type: entity
+  parent: BaseStructureDynamic
+  name: barrel of monkeys
+  suffix: GS
+  description: A rounded waterproof wooden container used to store liquids and/or powders. This one is sealed shut.
+  id: GSBarrelMonkey
+  components:
+  - type: Animateable
+  - type: Appearance
+  - type: Sprite
+    sprite: _Greenshift/Structures/Storage/barrels.rsi
+    layers:
+    - state: icon
+  - type: InteractionOutline
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.18,-0.4,0.18,0.4" # vibes + trial and error based. make it more Accurate if you feel like doing the math
+        density: 100
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Transform
+    noRot: true
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MobMonkey:
+            min: 3
+            max: 6
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RandomMetadata
+    nameSegments:
+    - GSNamesBarrel
+    - GSNamesPrimate
+    nameFormat: name-format-standard
+
+- type: entity
+  parent: GSBarrelMonkey
+  name: barrel of monkeys
+  suffix: GS, Angry
+  id: GSBarrelMonkeyAngry

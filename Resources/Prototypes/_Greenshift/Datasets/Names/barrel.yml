@@ -3,3 +3,28 @@
   values:
     prefix: names-barrel-dataset-
     count: 9
+
+# needed for random name segments
+- type: localizedDataset
+  id: GSNamesFlour
+  values:
+    prefix: names-flour-dataset-
+    count: 1
+
+- type: localizedDataset
+  id: GSNamesWater
+  values:
+    prefix: names-water-dataset-
+    count: 1
+
+- type: localizedDataset
+  id: GSNamesButter
+  values:
+    prefix: names-butter-dataset-
+    count: 1
+
+- type: localizedDataset
+  id: GSNamesPrimate
+  values:
+    prefix: names-primate-dataset-
+    count: 5
