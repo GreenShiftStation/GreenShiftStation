@@ -210,3 +210,20 @@
   name: barrel of monkeys
   suffix: GS, Angry
   id: GSBarrelMonkeyAngry
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 75
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MobBaseSyndicateMonkey:
+            min: 3
+            max: 6
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
