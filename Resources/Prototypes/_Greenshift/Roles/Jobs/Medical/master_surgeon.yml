@@ -1,7 +1,7 @@
 - type: job
   id: GSMasterSurgeon
-  name: job-name-ms
-  description: job-description-ms
+  name: job-name-master-surgeon
+  description: job-description-master-surgeon
   playTimeTracker: GSJobMasterSurgeon
   requirements:
     - !type:RoleTimeRequirement
