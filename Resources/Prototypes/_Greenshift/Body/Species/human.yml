@@ -1,0 +1,214 @@
+- type: markingsGroup
+  parent: Undergarments
+  id: GsHuman
+  onlyGroupWhitelisted: true
+  limits:
+    enum.HumanoidVisualLayers.Hair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.FacialHair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Chest:
+      limit: 2
+      required: false
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Tail:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.Special:
+      limit: 0
+      required: false
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: GsAppearanceHuman
+  categories: [ HideSpawnMenu ]
+  name: human appearance
+  components:
+  - type: InitialBody
+    organs:
+      Torso: GsOrganHumanTorso
+      Head: GsOrganHumanHead
+      ArmLeft: GsOrganHumanArmLeft
+      ArmRight: GsOrganHumanArmRight
+      HandRight: GsOrganHumanHandRight
+      HandLeft: GsOrganHumanHandLeft
+      LegLeft: GsOrganHumanLegLeft
+      LegRight: GsOrganHumanLegRight
+      FootLeft: GsOrganHumanFootLeft
+      FootRight: GsOrganHumanFootRight
+      Brain: GsOrganHumanBrain
+      Eyes: GsOrganHumanEyes
+      Tongue: GsOrganHumanTongue
+      Appendix: GsOrganHumanAppendix
+      Ears: GsOrganHumanEars
+      Lungs: GsOrganHumanLungs
+      Heart: GsOrganHumanHeart
+      Stomach: GsOrganHumanStomach
+      Liver: GsOrganHumanLiver
+      Kidneys: GsOrganHumanKidneys
+  - type: HumanoidProfile
+    species: GsHuman
+
+- type: entity
+  parent:
+  - GsAppearanceHuman
+  - BaseSpeciesMobOrganic
+  id: GsMobHuman
+  name: Urist McDeckhands
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+
+- type: entity
+  parent: OrganBase
+  id: GsOrganHuman
+  abstract: true
+  suffix: human
+
+- type: entity
+  id: GsOrganHumanMetabolizer
+  abstract: true
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ Human ]
+
+- type: entity
+  parent: GsOrganHuman
+  id: GsOrganHumanInternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+
+- type: entity
+  parent: GsOrganHuman
+  id: GsOrganHumanExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Mobs/Species/Human/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Greenshift/Mobs/Species/Human/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: GsHuman
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, GsOrganHumanExternal ]
+  id: GsOrganHumanTorso
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, GsOrganHumanExternal ]
+  id: GsOrganHumanHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.Snout
+
+- type: entity
+  parent: [ OrganBaseArmLeft, GsOrganHumanExternal ]
+  id: GsOrganHumanArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, GsOrganHumanExternal ]
+  id: GsOrganHumanArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, GsOrganHumanExternal ]
+  id: GsOrganHumanHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, GsOrganHumanExternal ]
+  id: GsOrganHumanHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, GsOrganHumanExternal ]
+  id: GsOrganHumanLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, GsOrganHumanExternal ]
+  id: GsOrganHumanLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, GsOrganHumanExternal ]
+  id: GsOrganHumanFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, GsOrganHumanExternal ]
+  id: GsOrganHumanFootRight
+
+- type: entity
+  parent: [ OrganBaseBrain, GsOrganHumanInternal ]
+  id: GsOrganHumanBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, GsOrganHumanInternal, GsOrganHumanExternal ]
+  id: GsOrganHumanEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: _Greenshift/Mobs/Customization/eyes.rsi
+
+- type: entity
+  parent: [ OrganBaseTongue, GsOrganHumanInternal ]
+  id: GsOrganHumanTongue
+
+- type: entity
+  parent: [ OrganBaseAppendix, GsOrganHumanInternal ]
+  id: GsOrganHumanAppendix
+
+- type: entity
+  parent: [ OrganBaseEars, GsOrganHumanInternal ]
+  id: GsOrganHumanEars
+
+- type: entity
+  parent: [ OrganBaseLungs, GsOrganHumanInternal, GsOrganHumanMetabolizer ]
+  id: GsOrganHumanLungs
+
+- type: entity
+  parent: [ OrganBaseHeart, GsOrganHumanInternal, GsOrganHumanMetabolizer ]
+  id: GsOrganHumanHeart
+
+- type: entity
+  parent: [ OrganBaseStomach, GsOrganHumanInternal, OrganHumanMetabolizer ]
+  id: GsOrganHumanStomach
+
+- type: entity
+  parent: [ OrganBaseLiver, GsOrganHumanInternal, GsOrganHumanMetabolizer ]
+  id: GsOrganHumanLiver
+
+- type: entity
+  parent: [ OrganBaseKidneys, GsOrganHumanInternal, GsOrganHumanMetabolizer ]
+  id: GsOrganHumanKidneys

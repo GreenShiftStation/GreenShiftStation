@@ -1,0 +1,31 @@
+- type: marking
+  id: GsHumanHairBangs
+  bodyPart: Hair
+  groupWhitelist: [ GsHuman ]
+  sprites:
+    - sprite: _Greenshift/Mobs/Customization/hair.rsi
+      state: bangs
+
+- type: marking
+  id: GsHumanHairFlattop
+  bodyPart: Hair
+  groupWhitelist: [ GsHuman ]
+  sprites:
+  - sprite: _Greenshift/Mobs/Customization/hair.rsi
+    state: flattop
+
+- type: marking
+  id: GsHumanHairHalfbang
+  bodyPart: Hair
+  groupWhitelist: [ GsHuman ]
+  sprites:
+  - sprite: _Greenshift/Mobs/Customization/hair.rsi
+    state: halfbang
+
+- type: marking
+  id: GsHumanHairBowlcut
+  bodyPart: Hair
+  groupWhitelist: [ GsHuman ]
+  sprites:
+  - sprite: _Greenshift/Mobs/Customization/hair.rsi
+    state: bowlcut
