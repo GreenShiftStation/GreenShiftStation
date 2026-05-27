@@ -1,3 +1,3 @@
 ## Species names
 
-gs-species-name-human = human
+gs-species-name-human = Human
