@@ -1,6 +1,5 @@
 ﻿## Species Names
 
-gs-species-name-human = Human
 species-name-human = Human
 species-name-dwarf = Dwarf
 species-name-reptilian = Reptilian

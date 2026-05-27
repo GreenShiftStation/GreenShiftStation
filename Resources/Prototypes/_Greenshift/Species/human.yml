@@ -1,7 +1,7 @@
 - type: species
-  id: GsHuman
+  id: GSHuman
   name: gs-species-name-human
   roundStart: true
-  prototype: GsMobHuman
-  dollPrototype: GsAppearanceHuman
+  prototype: GSMobHuman
+  dollPrototype: GSAppearanceHuman
   skinColoration: HumanToned

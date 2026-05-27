@@ -1,55 +1,55 @@
 - type: marking
-  id: GsHumanFacialhairBicycle
+  id: GSHumanFacialhairBicycle
   bodyPart: FacialHair
-  groupWhitelist: [ GsHuman ]
+  groupWhitelist: [ GSHuman ]
   sprites:
   - sprite: _Greenshift/Mobs/Customization/facial-hair.rsi
     state: bicycle
 
 - type: marking
-  id: GsHumanFacialhairChevron
+  id: GSHumanFacialhairChevron
   bodyPart: FacialHair
-  groupWhitelist: [ GsHuman ]
+  groupWhitelist: [ GSHuman ]
   sprites:
   - sprite: _Greenshift/Mobs/Customization/facial-hair.rsi
     state: chevron
 
 - type: marking
-  id: GsHumanFacialhairDali
+  id: GSHumanFacialhairDali
   bodyPart: FacialHair
-  groupWhitelist: [ GsHuman ]
+  groupWhitelist: [ GSHuman ]
   sprites:
   - sprite: _Greenshift/Mobs/Customization/facial-hair.rsi
     state: dali
 
 - type: marking
-  id: GsHumanFacialhairFuManchu
+  id: GSHumanFacialhairFuManchu
   bodyPart: FacialHair
-  groupWhitelist: [ GsHuman ]
+  groupWhitelist: [ GSHuman ]
   sprites:
   - sprite: _Greenshift/Mobs/Customization/facial-hair.rsi
     state: fumanchu
 
 - type: marking
-  id: GsHumanFacialhairHorseshoe
+  id: GSHumanFacialhairHorseshoe
   bodyPart: FacialHair
-  groupWhitelist: [ GsHuman ]
+  groupWhitelist: [ GSHuman ]
   sprites:
   - sprite: _Greenshift/Mobs/Customization/facial-hair.rsi
     state: horseshoe
 
 - type: marking
-  id: GsHumanFacialhairPyramid
+  id: GSHumanFacialhairPyramid
   bodyPart: FacialHair
-  groupWhitelist: [ GsHuman ]
+  groupWhitelist: [ GSHuman ]
   sprites:
   - sprite: _Greenshift/Mobs/Customization/facial-hair.rsi
     state: pyramid
 
 - type: marking
-  id: GsHumanFacialhairWalrus
+  id: GSHumanFacialhairWalrus
   bodyPart: FacialHair
-  groupWhitelist: [ GsHuman ]
+  groupWhitelist: [ GSHuman ]
   sprites:
   - sprite: _Greenshift/Mobs/Customization/facial-hair.rsi
     state: walrus
