@@ -1,3 +1,3 @@
 ## Species names
 
-gs-species-name-human = test
+gs-species-name-human = human

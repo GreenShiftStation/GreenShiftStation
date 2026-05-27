@@ -83,6 +83,7 @@
   - BaseSpeciesMobOrganic
   id: GSMobHuman
   name: Urist McDeckhands
+  suffix: GS
   components:
   - type: Butcherable
     spawned:
