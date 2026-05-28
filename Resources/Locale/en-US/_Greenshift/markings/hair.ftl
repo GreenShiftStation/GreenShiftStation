@@ -1,4 +1,4 @@
-marking-GsHumanHairBangs = Bangs
-marking-GsHumanHairFlattop = Flat top
-marking-GsHumanHairHalfbang = Half bang
-marking-GsHumanHairBowlcut = Bowlcut
+marking-GSHumanHairBangs = Bangs
+marking-GSHumanHairFlattop = Flat top
+marking-GSHumanHairHalfbang = Half bang
+marking-GSHumanHairBowlcut = Bowlcut

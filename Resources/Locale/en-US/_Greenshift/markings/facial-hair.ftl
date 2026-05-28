@@ -1,7 +1,7 @@
-marking-GsHumanFacialhairBicycle = Bicycle
-marking-GsHumanFacialhairChevron = Chevron
-marking-GsHumanFacialhairDali = Dali
-marking-GsHumanFacialhairFuManchu = Fu Manchu
-marking-GsHumanFacialhairHorseshoe = Horseshoe
-marking-GsHumanFacialhairPyramid = Pyramid
-marking-GsHumanFacialhairWalrus = Walrus
+marking-GSHumanFacialhairBicycle = Bicycle
+marking-GSHumanFacialhairChevron = Chevron
+marking-GSHumanFacialhairDali = Dali
+marking-GSHumanFacialhairFuManchu = Fu Manchu
+marking-GSHumanFacialhairHorseshoe = Horseshoe
+marking-GSHumanFacialhairPyramid = Pyramid
+marking-GSHumanFacialhairWalrus = Walrus
