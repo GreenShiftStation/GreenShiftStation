@@ -1,0 +1,7 @@
+- type: construction
+  id: gsimprovisedclub
+  graph: gsimprovisedclub
+  startNode: start
+  targetNode: gsimprovclub
+  category: construction-category-weapons
+  objectType: Item

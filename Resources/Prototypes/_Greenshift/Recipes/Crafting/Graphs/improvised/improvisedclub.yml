@@ -1,0 +1,23 @@
+- type: constructionGraph
+  id: gsimprovisedclub
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: gsimprovclub
+      completed:
+      - !type:AdminLog
+        message: "Construction"
+        impact: High
+      steps:
+      - tag: Pipe
+        icon:
+          sprite: Structures/Piping/Atmospherics/pipe.rsi
+          state: pipeStraight
+        name: construction-graph-tag-pipe
+      - material: Cloth # change this to rope or something when we have that
+        amount: 1
+        doAfter: 10
+  - node: gsimprovclub
+    entity: GSClubImprovised
+

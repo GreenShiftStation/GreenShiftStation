@@ -1,0 +1,67 @@
+- type: entity
+  name: wooden baton
+  parent: BaseItem
+  id: GSBatonWood
+  suffix: GS
+  description: A wooden baton used to incapacitate or break rather than kill.
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Objects/Weapons/Melee/woodbaton.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 10
+    soundHit:
+      collection: BoxingHit
+    bluntStaminaDamageFactor: 3.5 # 3 hit knockdown
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 8
+  - type: Item
+    size: Normal
+    shape: #todo, should probably get a separate sprite for the inventory that's nice and pretty
+    - 0,0,0,3
+    - 0,2,1,2
+  - type: Clothing
+    sprite: _Greenshift/Objects/Weapons/Melee/woodbaton.rsi
+    slots:
+    - Belt
+  - type: Appearance
+
+- type: entity
+  name: improvised club
+  parent: BaseItem
+  id: GSClubImprovised
+  suffix: GS
+  description: A makeshift club best used for breaking kneecaps or skulls.
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Objects/Weapons/Melee/improvisedclub.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 12
+    soundHit:
+      collection: MetalThud
+    bluntStaminaDamageFactor: 2 # 5 hit knockdown
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 8
+  - type: Item
+    size: Normal
+    shape: #todo, should probably get a separate sprite for the inventory that's nice and pretty
+    - 0,0,0,3
+  - type: Clothing
+    sprite: _Greenshift/Objects/Weapons/Melee/improvisedclub.rsi
+    slots:
+    - Belt
+  - type: Appearance
+  - type: Construction
+    graph: gsimprovisedclub
+    node: gsimprovclub
