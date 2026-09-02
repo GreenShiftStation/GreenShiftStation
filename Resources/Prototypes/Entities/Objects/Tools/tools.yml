@@ -2,6 +2,7 @@
   name: wirecutter
   parent: BaseItem
   id: Wirecutter
+  categories: [ HideSpawnMenu ] #GREENSHIFT
   description: This kills the wire.
   components:
   - type: EmitSoundOnLand
@@ -48,6 +49,7 @@
   name: screwdriver
   parent: BaseItem
   id: Screwdriver
+  categories: [ HideSpawnMenu ] #GREENSHIFT
   description: Industrial grade torque in a small screwdriving package.
   components:
   - type: EmitSoundOnLand
@@ -92,6 +94,7 @@
   name: wrench
   parent: BaseItem
   id: Wrench
+  categories: [ HideSpawnMenu ] #GREENSHIFT
   description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
   components:
   - type: EmitSoundOnLand
@@ -134,6 +137,7 @@
   name: multitool
   parent: BaseItem
   id: Multitool
+  categories: [ HideSpawnMenu ] #GREENSHIFT
   description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
   components:
   - type: EmitSoundOnLand

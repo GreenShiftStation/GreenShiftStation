@@ -804,3 +804,16 @@ TowelColorYellow: null
 TowelColorMaroon: null
 TowelColorSilver: null
 TowelColorMime: null
+
+# 2026-06-08 GREENSHIFT
+
+Crowbar: GSPrybar
+CrowbarRed: GSPrybar
+CrowbarGreen: GSPrybar
+CrowbarOrange: GSPrybar
+CrowbarYellow: GSPrybar
+Multitool: GSMultitool
+Screwdriver: GSScrewdriver
+Wirecutter: GSWirecutter
+Wrench: GSWrench
+Welder: GSWelder

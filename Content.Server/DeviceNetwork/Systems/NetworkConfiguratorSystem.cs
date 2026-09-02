@@ -13,6 +13,7 @@ using Content.Shared.Interaction;
 using Content.Shared.Popups;
 using Content.Shared.UserInterface;
 using Content.Shared.Verbs;
+using Content.Shared.Wieldable.Components; // GREENSHIFT
 using JetBrains.Annotations;
 using Robust.Server.Audio;
 using Robust.Server.GameObjects;
@@ -341,12 +342,30 @@ public sealed class NetworkConfiguratorSystem : SharedNetworkConfiguratorSystem
 
         if (configurator.LinkModeActive)
         {
+            //GREENSHIFT START
+            if (TryComp<WieldableComponent>(uid, out var wieldable) &&
+                !wieldable.Wielded)
+            {
+                _popupSystem.PopupCursor(Loc.GetString("network-configurator-link-needs-wield"), user);
+                return;
+            }
+            // GREENSHIFT END
+
             TryLinkDevice(uid, configurator, target, user);
             return;
         }
 
         if (!HasComp<DeviceListComponent>(target))
         {
+            //GREENSHIFT START
+            if (TryComp<WieldableComponent>(uid, out var wieldable) &&
+                !wieldable.Wielded)
+            {
+                _popupSystem.PopupCursor(Loc.GetString("network-configurator-save-needs-wield"), user);
+                return;
+            }
+            // GREENSHIFT END
+
             TryAddNetworkDevice(uid, target, user, configurator);
             return;
         }

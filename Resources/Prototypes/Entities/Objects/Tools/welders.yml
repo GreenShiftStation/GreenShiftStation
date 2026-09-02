@@ -2,6 +2,7 @@
   name: welding tool
   parent: BaseItem
   id: Welder
+  categories: [ HideSpawnMenu ] #GREENSHIFT
   description: "Melts anything as long as it's fueled, don't forget your eye protection!"
   components:
   - type: EmitSoundOnLand

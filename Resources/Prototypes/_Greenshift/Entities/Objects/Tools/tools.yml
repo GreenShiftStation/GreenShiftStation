@@ -1,0 +1,182 @@
+- type: entity
+  name: wirecutter
+  parent: BaseItem
+  id: GSWirecutter
+  suffix: GS
+  description: 'A small wirecutter, made from dyed wood and steel. Sharp!'
+  components:
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/wirecutter_drop.ogg
+  - type: Tag
+    tags:
+    - PlantSampleTaker
+    - Wirecutter
+  - type: Sprite
+    sprite: _Greenshift/Objects/Tools/wirecutters.rsi
+    state: wirecutter
+  - type: MeleeWeapon
+    wideAnimationRotation: -90
+    damage:
+      types:
+        Piercing: 2
+    attackRate: 2
+    soundHit:
+      path: "/Audio/Items/wirecutter.ogg"
+  - type: Tool
+    qualities:
+      - Cutting
+    useSound:
+      path: /Audio/Items/wirecutter.ogg
+  - type: Item
+    sprite: _Greenshift/Objects/Tools/wirecutters.rsi
+    storedRotation: -90
+  - type: ToolTileCompatible
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: StaticPrice
+    price: 30
+
+- type: entity
+  name: screwdriver
+  parent: BaseItem
+  id: GSScrewdriver
+  suffix: GS
+  description: 'A well made ratcheting screwdriver, should really have a bigger handle.'
+  components:
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/screwdriver_drop.ogg
+  - type: Tag
+    tags:
+    - Screwdriver
+  - type: Sprite
+    sprite: _Greenshift/Objects/Tools/screwdriver.rsi
+    state: screwdriver
+  - type: Item
+    sprite: _Greenshift/Objects/Tools/screwdriver.rsi
+    storedRotation: -90
+  - type: MeleeWeapon
+    wideAnimationRotation: -90
+    attackRate: 1
+    damage:
+      types:
+        Piercing: 6
+    soundHit:
+      path: "/Audio/Weapons/bladeslice.ogg"
+  - type: Tool
+    qualities:
+      - Screwing
+    useSound:
+      collection: Screwdriver
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: StaticPrice
+    price: 30
+
+- type: entity
+  parent: Wrench
+  name: wrench
+  id: GSWrench
+  suffix: GS
+  description: 'A common tool for assembly and disassembly. Heavy, unwieldy, but effective.'
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Objects/Tools/wrench.rsi
+    state: storage ## State is set to storage until we can differentiate a held/swung item and a dropped item code wise for RSI-states.
+  - type: Item
+    sprite: _Greenshift/Objects/Tools/wrench.rsi
+    storedRotation: -90
+    storedSprite:
+      sprite: _Greenshift/Objects/Tools/wrench.rsi
+      state: storage
+  - type: MeleeWeapon
+    wideAnimationRotation: -90 #240 for the 'icon' state.
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 4.5
+    soundHit:
+      collection: MetalThud
+
+## Needs to only be able to be used when wielded. Hence it being a new entity rather then parenting Multitool.
+
+- type: entity
+  name: multitool
+  parent: BaseItem
+  id: GSMultitool
+  suffix: GS
+  description: A tool to read and send electrical pulses and signals through wires and electronics.
+  components:
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/multitool_drop.ogg
+  - type: Sprite
+    sprite: _Greenshift/Objects/Tools/multitool.rsi
+    layers:
+    - state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    sprite: _Greenshift/Objects/Tools/multitool.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Tool
+    qualities:
+      - Pulsing
+  - type: Wieldable
+    unwieldOnUse: True
+  - type: NetworkConfigurator
+  - type: ActivatableUI
+    key: enum.NetworkConfiguratorUiKey.List
+    inHandsOnly: true
+  - type: UserInterface
+    interfaces:
+      enum.NetworkConfiguratorUiKey.List:
+        type: NetworkConfiguratorBoundUserInterface
+      enum.NetworkConfiguratorUiKey.Configure:
+        type: NetworkConfiguratorBoundUserInterface
+      enum.NetworkConfiguratorUiKey.Link:
+        type: NetworkConfiguratorBoundUserInterface
+  - type: Tag
+    tags:
+      - Multitool
+      - DoorElectronicsConfigurator
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Plastic: 100
+  - type: StaticPrice
+    price: 56
+  - type: GuideHelp
+    guides:
+    - Networking
+    - WirePanels
+    - Airlocks
+    - InspectingPower
+
+- type: entity
+  parent: BaseCrowbar
+  name: prybar
+  id: GSPrybar
+  suffix: GS
+  description: A steel prybar. You remembered to bring one this time!
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Objects/Tools/prybar.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Greenshift/Objects/Tools/prybar.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Item
+    sprite: _Greenshift/Objects/Tools/prybar.rsi
+    storedSprite:
+      sprite: _Greenshift/Objects/Tools/prybar.rsi
+      state: storage
+    size: Small
+

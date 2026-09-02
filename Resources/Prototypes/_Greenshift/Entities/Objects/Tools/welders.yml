@@ -1,0 +1,12 @@
+- type: entity
+  parent: Welder
+  name: welder
+  id: GSWelder
+  suffix: GS
+  description: 'A brass blow torch, perfect for fixing cracks.'
+  components:
+  - type: Sprite
+    sprite: _Greenshift/Objects/Tools/welder.rsi
+    state: icon
+  - type: Item
+    sprite: _Greenshift/Objects/Tools/welder.rsi
