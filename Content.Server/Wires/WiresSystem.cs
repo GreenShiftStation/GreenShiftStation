@@ -702,6 +702,9 @@ public sealed class WiresSystem : SharedWiresSystem
 
         var wire = TryGetWire(used, id, wires);
 
+        WieldableComponent? wieldable = null;
+        TryComp<WieldableComponent>(toolEntity, out wieldable);
+
         if (wire == null)
         {
             wires.WiresQueue.Remove(id);
@@ -722,6 +725,14 @@ public sealed class WiresSystem : SharedWiresSystem
                     _popupSystem.PopupCursor(Loc.GetString("wires-component-ui-on-receive-message-cannot-cut-cut-wire"), user);
                     break;
                 }
+
+                // GREENSHIFT START
+                if (wieldable?.Wielded == false)
+                {
+                    _popupSystem.PopupCursor(Loc.GetString("wires-component-ui-on-receive-message-cut-need-wield"), user);
+                    break;
+                }
+                // GREENSHIFT END
 
                 Tool.PlayToolSound(toolEntity, tool, null);
                 if (wire.Action == null || wire.Action.Cut(user, wire))
@@ -744,6 +755,14 @@ public sealed class WiresSystem : SharedWiresSystem
                     break;
                 }
 
+                // GREENSHIFT START
+                if (wieldable?.Wielded == false)
+                {
+                    _popupSystem.PopupCursor(Loc.GetString("wires-component-ui-on-receive-message-mend-need-wield"), user);
+                    break;
+                }
+                // GREENSHIFT END
+
                 Tool.PlayToolSound(toolEntity, tool, null);
                 if (wire.Action == null || wire.Action.Mend(user, wire))
                 {
@@ -759,20 +778,19 @@ public sealed class WiresSystem : SharedWiresSystem
                     break;
                 }
 
+                // GREENSHIFT START
+                if (wieldable?.Wielded == false)
+                {
+                    _popupSystem.PopupCursor(Loc.GetString("wires-component-ui-on-receive-message-pulse-need-wield"), user);
+                    break;
+                }
+                // GREENSHIFT END
+
                 if (wire.IsCut)
                 {
                     _popupSystem.PopupCursor(Loc.GetString("wires-component-ui-on-receive-message-cannot-pulse-cut-wire"), user);
                     break;
                 }
-
-                // GREENSHIFT START
-                if (TryComp<WieldableComponent>(toolEntity, out var wieldable) &&
-                !wieldable.Wielded)
-                {
-                    _popupSystem.PopupCursor(Loc.GetString("wires-component-ui-on-receive-message-need-wield"), user);
-                    break;
-                }
-                // GREENSHIFT END
 
                 wire.Action?.Pulse(user, wire);
 
